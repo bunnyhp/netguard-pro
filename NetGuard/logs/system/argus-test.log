@@ -1,0 +1,16 @@
+2025-10-11 03:32:09,493 - INFO - ============================================================
+2025-10-11 03:32:09,493 - INFO - NetGuard Pro - argus Collector
+2025-10-11 03:32:09,493 - INFO - ============================================================
+2025-10-11 03:32:09,493 - INFO - Interface: eno1
+2025-10-11 03:32:09,493 - INFO - Collection interval: 30 seconds
+2025-10-11 03:32:09,493 - INFO - ============================================================
+2025-10-11 03:32:09,493 - INFO - Using PCAP workaround for argus buffer overflow bug
+2025-10-11 03:32:09,493 - INFO - Capturing on eno1 for 30 seconds...
+2025-10-11 03:32:39,886 - INFO - Captured to /home/jarvis/NetGuard/captures/argus/capture_20251011_033209.pcap
+2025-10-11 03:32:39,886 - INFO - Analyzing with argus...
+2025-10-11 03:32:40,904 - INFO - ✓ argus analysis complete: /home/jarvis/NetGuard/captures/argus/argus_20251011_033209.out
+2025-10-11 03:33:10,912 - INFO - Capturing on eno1 for 30 seconds...
+2025-10-11 03:33:41,319 - INFO - Captured to /home/jarvis/NetGuard/captures/argus/capture_20251011_033310.pcap
+2025-10-11 03:33:41,319 - INFO - Analyzing with argus...
+2025-10-11 03:33:42,339 - INFO - ✓ argus analysis complete: /home/jarvis/NetGuard/captures/argus/argus_20251011_033310.out
+2025-10-11 03:34:12,346 - INFO - Capturing on eno1 for 30 seconds...

@@ -1,0 +1,540 @@
+2025-10-10 21:48:02,733 - INFO - ============================================================
+2025-10-10 21:48:02,733 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:48:02,733 - INFO - ============================================================
+2025-10-10 21:48:02,733 - INFO - Interface: eno1
+2025-10-10 21:48:02,733 - INFO - Collection interval: 30 seconds
+2025-10-10 21:48:02,733 - INFO - ============================================================
+2025-10-10 21:48:02,733 - INFO - Starting httpry on eno1...
+2025-10-10 21:48:06,734 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:48:06,734 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:48:43,752 - INFO - ============================================================
+2025-10-10 21:48:43,752 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:48:43,752 - INFO - ============================================================
+2025-10-10 21:48:43,752 - INFO - Interface: eno1
+2025-10-10 21:48:43,752 - INFO - Collection interval: 30 seconds
+2025-10-10 21:48:43,752 - INFO - ============================================================
+2025-10-10 21:48:43,752 - INFO - Starting httpry on eno1...
+2025-10-10 21:48:47,753 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:48:47,753 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:49:17,769 - INFO - ============================================================
+2025-10-10 21:49:17,770 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:49:17,770 - INFO - ============================================================
+2025-10-10 21:49:17,770 - INFO - Interface: eno1
+2025-10-10 21:49:17,770 - INFO - Collection interval: 30 seconds
+2025-10-10 21:49:17,770 - INFO - ============================================================
+2025-10-10 21:49:17,770 - INFO - Starting httpry on eno1...
+2025-10-10 21:49:21,771 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:49:21,771 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:49:51,766 - INFO - ============================================================
+2025-10-10 21:49:51,766 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:49:51,767 - INFO - ============================================================
+2025-10-10 21:49:51,767 - INFO - Interface: eno1
+2025-10-10 21:49:51,767 - INFO - Collection interval: 30 seconds
+2025-10-10 21:49:51,767 - INFO - ============================================================
+2025-10-10 21:49:51,767 - INFO - Starting httpry on eno1...
+2025-10-10 21:49:55,768 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:49:55,768 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:50:25,776 - INFO - ============================================================
+2025-10-10 21:50:25,776 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:50:25,776 - INFO - ============================================================
+2025-10-10 21:50:25,776 - INFO - Interface: eno1
+2025-10-10 21:50:25,776 - INFO - Collection interval: 30 seconds
+2025-10-10 21:50:25,776 - INFO - ============================================================
+2025-10-10 21:50:25,776 - INFO - Starting httpry on eno1...
+2025-10-10 21:50:29,777 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:50:29,777 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:50:59,799 - INFO - ============================================================
+2025-10-10 21:50:59,799 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:50:59,799 - INFO - ============================================================
+2025-10-10 21:50:59,800 - INFO - Interface: eno1
+2025-10-10 21:50:59,800 - INFO - Collection interval: 30 seconds
+2025-10-10 21:50:59,800 - INFO - ============================================================
+2025-10-10 21:50:59,800 - INFO - Starting httpry on eno1...
+2025-10-10 21:51:03,801 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:51:03,801 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:51:33,797 - INFO - ============================================================
+2025-10-10 21:51:33,797 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:51:33,797 - INFO - ============================================================
+2025-10-10 21:51:33,797 - INFO - Interface: eno1
+2025-10-10 21:51:33,797 - INFO - Collection interval: 30 seconds
+2025-10-10 21:51:33,797 - INFO - ============================================================
+2025-10-10 21:51:33,798 - INFO - Starting httpry on eno1...
+2025-10-10 21:51:37,799 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:51:37,799 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:52:07,809 - INFO - ============================================================
+2025-10-10 21:52:07,809 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:52:07,809 - INFO - ============================================================
+2025-10-10 21:52:07,809 - INFO - Interface: eno1
+2025-10-10 21:52:07,809 - INFO - Collection interval: 30 seconds
+2025-10-10 21:52:07,809 - INFO - ============================================================
+2025-10-10 21:52:07,809 - INFO - Starting httpry on eno1...
+2025-10-10 21:52:11,810 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:52:11,810 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:52:41,816 - INFO - ============================================================
+2025-10-10 21:52:41,816 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:52:41,816 - INFO - ============================================================
+2025-10-10 21:52:41,816 - INFO - Interface: eno1
+2025-10-10 21:52:41,816 - INFO - Collection interval: 30 seconds
+2025-10-10 21:52:41,816 - INFO - ============================================================
+2025-10-10 21:52:41,816 - INFO - Starting httpry on eno1...
+2025-10-10 21:52:45,817 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:52:45,817 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:53:15,831 - INFO - ============================================================
+2025-10-10 21:53:15,831 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:53:15,831 - INFO - ============================================================
+2025-10-10 21:53:15,831 - INFO - Interface: eno1
+2025-10-10 21:53:15,831 - INFO - Collection interval: 30 seconds
+2025-10-10 21:53:15,831 - INFO - ============================================================
+2025-10-10 21:53:15,831 - INFO - Starting httpry on eno1...
+2025-10-10 21:53:19,832 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:53:19,832 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:53:49,839 - INFO - ============================================================
+2025-10-10 21:53:49,839 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:53:49,839 - INFO - ============================================================
+2025-10-10 21:53:49,839 - INFO - Interface: eno1
+2025-10-10 21:53:49,839 - INFO - Collection interval: 30 seconds
+2025-10-10 21:53:49,839 - INFO - ============================================================
+2025-10-10 21:53:49,839 - INFO - Starting httpry on eno1...
+2025-10-10 21:53:53,840 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:53:53,840 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:54:23,850 - INFO - ============================================================
+2025-10-10 21:54:23,851 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:54:23,851 - INFO - ============================================================
+2025-10-10 21:54:23,851 - INFO - Interface: eno1
+2025-10-10 21:54:23,851 - INFO - Collection interval: 30 seconds
+2025-10-10 21:54:23,851 - INFO - ============================================================
+2025-10-10 21:54:23,851 - INFO - Starting httpry on eno1...
+2025-10-10 21:54:27,852 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:54:27,852 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:54:57,849 - INFO - ============================================================
+2025-10-10 21:54:57,849 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:54:57,849 - INFO - ============================================================
+2025-10-10 21:54:57,849 - INFO - Interface: eno1
+2025-10-10 21:54:57,849 - INFO - Collection interval: 30 seconds
+2025-10-10 21:54:57,849 - INFO - ============================================================
+2025-10-10 21:54:57,849 - INFO - Starting httpry on eno1...
+2025-10-10 21:55:01,850 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:55:01,850 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:55:31,859 - INFO - ============================================================
+2025-10-10 21:55:31,859 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:55:31,859 - INFO - ============================================================
+2025-10-10 21:55:31,859 - INFO - Interface: eno1
+2025-10-10 21:55:31,859 - INFO - Collection interval: 30 seconds
+2025-10-10 21:55:31,859 - INFO - ============================================================
+2025-10-10 21:55:31,859 - INFO - Starting httpry on eno1...
+2025-10-10 21:55:35,860 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:55:35,861 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:56:05,871 - INFO - ============================================================
+2025-10-10 21:56:05,871 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:56:05,871 - INFO - ============================================================
+2025-10-10 21:56:05,871 - INFO - Interface: eno1
+2025-10-10 21:56:05,871 - INFO - Collection interval: 30 seconds
+2025-10-10 21:56:05,871 - INFO - ============================================================
+2025-10-10 21:56:05,871 - INFO - Starting httpry on eno1...
+2025-10-10 21:56:09,872 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:56:09,872 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:56:39,889 - INFO - ============================================================
+2025-10-10 21:56:39,889 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:56:39,889 - INFO - ============================================================
+2025-10-10 21:56:39,889 - INFO - Interface: eno1
+2025-10-10 21:56:39,890 - INFO - Collection interval: 30 seconds
+2025-10-10 21:56:39,890 - INFO - ============================================================
+2025-10-10 21:56:39,890 - INFO - Starting httpry on eno1...
+2025-10-10 21:56:43,890 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:56:43,890 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:57:13,892 - INFO - ============================================================
+2025-10-10 21:57:13,892 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:57:13,892 - INFO - ============================================================
+2025-10-10 21:57:13,892 - INFO - Interface: eno1
+2025-10-10 21:57:13,892 - INFO - Collection interval: 30 seconds
+2025-10-10 21:57:13,892 - INFO - ============================================================
+2025-10-10 21:57:13,892 - INFO - Starting httpry on eno1...
+2025-10-10 21:57:17,893 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:57:17,893 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:57:47,910 - INFO - ============================================================
+2025-10-10 21:57:47,910 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:57:47,910 - INFO - ============================================================
+2025-10-10 21:57:47,910 - INFO - Interface: eno1
+2025-10-10 21:57:47,910 - INFO - Collection interval: 30 seconds
+2025-10-10 21:57:47,910 - INFO - ============================================================
+2025-10-10 21:57:47,910 - INFO - Starting httpry on eno1...
+2025-10-10 21:57:51,911 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:57:51,912 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:58:21,905 - INFO - ============================================================
+2025-10-10 21:58:21,905 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:58:21,905 - INFO - ============================================================
+2025-10-10 21:58:21,905 - INFO - Interface: eno1
+2025-10-10 21:58:21,905 - INFO - Collection interval: 30 seconds
+2025-10-10 21:58:21,905 - INFO - ============================================================
+2025-10-10 21:58:21,905 - INFO - Starting httpry on eno1...
+2025-10-10 21:58:25,906 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:58:25,906 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:58:55,913 - INFO - ============================================================
+2025-10-10 21:58:55,914 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:58:55,914 - INFO - ============================================================
+2025-10-10 21:58:55,914 - INFO - Interface: eno1
+2025-10-10 21:58:55,914 - INFO - Collection interval: 30 seconds
+2025-10-10 21:58:55,914 - INFO - ============================================================
+2025-10-10 21:58:55,914 - INFO - Starting httpry on eno1...
+2025-10-10 21:58:59,915 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:58:59,915 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 21:59:29,926 - INFO - ============================================================
+2025-10-10 21:59:29,926 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 21:59:29,926 - INFO - ============================================================
+2025-10-10 21:59:29,926 - INFO - Interface: eno1
+2025-10-10 21:59:29,926 - INFO - Collection interval: 30 seconds
+2025-10-10 21:59:29,926 - INFO - ============================================================
+2025-10-10 21:59:29,927 - INFO - Starting httpry on eno1...
+2025-10-10 21:59:33,927 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 21:59:33,928 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 22:00:03,930 - INFO - ============================================================
+2025-10-10 22:00:03,930 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 22:00:03,930 - INFO - ============================================================
+2025-10-10 22:00:03,930 - INFO - Interface: eno1
+2025-10-10 22:00:03,930 - INFO - Collection interval: 30 seconds
+2025-10-10 22:00:03,930 - INFO - ============================================================
+2025-10-10 22:00:03,930 - INFO - Starting httpry on eno1...
+2025-10-10 22:00:07,931 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 22:00:07,932 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 22:00:37,944 - INFO - ============================================================
+2025-10-10 22:00:37,944 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 22:00:37,944 - INFO - ============================================================
+2025-10-10 22:00:37,944 - INFO - Interface: eno1
+2025-10-10 22:00:37,944 - INFO - Collection interval: 30 seconds
+2025-10-10 22:00:37,944 - INFO - ============================================================
+2025-10-10 22:00:37,945 - INFO - Starting httpry on eno1...
+2025-10-10 22:00:41,946 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 22:00:41,946 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 22:01:11,945 - INFO - ============================================================
+2025-10-10 22:01:11,945 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 22:01:11,945 - INFO - ============================================================
+2025-10-10 22:01:11,945 - INFO - Interface: eno1
+2025-10-10 22:01:11,945 - INFO - Collection interval: 30 seconds
+2025-10-10 22:01:11,945 - INFO - ============================================================
+2025-10-10 22:01:11,945 - INFO - Starting httpry on eno1...
+2025-10-10 22:01:15,946 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 22:01:15,946 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 22:01:45,962 - INFO - ============================================================
+2025-10-10 22:01:45,962 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 22:01:45,962 - INFO - ============================================================
+2025-10-10 22:01:45,962 - INFO - Interface: eno1
+2025-10-10 22:01:45,962 - INFO - Collection interval: 30 seconds
+2025-10-10 22:01:45,962 - INFO - ============================================================
+2025-10-10 22:01:45,962 - INFO - Starting httpry on eno1...
+2025-10-10 22:01:49,963 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 22:01:49,963 - ERROR - Failed to start httpry. Exiting.
+2025-10-10 22:02:27,988 - INFO - ============================================================
+2025-10-10 22:02:27,988 - INFO - NetGuard Pro - httpry Collector
+2025-10-10 22:02:27,988 - INFO - ============================================================
+2025-10-10 22:02:27,988 - INFO - Interface: eno1
+2025-10-10 22:02:27,988 - INFO - Collection interval: 30 seconds
+2025-10-10 22:02:27,988 - INFO - ============================================================
+2025-10-10 22:02:27,988 - INFO - Starting httpry on eno1...
+2025-10-10 22:02:31,989 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-10 22:02:31,989 - ERROR - Failed to start httpry. Exiting.
+2025-10-11 04:31:11,290 - INFO - ============================================================
+2025-10-11 04:31:11,290 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 04:31:11,290 - INFO - ============================================================
+2025-10-11 04:31:11,290 - INFO - Interface: wlo1
+2025-10-11 04:31:11,290 - INFO - Collection interval: 30 seconds
+2025-10-11 04:31:11,290 - INFO - ============================================================
+2025-10-11 04:31:11,290 - INFO - Starting httpry on wlo1...
+2025-10-11 04:31:15,291 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-11 04:31:15,292 - ERROR - Failed to start httpry. Exiting.
+2025-10-11 04:31:25,529 - INFO - ============================================================
+2025-10-11 04:31:25,529 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 04:31:25,529 - INFO - ============================================================
+2025-10-11 04:31:25,529 - INFO - Interface: wlo1
+2025-10-11 04:31:25,529 - INFO - Collection interval: 30 seconds
+2025-10-11 04:31:25,529 - INFO - ============================================================
+2025-10-11 04:31:25,529 - INFO - Starting httpry on wlo1...
+2025-10-11 04:31:29,530 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-11 04:31:29,531 - ERROR - Failed to start httpry. Exiting.
+2025-10-11 04:31:39,778 - INFO - ============================================================
+2025-10-11 04:31:39,778 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 04:31:39,778 - INFO - ============================================================
+2025-10-11 04:31:39,778 - INFO - Interface: wlo1
+2025-10-11 04:31:39,778 - INFO - Collection interval: 30 seconds
+2025-10-11 04:31:39,778 - INFO - ============================================================
+2025-10-11 04:31:39,778 - INFO - Starting httpry on wlo1...
+2025-10-11 04:31:43,779 - ERROR - ✗ httpry failed to start (no log file created)
+2025-10-11 04:31:43,780 - ERROR - Failed to start httpry. Exiting.
+2025-10-11 04:31:53,079 - INFO - ============================================================
+2025-10-11 04:31:53,080 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 04:31:53,080 - INFO - ============================================================
+2025-10-11 04:31:53,080 - INFO - Interface: wlo1
+2025-10-11 04:31:53,080 - INFO - Collection interval: 30 seconds
+2025-10-11 04:31:53,080 - INFO - ============================================================
+2025-10-11 04:31:53,080 - INFO - Starting httpry on wlo1...
+2025-10-11 04:31:57,080 - INFO - ✓ httpry started successfully
+2025-10-11 04:33:27,096 - INFO - ✓ Inserted 8 HTTP requests into 'httpry_20251011_043327'
+2025-10-11 16:17:57,082 - INFO - ============================================================
+2025-10-11 16:17:57,082 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 16:17:57,082 - INFO - ============================================================
+2025-10-11 16:17:57,082 - INFO - Interface: wlo1
+2025-10-11 16:17:57,082 - INFO - Collection interval: 30 seconds
+2025-10-11 16:17:57,082 - INFO - ============================================================
+2025-10-11 16:17:57,082 - INFO - Starting httpry on wlo1...
+2025-10-11 16:18:01,083 - INFO - ✓ httpry started successfully
+2025-10-11 16:19:39,996 - INFO - ============================================================
+2025-10-11 16:19:39,997 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 16:19:39,997 - INFO - ============================================================
+2025-10-11 16:19:39,997 - INFO - Interface: wlo1
+2025-10-11 16:19:39,997 - INFO - Collection interval: 30 seconds
+2025-10-11 16:19:39,997 - INFO - ============================================================
+2025-10-11 16:19:39,998 - INFO - Starting httpry on wlo1...
+2025-10-11 16:19:44,001 - INFO - ✓ httpry started successfully
+2025-10-11 18:24:31,348 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_182431'
+2025-10-11 18:24:44,306 - INFO - ============================================================
+2025-10-11 18:24:44,306 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 18:24:44,306 - INFO - ============================================================
+2025-10-11 18:24:44,306 - INFO - Interface: wlo1
+2025-10-11 18:24:44,306 - INFO - Collection interval: 30 seconds
+2025-10-11 18:24:44,306 - INFO - ============================================================
+2025-10-11 18:24:44,306 - INFO - Starting httpry on wlo1...
+2025-10-11 18:24:48,307 - INFO - ✓ httpry started successfully
+2025-10-11 18:36:48,341 - INFO - ✓ Inserted 35 HTTP requests into 'httpry_20251011_183648'
+2025-10-11 20:11:09,868 - INFO - ============================================================
+2025-10-11 20:11:09,868 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 20:11:09,868 - INFO - ============================================================
+2025-10-11 20:11:09,868 - INFO - Interface: wlo1
+2025-10-11 20:11:09,868 - INFO - Collection interval: 30 seconds
+2025-10-11 20:11:09,868 - INFO - ============================================================
+2025-10-11 20:11:09,869 - INFO - Starting httpry on wlo1...
+2025-10-11 20:11:13,870 - INFO - ✓ httpry started successfully
+2025-10-11 20:31:05,660 - INFO - ============================================================
+2025-10-11 20:31:05,661 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 20:31:05,661 - INFO - ============================================================
+2025-10-11 20:31:05,661 - INFO - Interface: wlo1
+2025-10-11 20:31:05,662 - INFO - Collection interval: 30 seconds
+2025-10-11 20:31:05,662 - INFO - ============================================================
+2025-10-11 20:31:05,663 - INFO - Starting httpry on wlo1...
+2025-10-11 20:31:09,665 - INFO - ✓ httpry started successfully
+2025-10-11 20:37:21,405 - INFO - ============================================================
+2025-10-11 20:37:21,405 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 20:37:21,405 - INFO - ============================================================
+2025-10-11 20:37:21,405 - INFO - Interface: wlo1
+2025-10-11 20:37:21,405 - INFO - Collection interval: 30 seconds
+2025-10-11 20:37:21,405 - INFO - ============================================================
+2025-10-11 20:37:21,405 - INFO - Starting httpry on wlo1...
+2025-10-11 20:37:25,407 - INFO - ✓ httpry started successfully
+2025-10-11 21:59:06,797 - INFO - ============================================================
+2025-10-11 21:59:06,797 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 21:59:06,797 - INFO - ============================================================
+2025-10-11 21:59:06,797 - INFO - Interface: eno1
+2025-10-11 21:59:06,797 - INFO - Collection interval: 30 seconds
+2025-10-11 21:59:06,797 - INFO - ============================================================
+2025-10-11 21:59:06,797 - INFO - Starting httpry on eno1...
+2025-10-11 21:59:10,798 - INFO - ✓ httpry started successfully
+2025-10-11 22:01:25,851 - INFO - ============================================================
+2025-10-11 22:01:25,851 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 22:01:25,851 - INFO - ============================================================
+2025-10-11 22:01:25,851 - INFO - Interface: eno1
+2025-10-11 22:01:25,851 - INFO - Collection interval: 30 seconds
+2025-10-11 22:01:25,851 - INFO - ============================================================
+2025-10-11 22:01:25,852 - INFO - Starting httpry on eno1...
+2025-10-11 22:01:29,852 - INFO - ✓ httpry started successfully
+2025-10-11 22:02:48,556 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_220248'
+2025-10-11 22:02:49,600 - INFO - ============================================================
+2025-10-11 22:02:49,600 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 22:02:49,600 - INFO - ============================================================
+2025-10-11 22:02:49,600 - INFO - Interface: eno1
+2025-10-11 22:02:49,600 - INFO - Collection interval: 30 seconds
+2025-10-11 22:02:49,600 - INFO - ============================================================
+2025-10-11 22:02:49,600 - INFO - Starting httpry on eno1...
+2025-10-11 22:02:53,601 - INFO - ✓ httpry started successfully
+2025-10-11 22:03:19,150 - INFO - ============================================================
+2025-10-11 22:03:19,150 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 22:03:19,150 - INFO - ============================================================
+2025-10-11 22:03:19,150 - INFO - Interface: eno1
+2025-10-11 22:03:19,150 - INFO - Collection interval: 30 seconds
+2025-10-11 22:03:19,150 - INFO - ============================================================
+2025-10-11 22:03:19,151 - INFO - Starting httpry on eno1...
+2025-10-11 22:03:21,151 - INFO - ✓ httpry started successfully
+2025-10-11 22:03:21,152 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-11 22:03:48,583 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251011_220348'
+2025-10-11 22:04:03,479 - INFO - ============================================================
+2025-10-11 22:04:03,479 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 22:04:03,479 - INFO - ============================================================
+2025-10-11 22:04:03,479 - INFO - Interface: wlo1
+2025-10-11 22:04:03,479 - INFO - Collection interval: 30 seconds
+2025-10-11 22:04:03,479 - INFO - ============================================================
+2025-10-11 22:04:03,480 - INFO - Starting httpry on wlo1...
+2025-10-11 22:04:05,480 - INFO - ✓ httpry started successfully
+2025-10-11 22:04:05,481 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-11 22:04:18,601 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_220418'
+2025-10-11 22:08:48,623 - INFO - ✓ Inserted 8 HTTP requests into 'httpry_20251011_220848'
+2025-10-11 22:09:05,510 - INFO - ✓ Inserted 12 HTTP requests into 'httpry_20251011_220905'
+2025-10-11 22:11:35,532 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251011_221135'
+2025-10-11 22:11:48,645 - INFO - ✓ Inserted 8 HTTP requests into 'httpry_20251011_221148'
+2025-10-11 22:12:05,551 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251011_221205'
+2025-10-11 22:24:18,673 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_222418'
+2025-10-11 22:24:35,588 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251011_222435'
+2025-10-11 22:24:48,702 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_222448'
+2025-10-11 22:25:05,610 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251011_222505'
+2025-10-11 22:25:18,728 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251011_222518'
+2025-10-11 22:25:35,631 - INFO - ✓ Inserted 7 HTTP requests into 'httpry_20251011_222535'
+2025-10-11 22:25:48,752 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_222548'
+2025-10-11 22:26:05,662 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_222605'
+2025-10-11 22:27:48,775 - INFO - ✓ Inserted 8 HTTP requests into 'httpry_20251011_222748'
+2025-10-11 22:28:05,688 - INFO - ✓ Inserted 12 HTTP requests into 'httpry_20251011_222805'
+2025-10-11 22:28:18,797 - INFO - ✓ Inserted 7 HTTP requests into 'httpry_20251011_222818'
+2025-10-11 22:28:35,715 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251011_222835'
+2025-10-11 22:29:35,735 - INFO - ✓ Inserted 8 HTTP requests into 'httpry_20251011_222935'
+2025-10-11 22:35:47,205 - INFO - ============================================================
+2025-10-11 22:35:47,205 - INFO - NetGuard Pro - httpry Collector
+2025-10-11 22:35:47,205 - INFO - ============================================================
+2025-10-11 22:35:47,205 - INFO - Interface: wlo1
+2025-10-11 22:35:47,205 - INFO - Collection interval: 300 seconds
+2025-10-11 22:35:47,205 - INFO - ============================================================
+2025-10-11 22:35:47,205 - INFO - Starting httpry on wlo1...
+2025-10-11 22:35:49,207 - INFO - ✓ httpry started successfully
+2025-10-11 22:35:49,207 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-11 22:36:48,811 - INFO - ✓ Inserted 10 HTTP requests into 'httpry_20251011_223648'
+2025-10-11 22:37:18,818 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251011_223718'
+2025-10-12 05:00:30,662 - INFO - ============================================================
+2025-10-12 05:00:30,662 - INFO - NetGuard Pro - httpry Collector
+2025-10-12 05:00:30,662 - INFO - ============================================================
+2025-10-12 05:00:30,662 - INFO - Interface: wlo1
+2025-10-12 05:00:30,662 - INFO - Collection interval: 300 seconds
+2025-10-12 05:00:30,662 - INFO - ============================================================
+2025-10-12 05:00:30,662 - INFO - Starting httpry on wlo1...
+2025-10-12 05:00:32,663 - INFO - ✓ httpry started successfully
+2025-10-12 05:00:32,663 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-12 16:22:19,067 - INFO - ============================================================
+2025-10-12 16:22:19,067 - INFO - NetGuard Pro - httpry Collector
+2025-10-12 16:22:19,067 - INFO - ============================================================
+2025-10-12 16:22:19,067 - INFO - Interface: wlo1
+2025-10-12 16:22:19,067 - INFO - Collection interval: 300 seconds
+2025-10-12 16:22:19,067 - INFO - ============================================================
+2025-10-12 16:22:19,067 - INFO - Starting httpry on wlo1...
+2025-10-12 16:22:21,068 - INFO - ✓ httpry started successfully
+2025-10-12 16:22:21,068 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-12 16:24:02,101 - INFO - ============================================================
+2025-10-12 16:24:02,105 - INFO - NetGuard Pro - httpry Collector
+2025-10-12 16:24:02,105 - INFO - ============================================================
+2025-10-12 16:24:02,105 - INFO - Interface: wlo1
+2025-10-12 16:24:02,105 - INFO - Collection interval: 300 seconds
+2025-10-12 16:24:02,105 - INFO - ============================================================
+2025-10-12 16:24:02,106 - INFO - Starting httpry on wlo1...
+2025-10-12 16:24:04,119 - INFO - ✓ httpry started successfully
+2025-10-12 16:24:04,119 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-12 21:44:04,160 - INFO - ✓ Inserted 16 HTTP requests into 'httpry_20251012_214404'
+2025-10-13 03:12:51,921 - INFO - ============================================================
+2025-10-13 03:12:51,921 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 03:12:51,921 - INFO - ============================================================
+2025-10-13 03:12:51,921 - INFO - Interface: wlo1
+2025-10-13 03:12:51,921 - INFO - Collection interval: 300 seconds
+2025-10-13 03:12:51,921 - INFO - ============================================================
+2025-10-13 03:12:51,921 - INFO - Starting httpry on wlo1...
+2025-10-13 03:12:53,922 - INFO - ✓ httpry started successfully
+2025-10-13 03:12:53,922 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 03:19:15,783 - INFO - ============================================================
+2025-10-13 03:19:15,784 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 03:19:15,784 - INFO - ============================================================
+2025-10-13 03:19:15,784 - INFO - Interface: wlo1
+2025-10-13 03:19:15,784 - INFO - Collection interval: 300 seconds
+2025-10-13 03:19:15,784 - INFO - ============================================================
+2025-10-13 03:19:15,784 - INFO - Starting httpry on wlo1...
+2025-10-13 03:19:17,784 - INFO - ✓ httpry started successfully
+2025-10-13 03:19:17,785 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 04:08:14,740 - INFO - ============================================================
+2025-10-13 04:08:14,740 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 04:08:14,740 - INFO - ============================================================
+2025-10-13 04:08:14,740 - INFO - Interface: wlo1
+2025-10-13 04:08:14,740 - INFO - Collection interval: 300 seconds
+2025-10-13 04:08:14,740 - INFO - ============================================================
+2025-10-13 04:08:14,741 - INFO - Starting httpry on wlo1...
+2025-10-13 04:08:16,741 - INFO - ✓ httpry started successfully
+2025-10-13 04:08:16,741 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 18:19:45,204 - INFO - ============================================================
+2025-10-13 18:19:45,204 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 18:19:45,204 - INFO - ============================================================
+2025-10-13 18:19:45,204 - INFO - Interface: wlo1
+2025-10-13 18:19:45,204 - INFO - Collection interval: 300 seconds
+2025-10-13 18:19:45,204 - INFO - ============================================================
+2025-10-13 18:19:45,205 - INFO - Starting httpry on wlo1...
+2025-10-13 18:19:47,205 - INFO - ✓ httpry started successfully
+2025-10-13 18:19:47,206 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 18:21:28,100 - INFO - ============================================================
+2025-10-13 18:21:28,100 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 18:21:28,100 - INFO - ============================================================
+2025-10-13 18:21:28,101 - INFO - Interface: wlo1
+2025-10-13 18:21:28,101 - INFO - Collection interval: 300 seconds
+2025-10-13 18:21:28,101 - INFO - ============================================================
+2025-10-13 18:21:28,103 - INFO - Starting httpry on wlo1...
+2025-10-13 18:21:30,123 - INFO - ✓ httpry started successfully
+2025-10-13 18:21:30,123 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 18:39:47,424 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251013_183947'
+2025-10-13 22:56:11,822 - INFO - ============================================================
+2025-10-13 22:56:11,823 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 22:56:11,823 - INFO - ============================================================
+2025-10-13 22:56:11,823 - INFO - Interface: wlo1
+2025-10-13 22:56:11,823 - INFO - Collection interval: 300 seconds
+2025-10-13 22:56:11,823 - INFO - ============================================================
+2025-10-13 22:56:11,823 - INFO - Starting httpry on wlo1...
+2025-10-13 22:56:14,248 - INFO - ✓ httpry started successfully
+2025-10-13 22:56:14,248 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-13 22:57:54,903 - INFO - ============================================================
+2025-10-13 22:57:54,903 - INFO - NetGuard Pro - httpry Collector
+2025-10-13 22:57:54,903 - INFO - ============================================================
+2025-10-13 22:57:54,903 - INFO - Interface: wlo1
+2025-10-13 22:57:54,903 - INFO - Collection interval: 300 seconds
+2025-10-13 22:57:54,903 - INFO - ============================================================
+2025-10-13 22:57:54,903 - INFO - Starting httpry on wlo1...
+2025-10-13 22:57:56,905 - INFO - ✓ httpry started successfully
+2025-10-13 22:57:56,905 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-14 03:36:01,413 - INFO - ============================================================
+2025-10-14 03:36:01,413 - INFO - NetGuard Pro - httpry Collector
+2025-10-14 03:36:01,414 - INFO - ============================================================
+2025-10-14 03:36:01,414 - INFO - Interface: wlo1
+2025-10-14 03:36:01,414 - INFO - Collection interval: 300 seconds
+2025-10-14 03:36:01,414 - INFO - ============================================================
+2025-10-14 03:36:01,414 - INFO - Starting httpry on wlo1...
+2025-10-14 03:36:03,414 - INFO - ✓ httpry started successfully
+2025-10-14 03:36:03,414 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-14 16:00:59,457 - INFO - ============================================================
+2025-10-14 16:00:59,458 - INFO - NetGuard Pro - httpry Collector
+2025-10-14 16:00:59,458 - INFO - ============================================================
+2025-10-14 16:00:59,458 - INFO - Interface: wlo1
+2025-10-14 16:00:59,458 - INFO - Collection interval: 300 seconds
+2025-10-14 16:00:59,458 - INFO - ============================================================
+2025-10-14 16:00:59,458 - INFO - Starting httpry on wlo1...
+2025-10-14 16:01:01,459 - INFO - ✓ httpry started successfully
+2025-10-14 16:01:01,459 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-14 16:02:42,238 - INFO - ============================================================
+2025-10-14 16:02:42,242 - INFO - NetGuard Pro - httpry Collector
+2025-10-14 16:02:42,250 - INFO - ============================================================
+2025-10-14 16:02:42,250 - INFO - Interface: wlo1
+2025-10-14 16:02:42,250 - INFO - Collection interval: 300 seconds
+2025-10-14 16:02:42,250 - INFO - ============================================================
+2025-10-14 16:02:42,251 - INFO - Starting httpry on wlo1...
+2025-10-14 16:02:44,265 - INFO - ✓ httpry started successfully
+2025-10-14 16:02:44,265 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/httpry/httpry.log
+2025-10-14 17:12:44,294 - INFO - ✓ Inserted 12 HTTP requests into 'httpry_20251014_171244'
+2025-10-14 17:16:01,484 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_171601'
+2025-10-14 17:17:44,318 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_171744'
+2025-10-14 17:21:01,502 - INFO - ✓ Inserted 3 HTTP requests into 'httpry_20251014_172101'
+2025-10-14 17:22:44,343 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_172244'
+2025-10-14 17:26:01,520 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_172601'
+2025-10-14 17:31:01,542 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_173101'
+2025-10-14 17:32:44,372 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_173244'
+2025-10-14 17:36:01,561 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_173601'
+2025-10-14 17:41:01,580 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_174101'
+2025-10-14 17:42:44,402 - INFO - ✓ Inserted 1 HTTP requests into 'httpry_20251014_174244'
+2025-10-14 17:46:01,603 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_174601'
+2025-10-14 17:47:44,422 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_174744'
+2025-10-14 17:51:01,625 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_175101'
+2025-10-14 17:52:44,442 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_175244'
+2025-10-14 17:56:01,655 - INFO - ✓ Inserted 15 HTTP requests into 'httpry_20251014_175601'
+2025-10-14 17:57:44,453 - INFO - ✓ Inserted 5 HTTP requests into 'httpry_20251014_175744'
+2025-10-14 18:01:01,663 - INFO - ✓ Inserted 3 HTTP requests into 'httpry_20251014_180101'
+2025-10-14 18:02:44,461 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_180244'
+2025-10-14 18:06:01,671 - INFO - ✓ Inserted 3 HTTP requests into 'httpry_20251014_180601'
+2025-10-14 18:07:44,470 - INFO - ✓ Inserted 2 HTTP requests into 'httpry_20251014_180744'
+2025-10-14 18:11:01,676 - INFO - ✓ Inserted 16 HTTP requests into 'httpry_20251014_181101'
+2025-10-14 18:12:44,479 - INFO - ✓ Inserted 3 HTTP requests into 'httpry_20251014_181244'
+2025-10-14 18:16:01,685 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251014_181601'
+2025-10-14 21:46:01,708 - INFO - ✓ Inserted 14 HTTP requests into 'httpry_20251014_214601'
+2025-10-14 21:47:44,510 - INFO - ✓ Inserted 6 HTTP requests into 'httpry_20251014_214744'
+2025-10-15 00:52:44,535 - INFO - ✓ Inserted 4 HTTP requests into 'httpry_20251015_005244'

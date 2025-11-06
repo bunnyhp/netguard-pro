@@ -1,0 +1,1965 @@
+2025-10-11 04:00:59,665 - INFO - ============================================================
+2025-10-11 04:00:59,665 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:00:59,665 - INFO - ============================================================
+2025-10-11 04:00:59,665 - INFO - Interface: wlo1
+2025-10-11 04:00:59,665 - INFO - Collection interval: 30 seconds
+2025-10-11 04:00:59,666 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:00:59,666 - INFO - ============================================================
+2025-10-11 04:00:59,666 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:01:01,666 - INFO - ✓ ngrep started successfully
+2025-10-11 04:03:48,234 - INFO - ============================================================
+2025-10-11 04:03:48,234 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:03:48,234 - INFO - ============================================================
+2025-10-11 04:03:48,234 - INFO - Interface: wlo1
+2025-10-11 04:03:48,234 - INFO - Collection interval: 30 seconds
+2025-10-11 04:03:48,234 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:03:48,234 - INFO - ============================================================
+2025-10-11 04:03:48,234 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:03:50,234 - INFO - ✓ ngrep started successfully
+2025-10-11 04:05:19,450 - INFO - ============================================================
+2025-10-11 04:05:19,450 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:05:19,450 - INFO - ============================================================
+2025-10-11 04:05:19,450 - INFO - Interface: wlo1
+2025-10-11 04:05:19,450 - INFO - Collection interval: 30 seconds
+2025-10-11 04:05:19,451 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:05:19,451 - INFO - ============================================================
+2025-10-11 04:05:19,451 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:05:21,452 - INFO - ✓ ngrep started successfully
+2025-10-11 04:06:03,783 - INFO - ============================================================
+2025-10-11 04:06:03,783 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:06:03,783 - INFO - ============================================================
+2025-10-11 04:06:03,783 - INFO - Interface: wlo1
+2025-10-11 04:06:03,783 - INFO - Collection interval: 30 seconds
+2025-10-11 04:06:03,783 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:06:03,783 - INFO - ============================================================
+2025-10-11 04:06:03,783 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:06:05,784 - INFO - ✓ ngrep started successfully
+2025-10-11 04:06:51,129 - INFO - ============================================================
+2025-10-11 04:06:51,129 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:06:51,129 - INFO - ============================================================
+2025-10-11 04:06:51,129 - INFO - Interface: wlo1
+2025-10-11 04:06:51,129 - INFO - Collection interval: 30 seconds
+2025-10-11 04:06:51,129 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:06:51,129 - INFO - ============================================================
+2025-10-11 04:06:51,129 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:06:53,130 - INFO - ✓ ngrep started successfully
+2025-10-11 04:08:59,018 - INFO - ============================================================
+2025-10-11 04:08:59,018 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:08:59,018 - INFO - ============================================================
+2025-10-11 04:08:59,018 - INFO - Interface: wlo1
+2025-10-11 04:08:59,018 - INFO - Collection interval: 30 seconds
+2025-10-11 04:08:59,018 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:08:59,018 - INFO - ============================================================
+2025-10-11 04:08:59,018 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:09:01,019 - INFO - ✓ ngrep started successfully
+2025-10-11 04:09:31,209 - INFO - ============================================================
+2025-10-11 04:09:31,209 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:09:31,209 - INFO - ============================================================
+2025-10-11 04:09:31,209 - INFO - Interface: wlo1
+2025-10-11 04:09:31,209 - INFO - Collection interval: 30 seconds
+2025-10-11 04:09:31,209 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:09:31,209 - INFO - ============================================================
+2025-10-11 04:09:31,209 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:09:33,210 - INFO - ✓ ngrep started successfully
+2025-10-11 04:09:33,210 - DEBUG - Last position: 6756
+2025-10-11 04:09:33,210 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:10:03,211 - DEBUG - Last position: 6756
+2025-10-11 04:10:03,211 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:10:33,212 - DEBUG - Last position: 6756
+2025-10-11 04:10:33,212 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:11:03,213 - DEBUG - Last position: 6756
+2025-10-11 04:11:03,213 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:11:23,725 - INFO - ============================================================
+2025-10-11 04:11:23,725 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:11:23,725 - INFO - ============================================================
+2025-10-11 04:11:23,725 - INFO - Interface: wlo1
+2025-10-11 04:11:23,725 - INFO - Collection interval: 30 seconds
+2025-10-11 04:11:23,725 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:11:23,725 - INFO - ============================================================
+2025-10-11 04:11:23,726 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:11:25,726 - INFO - ✓ ngrep started successfully
+2025-10-11 04:11:25,727 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 04:11:25,727 - DEBUG - Last position: 6756
+2025-10-11 04:11:25,727 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:11:55,728 - DEBUG - Last position: 6756
+2025-10-11 04:11:55,728 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:12:25,728 - DEBUG - Last position: 6756
+2025-10-11 04:12:25,729 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:12:26,956 - INFO - ============================================================
+2025-10-11 04:12:26,956 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:12:26,956 - INFO - ============================================================
+2025-10-11 04:12:26,957 - INFO - Interface: wlo1
+2025-10-11 04:12:26,957 - INFO - Collection interval: 30 seconds
+2025-10-11 04:12:26,957 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:12:26,957 - INFO - ============================================================
+2025-10-11 04:12:26,957 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:12:28,958 - INFO - ✓ ngrep started successfully
+2025-10-11 04:12:28,958 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 04:12:28,959 - DEBUG - Last position: 0
+2025-10-11 04:12:28,959 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:12:58,959 - DEBUG - Last position: 0
+2025-10-11 04:12:58,960 - DEBUG - Read 108 new lines from ngrep log
+2025-10-11 04:12:58,961 - DEBUG - Total entries: 11, Matched: 10, Parsed successfully: 0
+2025-10-11 04:13:28,962 - DEBUG - Last position: 5656
+2025-10-11 04:13:28,962 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:13:39,775 - INFO - ============================================================
+2025-10-11 04:13:39,775 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 04:13:39,775 - INFO - ============================================================
+2025-10-11 04:13:39,775 - INFO - Interface: wlo1
+2025-10-11 04:13:39,775 - INFO - Collection interval: 30 seconds
+2025-10-11 04:13:39,775 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 04:13:39,775 - INFO - ============================================================
+2025-10-11 04:13:39,775 - INFO - Starting ngrep on wlo1...
+2025-10-11 04:13:41,776 - INFO - ✓ ngrep started successfully
+2025-10-11 04:13:41,776 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 04:13:41,777 - DEBUG - Last position: 0
+2025-10-11 04:13:41,777 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:14:11,777 - DEBUG - Last position: 0
+2025-10-11 04:14:11,778 - DEBUG - Read 66 new lines from ngrep log
+2025-10-11 04:14:11,779 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:14:11,780 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:14:11,780 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:14:11,780 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:14:11,780 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:14:11,781 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:14:11,781 - DEBUG - Total entries: 7, Matched: 6, Parsed successfully: 6
+2025-10-11 04:14:11,789 - INFO - ✓ Inserted 6 matches into 'ngrep_20251011_041411'
+2025-10-11 04:14:41,790 - DEBUG - Last position: 3442
+2025-10-11 04:14:41,790 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:15:11,790 - DEBUG - Last position: 3442
+2025-10-11 04:15:11,790 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:15:41,791 - DEBUG - Last position: 3442
+2025-10-11 04:15:41,791 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:16:11,792 - DEBUG - Last position: 3442
+2025-10-11 04:16:11,792 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:16:41,793 - DEBUG - Last position: 3442
+2025-10-11 04:16:41,793 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:17:11,794 - DEBUG - Last position: 3442
+2025-10-11 04:17:11,794 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:17:41,794 - DEBUG - Last position: 3442
+2025-10-11 04:17:41,795 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:18:11,795 - DEBUG - Last position: 3442
+2025-10-11 04:18:11,796 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:18:41,796 - DEBUG - Last position: 3442
+2025-10-11 04:18:41,797 - DEBUG - Read 22 new lines from ngrep log
+2025-10-11 04:18:41,797 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:18:41,797 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:18:41,798 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 04:18:41,806 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_041841'
+2025-10-11 04:19:11,807 - DEBUG - Last position: 4557
+2025-10-11 04:19:11,807 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:19:41,808 - DEBUG - Last position: 4557
+2025-10-11 04:19:41,808 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:20:11,809 - DEBUG - Last position: 4557
+2025-10-11 04:20:11,809 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:20:41,810 - DEBUG - Last position: 4557
+2025-10-11 04:20:41,810 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:21:11,811 - DEBUG - Last position: 4557
+2025-10-11 04:21:11,811 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:21:41,812 - DEBUG - Last position: 4557
+2025-10-11 04:21:41,812 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:22:11,813 - DEBUG - Last position: 4557
+2025-10-11 04:22:11,813 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:22:41,814 - DEBUG - Last position: 4557
+2025-10-11 04:22:41,814 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:23:11,814 - DEBUG - Last position: 4557
+2025-10-11 04:23:11,815 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:23:41,815 - DEBUG - Last position: 4557
+2025-10-11 04:23:41,816 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:24:11,816 - DEBUG - Last position: 4557
+2025-10-11 04:24:11,817 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:24:41,817 - DEBUG - Last position: 4557
+2025-10-11 04:24:41,817 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:25:11,818 - DEBUG - Last position: 4557
+2025-10-11 04:25:11,818 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:25:41,819 - DEBUG - Last position: 4557
+2025-10-11 04:25:41,819 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:26:11,819 - DEBUG - Last position: 4557
+2025-10-11 04:26:11,820 - DEBUG - Read 22 new lines from ngrep log
+2025-10-11 04:26:11,820 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f24
+2025-10-11 04:26:11,820 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f24 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:26:11,820 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 04:26:11,825 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_042611'
+2025-10-11 04:26:41,826 - DEBUG - Last position: 5674
+2025-10-11 04:26:41,826 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:27:11,827 - DEBUG - Last position: 5674
+2025-10-11 04:27:11,827 - DEBUG - Read 22 new lines from ngrep log
+2025-10-11 04:27:11,828 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:27:11,828 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:27:11,828 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 04:27:11,837 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_042711'
+2025-10-11 04:27:41,838 - DEBUG - Last position: 6776
+2025-10-11 04:27:41,838 - DEBUG - Read 43 new lines from ngrep log
+2025-10-11 04:27:41,839 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:27:41,839 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:27:41,839 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:27:41,839 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:27:41,840 - DEBUG - Total entries: 5, Matched: 4, Parsed successfully: 4
+2025-10-11 04:27:41,851 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_042741'
+2025-10-11 04:28:11,852 - DEBUG - Last position: 8983
+2025-10-11 04:28:11,852 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:28:41,853 - DEBUG - Last position: 8983
+2025-10-11 04:28:41,853 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:29:11,853 - DEBUG - Last position: 8983
+2025-10-11 04:29:11,854 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:29:41,854 - DEBUG - Last position: 8983
+2025-10-11 04:29:41,854 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:30:11,855 - DEBUG - Last position: 8983
+2025-10-11 04:30:11,855 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:30:41,856 - DEBUG - Last position: 8983
+2025-10-11 04:30:41,857 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:31:11,857 - DEBUG - Last position: 8983
+2025-10-11 04:31:11,857 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:31:41,858 - DEBUG - Last position: 8983
+2025-10-11 04:31:41,858 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:32:11,859 - DEBUG - Last position: 8983
+2025-10-11 04:32:11,859 - DEBUG - Read 85 new lines from ngrep log
+2025-10-11 04:32:11,860 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:32:11,860 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:32:11,860 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:32:11,860 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:32:11,860 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:32:11,861 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:32:11,861 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f24
+2025-10-11 04:32:11,861 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f24 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:32:11,861 - DEBUG - Total entries: 9, Matched: 8, Parsed successfully: 8
+2025-10-11 04:32:11,870 - INFO - ✓ Inserted 8 matches into 'ngrep_20251011_043211'
+2025-10-11 04:32:41,870 - DEBUG - Last position: 13394
+2025-10-11 04:32:41,871 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:33:11,871 - DEBUG - Last position: 13394
+2025-10-11 04:33:11,872 - DEBUG - Read 43 new lines from ngrep log
+2025-10-11 04:33:11,872 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:33:11,872 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:33:11,872 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:33:11,873 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:33:11,873 - DEBUG - Total entries: 5, Matched: 4, Parsed successfully: 4
+2025-10-11 04:33:11,882 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_043311'
+2025-10-11 04:33:41,883 - DEBUG - Last position: 15605
+2025-10-11 04:33:41,883 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:34:11,884 - DEBUG - Last position: 15605
+2025-10-11 04:34:11,884 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:34:41,885 - DEBUG - Last position: 15605
+2025-10-11 04:34:41,885 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:35:11,885 - DEBUG - Last position: 15605
+2025-10-11 04:35:11,886 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:35:41,886 - DEBUG - Last position: 15605
+2025-10-11 04:35:41,887 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:36:11,887 - DEBUG - Last position: 15605
+2025-10-11 04:36:11,888 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:36:41,888 - DEBUG - Last position: 15605
+2025-10-11 04:36:41,888 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:37:11,889 - DEBUG - Last position: 15605
+2025-10-11 04:37:11,889 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:37:41,890 - DEBUG - Last position: 15605
+2025-10-11 04:37:41,890 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:38:11,891 - DEBUG - Last position: 15605
+2025-10-11 04:38:11,891 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:38:41,892 - DEBUG - Last position: 15605
+2025-10-11 04:38:41,892 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:39:11,893 - DEBUG - Last position: 15605
+2025-10-11 04:39:11,893 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:39:41,894 - DEBUG - Last position: 15605
+2025-10-11 04:39:41,894 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:40:11,895 - DEBUG - Last position: 15605
+2025-10-11 04:40:11,895 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:40:41,896 - DEBUG - Last position: 15605
+2025-10-11 04:40:41,896 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:41:11,897 - DEBUG - Last position: 15605
+2025-10-11 04:41:11,897 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:41:41,897 - DEBUG - Last position: 15605
+2025-10-11 04:41:41,898 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:42:11,898 - DEBUG - Last position: 15605
+2025-10-11 04:42:11,899 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:42:41,899 - DEBUG - Last position: 15605
+2025-10-11 04:42:41,900 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:43:11,902 - DEBUG - Last position: 15605
+2025-10-11 04:43:11,902 - DEBUG - Read 43 new lines from ngrep log
+2025-10-11 04:43:11,902 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:43:11,903 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:43:11,903 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:43:11,903 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:43:11,903 - DEBUG - Total entries: 5, Matched: 4, Parsed successfully: 4
+2025-10-11 04:43:11,913 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_044311'
+2025-10-11 04:43:41,914 - DEBUG - Last position: 17811
+2025-10-11 04:43:41,914 - DEBUG - Read 22 new lines from ngrep log
+2025-10-11 04:43:41,914 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:43:41,915 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:43:41,915 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 04:43:41,929 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_044341'
+2025-10-11 04:44:11,930 - DEBUG - Last position: 18912
+2025-10-11 04:44:11,930 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:44:41,930 - DEBUG - Last position: 18912
+2025-10-11 04:44:41,931 - DEBUG - Read 106 new lines from ngrep log
+2025-10-11 04:44:41,931 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f24
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f24 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:44:41,932 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:44:41,933 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:44:41,933 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:44:41,933 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:44:41,933 - DEBUG - Total entries: 11, Matched: 10, Parsed successfully: 10
+2025-10-11 04:44:41,942 - INFO - ✓ Inserted 10 matches into 'ngrep_20251011_044441'
+2025-10-11 04:45:11,943 - DEBUG - Last position: 24430
+2025-10-11 04:45:11,944 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:45:41,944 - DEBUG - Last position: 24430
+2025-10-11 04:45:41,945 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:46:11,945 - DEBUG - Last position: 24430
+2025-10-11 04:46:11,945 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:46:41,946 - DEBUG - Last position: 24430
+2025-10-11 04:46:41,946 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:47:11,947 - DEBUG - Last position: 24430
+2025-10-11 04:47:11,947 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:47:41,948 - DEBUG - Last position: 24430
+2025-10-11 04:47:41,948 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:48:11,949 - DEBUG - Last position: 24430
+2025-10-11 04:48:11,949 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:48:41,950 - DEBUG - Last position: 24430
+2025-10-11 04:48:41,950 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:49:11,951 - DEBUG - Last position: 24430
+2025-10-11 04:49:11,951 - DEBUG - Read 106 new lines from ngrep log
+2025-10-11 04:49:11,952 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:49:11,952 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:49:11,952 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:49:11,953 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:49:11,953 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:49:11,953 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:49:11,953 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:49:11,954 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:49:11,954 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:49:11,954 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:49:11,954 - DEBUG - Total entries: 11, Matched: 10, Parsed successfully: 10
+2025-10-11 04:49:11,964 - INFO - ✓ Inserted 10 matches into 'ngrep_20251011_044911'
+2025-10-11 04:49:41,964 - DEBUG - Last position: 29937
+2025-10-11 04:49:41,965 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:50:11,965 - DEBUG - Last position: 29937
+2025-10-11 04:50:11,966 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:50:41,966 - DEBUG - Last position: 29937
+2025-10-11 04:50:41,966 - DEBUG - Read 235 new lines from ngrep log
+2025-10-11 04:50:41,966 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:50:41,966 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:50:41,966 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:50:41,967 - DEBUG - Total entries: 23, Matched: 22, Parsed successfully: 22
+2025-10-11 04:50:41,974 - INFO - ✓ Inserted 22 matches into 'ngrep_20251011_045041'
+2025-10-11 04:51:11,975 - DEBUG - Last position: 42133
+2025-10-11 04:51:11,975 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:51:41,975 - DEBUG - Last position: 42133
+2025-10-11 04:51:41,976 - DEBUG - Read 22 new lines from ngrep log
+2025-10-11 04:51:41,976 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:51:41,976 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:51:41,977 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 04:51:41,986 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_045141'
+2025-10-11 04:52:11,987 - DEBUG - Last position: 43234
+2025-10-11 04:52:11,988 - DEBUG - Read 226 new lines from ngrep log
+2025-10-11 04:52:11,988 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:52:11,988 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:52:11,988 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f24
+2025-10-11 04:52:11,988 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:5e00:6::17ce:bc12
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1408:ec00:36::1736:7f31
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94c8
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2603:8080:bb00:395f:d0d8:3c2f:e475:3837 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 04:52:11,989 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f24 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1408:ec00:36::1736:7f31 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,990 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94c8 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,991 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,991 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,991 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc12 -> 2603:8080:bb00:395f:d0d8:3c2f:e475:3837
+2025-10-11 04:52:11,991 - DEBUG - Total entries: 21, Matched: 20, Parsed successfully: 20
+2025-10-11 04:52:12,004 - INFO - ✓ Inserted 20 matches into 'ngrep_20251011_045211'
+2025-10-11 04:52:42,005 - DEBUG - Last position: 54633
+2025-10-11 04:52:42,006 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:53:12,007 - DEBUG - Last position: 54633
+2025-10-11 04:53:12,007 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:53:42,008 - DEBUG - Last position: 54633
+2025-10-11 04:53:42,008 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:54:12,009 - DEBUG - Last position: 54633
+2025-10-11 04:54:12,009 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:54:42,010 - DEBUG - Last position: 54633
+2025-10-11 04:54:42,010 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:55:12,011 - DEBUG - Last position: 54633
+2025-10-11 04:55:12,011 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:55:42,011 - DEBUG - Last position: 54633
+2025-10-11 04:55:42,012 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:56:12,012 - DEBUG - Last position: 54633
+2025-10-11 04:56:12,013 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:56:42,013 - DEBUG - Last position: 54633
+2025-10-11 04:56:42,014 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:57:12,014 - DEBUG - Last position: 54633
+2025-10-11 04:57:12,015 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:57:42,015 - DEBUG - Last position: 54633
+2025-10-11 04:57:42,016 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:58:12,016 - DEBUG - Last position: 54633
+2025-10-11 04:58:12,017 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:58:42,017 - DEBUG - Last position: 54633
+2025-10-11 04:58:42,017 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:59:12,018 - DEBUG - Last position: 54633
+2025-10-11 04:59:12,018 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 04:59:42,019 - DEBUG - Last position: 54633
+2025-10-11 04:59:42,019 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:00:12,020 - DEBUG - Last position: 54633
+2025-10-11 05:00:12,020 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:00:42,020 - DEBUG - Last position: 54633
+2025-10-11 05:00:42,021 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:01:12,021 - DEBUG - Last position: 54633
+2025-10-11 05:01:12,022 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:01:42,022 - DEBUG - Last position: 54633
+2025-10-11 05:01:42,023 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:02:12,023 - DEBUG - Last position: 54633
+2025-10-11 05:02:12,024 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:02:42,024 - DEBUG - Last position: 54633
+2025-10-11 05:02:42,025 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:03:12,025 - DEBUG - Last position: 54633
+2025-10-11 05:03:12,026 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:03:42,026 - DEBUG - Last position: 54633
+2025-10-11 05:03:42,026 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:04:12,027 - DEBUG - Last position: 54633
+2025-10-11 05:04:12,027 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:04:42,028 - DEBUG - Last position: 54633
+2025-10-11 05:04:42,028 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:05:12,029 - DEBUG - Last position: 54633
+2025-10-11 05:05:12,029 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:05:42,030 - DEBUG - Last position: 54633
+2025-10-11 05:05:42,030 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:06:12,031 - DEBUG - Last position: 54633
+2025-10-11 05:06:12,031 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:06:42,032 - DEBUG - Last position: 54633
+2025-10-11 05:06:42,032 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:07:12,033 - DEBUG - Last position: 54633
+2025-10-11 05:07:12,033 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:07:42,033 - DEBUG - Last position: 54633
+2025-10-11 05:07:42,034 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:08:12,034 - DEBUG - Last position: 54633
+2025-10-11 05:08:12,035 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:08:42,035 - DEBUG - Last position: 54633
+2025-10-11 05:08:42,035 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:09:12,036 - DEBUG - Last position: 54633
+2025-10-11 05:09:12,036 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:09:42,037 - DEBUG - Last position: 54633
+2025-10-11 05:09:42,037 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:10:12,038 - DEBUG - Last position: 54633
+2025-10-11 05:10:12,038 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:10:42,039 - DEBUG - Last position: 54633
+2025-10-11 05:10:42,039 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:11:12,039 - DEBUG - Last position: 54633
+2025-10-11 05:11:12,040 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:11:42,041 - DEBUG - Last position: 54633
+2025-10-11 05:11:42,041 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:12:12,041 - DEBUG - Last position: 54633
+2025-10-11 05:12:12,042 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:12:42,042 - DEBUG - Last position: 54633
+2025-10-11 05:12:42,043 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:13:12,045 - DEBUG - Last position: 54633
+2025-10-11 05:13:12,045 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:13:42,046 - DEBUG - Last position: 54633
+2025-10-11 05:13:42,046 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:14:12,047 - DEBUG - Last position: 54633
+2025-10-11 05:14:12,047 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:14:42,048 - DEBUG - Last position: 54633
+2025-10-11 05:14:42,048 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:15:12,049 - DEBUG - Last position: 54633
+2025-10-11 05:15:12,049 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:15:42,050 - DEBUG - Last position: 54633
+2025-10-11 05:15:42,050 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:16:12,051 - DEBUG - Last position: 54633
+2025-10-11 05:16:12,051 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:16:42,052 - DEBUG - Last position: 54633
+2025-10-11 05:16:42,052 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:17:12,052 - DEBUG - Last position: 54633
+2025-10-11 05:17:12,053 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:17:42,053 - DEBUG - Last position: 54633
+2025-10-11 05:17:42,054 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:18:12,054 - DEBUG - Last position: 54633
+2025-10-11 05:18:12,055 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:18:42,055 - DEBUG - Last position: 54633
+2025-10-11 05:18:42,056 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:19:12,056 - DEBUG - Last position: 54633
+2025-10-11 05:19:12,056 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:19:42,057 - DEBUG - Last position: 54633
+2025-10-11 05:19:42,057 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:20:12,058 - DEBUG - Last position: 54633
+2025-10-11 05:20:12,058 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:20:42,059 - DEBUG - Last position: 54633
+2025-10-11 05:20:42,059 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:21:12,060 - DEBUG - Last position: 54633
+2025-10-11 05:21:12,060 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:21:42,061 - DEBUG - Last position: 54633
+2025-10-11 05:21:42,061 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:22:12,062 - DEBUG - Last position: 54633
+2025-10-11 05:22:12,062 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:22:42,063 - DEBUG - Last position: 54633
+2025-10-11 05:22:42,063 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:23:12,064 - DEBUG - Last position: 54633
+2025-10-11 05:23:12,064 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:23:42,065 - DEBUG - Last position: 54633
+2025-10-11 05:23:42,065 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:24:12,066 - DEBUG - Last position: 54633
+2025-10-11 05:24:12,066 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:24:42,067 - DEBUG - Last position: 54633
+2025-10-11 05:24:42,067 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:25:12,068 - DEBUG - Last position: 54633
+2025-10-11 05:25:12,068 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:25:42,069 - DEBUG - Last position: 54633
+2025-10-11 05:25:42,069 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:26:12,070 - DEBUG - Last position: 54633
+2025-10-11 05:26:12,070 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:26:42,071 - DEBUG - Last position: 54633
+2025-10-11 05:26:42,071 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:27:12,072 - DEBUG - Last position: 54633
+2025-10-11 05:27:12,072 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:27:42,073 - DEBUG - Last position: 54633
+2025-10-11 05:27:42,073 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:28:12,074 - DEBUG - Last position: 54633
+2025-10-11 05:28:12,074 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:28:42,075 - DEBUG - Last position: 54633
+2025-10-11 05:28:42,075 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:29:12,075 - DEBUG - Last position: 54633
+2025-10-11 05:29:12,076 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:29:42,076 - DEBUG - Last position: 54633
+2025-10-11 05:29:42,077 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:30:12,077 - DEBUG - Last position: 54633
+2025-10-11 05:30:12,078 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:30:42,078 - DEBUG - Last position: 54633
+2025-10-11 05:30:42,079 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:31:12,079 - DEBUG - Last position: 54633
+2025-10-11 05:31:12,080 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:31:42,080 - DEBUG - Last position: 54633
+2025-10-11 05:31:42,081 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:32:12,083 - DEBUG - Last position: 54633
+2025-10-11 05:32:12,083 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:32:42,084 - DEBUG - Last position: 54633
+2025-10-11 05:32:42,084 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:33:12,085 - DEBUG - Last position: 54633
+2025-10-11 05:33:12,085 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:33:42,086 - DEBUG - Last position: 54633
+2025-10-11 05:33:42,086 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:34:12,087 - DEBUG - Last position: 54633
+2025-10-11 05:34:12,087 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:34:42,088 - DEBUG - Last position: 54633
+2025-10-11 05:34:42,088 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:35:12,089 - DEBUG - Last position: 54633
+2025-10-11 05:35:12,089 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:35:42,090 - DEBUG - Last position: 54633
+2025-10-11 05:35:42,090 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:36:12,091 - DEBUG - Last position: 54633
+2025-10-11 05:36:12,091 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:36:42,092 - DEBUG - Last position: 54633
+2025-10-11 05:36:42,092 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:37:12,093 - DEBUG - Last position: 54633
+2025-10-11 05:37:12,093 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:37:42,094 - DEBUG - Last position: 54633
+2025-10-11 05:37:42,094 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:38:12,095 - DEBUG - Last position: 54633
+2025-10-11 05:38:12,095 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:38:42,096 - DEBUG - Last position: 54633
+2025-10-11 05:38:42,096 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:39:12,097 - DEBUG - Last position: 54633
+2025-10-11 05:39:12,097 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:39:42,097 - DEBUG - Last position: 54633
+2025-10-11 05:39:42,098 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:40:12,098 - DEBUG - Last position: 54633
+2025-10-11 05:40:12,099 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:40:42,099 - DEBUG - Last position: 54633
+2025-10-11 05:40:42,099 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:41:12,100 - DEBUG - Last position: 54633
+2025-10-11 05:41:12,100 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:41:42,101 - DEBUG - Last position: 54633
+2025-10-11 05:41:42,101 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:42:12,102 - DEBUG - Last position: 54633
+2025-10-11 05:42:12,102 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:42:42,103 - DEBUG - Last position: 54633
+2025-10-11 05:42:42,103 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:43:12,104 - DEBUG - Last position: 54633
+2025-10-11 05:43:12,104 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:43:42,105 - DEBUG - Last position: 54633
+2025-10-11 05:43:42,105 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:44:12,106 - DEBUG - Last position: 54633
+2025-10-11 05:44:12,106 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:44:42,107 - DEBUG - Last position: 54633
+2025-10-11 05:44:42,107 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:45:12,108 - DEBUG - Last position: 54633
+2025-10-11 05:45:12,109 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:45:42,109 - DEBUG - Last position: 54633
+2025-10-11 05:45:42,110 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:46:12,110 - DEBUG - Last position: 54633
+2025-10-11 05:46:12,111 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:46:42,111 - DEBUG - Last position: 54633
+2025-10-11 05:46:42,112 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:47:12,112 - DEBUG - Last position: 54633
+2025-10-11 05:47:12,113 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:47:42,113 - DEBUG - Last position: 54633
+2025-10-11 05:47:42,114 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:48:12,114 - DEBUG - Last position: 54633
+2025-10-11 05:48:12,115 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:48:42,115 - DEBUG - Last position: 54633
+2025-10-11 05:48:42,116 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:49:12,116 - DEBUG - Last position: 54633
+2025-10-11 05:49:12,117 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:49:42,117 - DEBUG - Last position: 54633
+2025-10-11 05:49:42,117 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:50:12,118 - DEBUG - Last position: 54633
+2025-10-11 05:50:12,118 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:50:42,119 - DEBUG - Last position: 54633
+2025-10-11 05:50:42,119 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:51:12,120 - DEBUG - Last position: 54633
+2025-10-11 05:51:12,120 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 05:51:42,121 - DEBUG - Last position: 54633
+2025-10-11 05:51:42,121 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:19:40,026 - INFO - ============================================================
+2025-10-11 16:19:40,028 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 16:19:40,029 - INFO - ============================================================
+2025-10-11 16:19:40,029 - INFO - Interface: wlo1
+2025-10-11 16:19:40,029 - INFO - Collection interval: 30 seconds
+2025-10-11 16:19:40,029 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 16:19:40,029 - INFO - ============================================================
+2025-10-11 16:19:40,030 - INFO - Starting ngrep on wlo1...
+2025-10-11 16:19:42,044 - INFO - ✓ ngrep started successfully
+2025-10-11 16:19:42,045 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 16:19:42,045 - DEBUG - Last position: 0
+2025-10-11 16:19:42,045 - DEBUG - Read 3 new lines from ngrep log
+2025-10-11 16:19:42,045 - DEBUG - Total entries: 1, Matched: 0, Parsed successfully: 0
+2025-10-11 16:20:12,045 - DEBUG - Last position: 7155
+2025-10-11 16:20:12,046 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:20:42,046 - DEBUG - Last position: 7155
+2025-10-11 16:20:42,046 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:21:12,047 - DEBUG - Last position: 7155
+2025-10-11 16:21:12,047 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:21:42,048 - DEBUG - Last position: 7155
+2025-10-11 16:21:42,048 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:22:12,049 - DEBUG - Last position: 7155
+2025-10-11 16:22:12,049 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:22:42,055 - DEBUG - Last position: 7155
+2025-10-11 16:22:42,055 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:23:12,056 - DEBUG - Last position: 7155
+2025-10-11 16:23:12,056 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:23:42,057 - DEBUG - Last position: 7155
+2025-10-11 16:23:42,057 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:24:12,059 - DEBUG - Last position: 7155
+2025-10-11 16:24:12,059 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:24:42,060 - DEBUG - Last position: 7155
+2025-10-11 16:24:42,060 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:25:12,061 - DEBUG - Last position: 7155
+2025-10-11 16:25:12,061 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:25:42,061 - DEBUG - Last position: 7155
+2025-10-11 16:25:42,062 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:26:12,062 - DEBUG - Last position: 7155
+2025-10-11 16:26:12,063 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:26:42,063 - DEBUG - Last position: 7155
+2025-10-11 16:26:42,064 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:27:12,064 - DEBUG - Last position: 7155
+2025-10-11 16:27:12,065 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:27:42,065 - DEBUG - Last position: 7155
+2025-10-11 16:27:42,065 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:28:12,066 - DEBUG - Last position: 7155
+2025-10-11 16:28:12,066 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:28:42,067 - DEBUG - Last position: 7155
+2025-10-11 16:28:42,067 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:29:12,067 - DEBUG - Last position: 7155
+2025-10-11 16:29:12,068 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:29:42,068 - DEBUG - Last position: 7155
+2025-10-11 16:29:42,069 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:30:12,069 - DEBUG - Last position: 7155
+2025-10-11 16:30:12,070 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:30:42,071 - DEBUG - Last position: 7155
+2025-10-11 16:30:42,071 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:31:12,071 - DEBUG - Last position: 7155
+2025-10-11 16:31:12,072 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:31:42,072 - DEBUG - Last position: 7155
+2025-10-11 16:31:42,072 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:32:12,073 - DEBUG - Last position: 7155
+2025-10-11 16:32:12,073 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:32:42,074 - DEBUG - Last position: 7155
+2025-10-11 16:32:42,074 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:33:12,075 - DEBUG - Last position: 7155
+2025-10-11 16:33:12,075 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:33:42,075 - DEBUG - Last position: 7155
+2025-10-11 16:33:42,076 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:34:12,076 - DEBUG - Last position: 7155
+2025-10-11 16:34:12,077 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:34:42,077 - DEBUG - Last position: 7155
+2025-10-11 16:34:42,078 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:35:12,078 - DEBUG - Last position: 7155
+2025-10-11 16:35:12,079 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:35:42,079 - DEBUG - Last position: 7155
+2025-10-11 16:35:42,079 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:36:12,080 - DEBUG - Last position: 7155
+2025-10-11 16:36:12,080 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:36:42,081 - DEBUG - Last position: 7155
+2025-10-11 16:36:42,081 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:37:12,082 - DEBUG - Last position: 7155
+2025-10-11 16:37:12,082 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:37:42,083 - DEBUG - Last position: 7155
+2025-10-11 16:37:42,083 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:38:12,084 - DEBUG - Last position: 7155
+2025-10-11 16:38:12,084 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:38:42,085 - DEBUG - Last position: 7155
+2025-10-11 16:38:42,085 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:39:12,086 - DEBUG - Last position: 7155
+2025-10-11 16:39:12,086 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:39:42,086 - DEBUG - Last position: 7155
+2025-10-11 16:39:42,087 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:40:12,087 - DEBUG - Last position: 7155
+2025-10-11 16:40:12,088 - DEBUG - Read 204 new lines from ngrep log
+2025-10-11 16:40:12,089 - DEBUG - Parsed entry: 2603:8080:bb00:395f:f88d:4540:b4b5:4232 -> 2600:1406:bc00:53::b81e:94ce
+2025-10-11 16:40:12,090 - DEBUG - Parsed entry: 2600:1406:bc00:53::b81e:94ce -> 2603:8080:bb00:395f:f88d:4540:b4b5:4232
+2025-10-11 16:40:12,090 - DEBUG - Total entries: 4, Matched: 2, Parsed successfully: 2
+2025-10-11 16:40:12,101 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_164012'
+2025-10-11 16:40:42,102 - DEBUG - Last position: 34347
+2025-10-11 16:40:42,102 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:41:12,103 - DEBUG - Last position: 34347
+2025-10-11 16:41:12,103 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:41:42,103 - DEBUG - Last position: 34347
+2025-10-11 16:41:42,104 - DEBUG - Read 210 new lines from ngrep log
+2025-10-11 16:41:42,104 - DEBUG - Parsed entry: 2603:8080:bb00:395f:f88d:4540:b4b5:4232 -> 2600:1406:5e00:6::17ce:bc1b
+2025-10-11 16:41:42,105 - DEBUG - Parsed entry: 2600:1406:5e00:6::17ce:bc1b -> 2603:8080:bb00:395f:f88d:4540:b4b5:4232
+2025-10-11 16:41:42,105 - DEBUG - Total entries: 3, Matched: 2, Parsed successfully: 2
+2025-10-11 16:41:42,117 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_164142'
+2025-10-11 16:42:12,117 - DEBUG - Last position: 62267
+2025-10-11 16:42:12,118 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:42:42,118 - DEBUG - Last position: 62267
+2025-10-11 16:42:42,119 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:43:12,119 - DEBUG - Last position: 62267
+2025-10-11 16:43:12,119 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:43:42,120 - DEBUG - Last position: 62267
+2025-10-11 16:43:42,120 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:44:12,121 - DEBUG - Last position: 62267
+2025-10-11 16:44:12,121 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:44:42,122 - DEBUG - Last position: 62267
+2025-10-11 16:44:42,122 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:45:12,123 - DEBUG - Last position: 62267
+2025-10-11 16:45:12,123 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:45:42,124 - DEBUG - Last position: 62267
+2025-10-11 16:45:42,124 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:46:12,125 - DEBUG - Last position: 62267
+2025-10-11 16:46:12,125 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:46:42,126 - DEBUG - Last position: 62267
+2025-10-11 16:46:42,126 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:47:12,126 - DEBUG - Last position: 62267
+2025-10-11 16:47:12,127 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:47:42,127 - DEBUG - Last position: 62267
+2025-10-11 16:47:42,127 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:48:12,128 - DEBUG - Last position: 62267
+2025-10-11 16:48:12,128 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:48:42,128 - DEBUG - Last position: 62267
+2025-10-11 16:48:42,129 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:49:12,129 - DEBUG - Last position: 62267
+2025-10-11 16:49:12,130 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:49:42,130 - DEBUG - Last position: 62267
+2025-10-11 16:49:42,130 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:50:12,131 - DEBUG - Last position: 62267
+2025-10-11 16:50:12,131 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:50:42,132 - DEBUG - Last position: 62267
+2025-10-11 16:50:42,132 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:51:12,132 - DEBUG - Last position: 62267
+2025-10-11 16:51:12,133 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:51:42,133 - DEBUG - Last position: 62267
+2025-10-11 16:51:42,134 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:52:12,134 - DEBUG - Last position: 62267
+2025-10-11 16:52:12,135 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:52:42,135 - DEBUG - Last position: 62267
+2025-10-11 16:52:42,136 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:53:12,136 - DEBUG - Last position: 62267
+2025-10-11 16:53:12,136 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:53:42,137 - DEBUG - Last position: 62267
+2025-10-11 16:53:42,137 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:54:12,138 - DEBUG - Last position: 62267
+2025-10-11 16:54:12,138 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:54:42,139 - DEBUG - Last position: 62267
+2025-10-11 16:54:42,139 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:55:12,140 - DEBUG - Last position: 62267
+2025-10-11 16:55:12,140 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:55:42,140 - DEBUG - Last position: 62267
+2025-10-11 16:55:42,141 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:56:12,141 - DEBUG - Last position: 62267
+2025-10-11 16:56:12,142 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:56:42,142 - DEBUG - Last position: 62267
+2025-10-11 16:56:42,143 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:57:12,143 - DEBUG - Last position: 62267
+2025-10-11 16:57:12,143 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:57:42,144 - DEBUG - Last position: 62267
+2025-10-11 16:57:42,144 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:58:12,145 - DEBUG - Last position: 62267
+2025-10-11 16:58:12,145 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:58:42,145 - DEBUG - Last position: 62267
+2025-10-11 16:58:42,146 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:59:12,146 - DEBUG - Last position: 62267
+2025-10-11 16:59:12,147 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 16:59:42,147 - DEBUG - Last position: 62267
+2025-10-11 16:59:42,148 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:00:12,148 - DEBUG - Last position: 62267
+2025-10-11 17:00:12,149 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:00:42,149 - DEBUG - Last position: 62267
+2025-10-11 17:00:42,150 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:01:12,150 - DEBUG - Last position: 62267
+2025-10-11 17:01:12,150 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:01:42,151 - DEBUG - Last position: 62267
+2025-10-11 17:01:42,151 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:02:12,152 - DEBUG - Last position: 62267
+2025-10-11 17:02:12,152 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:02:42,153 - DEBUG - Last position: 62267
+2025-10-11 17:02:42,153 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:03:12,153 - DEBUG - Last position: 62267
+2025-10-11 17:03:12,154 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:03:42,154 - DEBUG - Last position: 62267
+2025-10-11 17:03:42,155 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:04:12,156 - DEBUG - Last position: 62267
+2025-10-11 17:04:12,156 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:04:42,156 - DEBUG - Last position: 62267
+2025-10-11 17:04:42,157 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:05:12,157 - DEBUG - Last position: 62267
+2025-10-11 17:05:12,157 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:05:42,158 - DEBUG - Last position: 62267
+2025-10-11 17:05:42,158 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:06:12,158 - DEBUG - Last position: 62267
+2025-10-11 17:06:12,159 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:06:42,159 - DEBUG - Last position: 62267
+2025-10-11 17:06:42,160 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:07:12,160 - DEBUG - Last position: 62267
+2025-10-11 17:07:12,161 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:07:42,161 - DEBUG - Last position: 62267
+2025-10-11 17:07:42,162 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:08:12,162 - DEBUG - Last position: 62267
+2025-10-11 17:08:12,162 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:08:42,163 - DEBUG - Last position: 62267
+2025-10-11 17:08:42,163 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:09:12,163 - DEBUG - Last position: 62267
+2025-10-11 17:09:12,164 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:09:42,164 - DEBUG - Last position: 62267
+2025-10-11 17:09:42,165 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:10:12,165 - DEBUG - Last position: 62267
+2025-10-11 17:10:12,165 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:10:42,166 - DEBUG - Last position: 62267
+2025-10-11 17:10:42,166 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:11:12,167 - DEBUG - Last position: 62267
+2025-10-11 17:11:12,167 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:11:42,168 - DEBUG - Last position: 62267
+2025-10-11 17:11:42,168 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:12:12,169 - DEBUG - Last position: 62267
+2025-10-11 17:12:12,169 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:12:42,169 - DEBUG - Last position: 62267
+2025-10-11 17:12:42,170 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:13:12,170 - DEBUG - Last position: 62267
+2025-10-11 17:13:12,170 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:13:42,171 - DEBUG - Last position: 62267
+2025-10-11 17:13:42,171 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:14:12,172 - DEBUG - Last position: 62267
+2025-10-11 17:14:12,172 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:14:42,173 - DEBUG - Last position: 62267
+2025-10-11 17:14:42,173 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:15:12,174 - DEBUG - Last position: 62267
+2025-10-11 17:15:12,174 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:15:42,174 - DEBUG - Last position: 62267
+2025-10-11 17:15:42,175 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:16:12,175 - DEBUG - Last position: 62267
+2025-10-11 17:16:12,176 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:16:42,176 - DEBUG - Last position: 62267
+2025-10-11 17:16:42,177 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:17:12,177 - DEBUG - Last position: 62267
+2025-10-11 17:17:12,178 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:17:42,178 - DEBUG - Last position: 62267
+2025-10-11 17:17:42,179 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:18:12,179 - DEBUG - Last position: 62267
+2025-10-11 17:18:12,179 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:18:42,180 - DEBUG - Last position: 62267
+2025-10-11 17:18:42,180 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:19:12,180 - DEBUG - Last position: 62267
+2025-10-11 17:19:12,181 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:19:42,181 - DEBUG - Last position: 62267
+2025-10-11 17:19:42,182 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:20:12,182 - DEBUG - Last position: 62267
+2025-10-11 17:20:12,182 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:20:42,183 - DEBUG - Last position: 62267
+2025-10-11 17:20:42,183 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:21:12,184 - DEBUG - Last position: 62267
+2025-10-11 17:21:12,184 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:21:42,185 - DEBUG - Last position: 62267
+2025-10-11 17:21:42,185 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:22:12,186 - DEBUG - Last position: 62267
+2025-10-11 17:22:12,186 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:22:42,187 - DEBUG - Last position: 62267
+2025-10-11 17:22:42,187 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:23:12,188 - DEBUG - Last position: 62267
+2025-10-11 17:23:12,188 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:23:42,188 - DEBUG - Last position: 62267
+2025-10-11 17:23:42,189 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:24:12,189 - DEBUG - Last position: 62267
+2025-10-11 17:24:12,189 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:24:42,190 - DEBUG - Last position: 62267
+2025-10-11 17:24:42,190 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:25:12,191 - DEBUG - Last position: 62267
+2025-10-11 17:25:12,191 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:25:42,191 - DEBUG - Last position: 62267
+2025-10-11 17:25:42,192 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:26:12,192 - DEBUG - Last position: 62267
+2025-10-11 17:26:12,193 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:26:42,194 - DEBUG - Last position: 62267
+2025-10-11 17:26:42,195 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:27:12,195 - DEBUG - Last position: 62267
+2025-10-11 17:27:12,195 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:27:42,196 - DEBUG - Last position: 62267
+2025-10-11 17:27:42,196 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:28:12,197 - DEBUG - Last position: 62267
+2025-10-11 17:28:12,197 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:28:42,198 - DEBUG - Last position: 62267
+2025-10-11 17:28:42,198 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:29:12,199 - DEBUG - Last position: 62267
+2025-10-11 17:29:12,199 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:29:42,200 - DEBUG - Last position: 62267
+2025-10-11 17:29:42,200 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:30:12,201 - DEBUG - Last position: 62267
+2025-10-11 17:30:12,201 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:30:42,202 - DEBUG - Last position: 62267
+2025-10-11 17:30:42,202 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:31:12,203 - DEBUG - Last position: 62267
+2025-10-11 17:31:12,203 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:31:42,204 - DEBUG - Last position: 62267
+2025-10-11 17:31:42,204 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:32:12,204 - DEBUG - Last position: 62267
+2025-10-11 17:32:12,205 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:32:42,205 - DEBUG - Last position: 62267
+2025-10-11 17:32:42,205 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:33:12,206 - DEBUG - Last position: 62267
+2025-10-11 17:33:12,206 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:33:42,207 - DEBUG - Last position: 62267
+2025-10-11 17:33:42,207 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:34:12,207 - DEBUG - Last position: 62267
+2025-10-11 17:34:12,207 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:34:42,208 - DEBUG - Last position: 62267
+2025-10-11 17:34:42,208 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:35:12,209 - DEBUG - Last position: 62267
+2025-10-11 17:35:12,209 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:35:42,210 - DEBUG - Last position: 62267
+2025-10-11 17:35:42,210 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:36:12,210 - DEBUG - Last position: 62267
+2025-10-11 17:36:12,211 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:36:42,211 - DEBUG - Last position: 62267
+2025-10-11 17:36:42,211 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:37:12,212 - DEBUG - Last position: 62267
+2025-10-11 17:37:12,212 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:37:42,213 - DEBUG - Last position: 62267
+2025-10-11 17:37:42,213 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:38:12,213 - DEBUG - Last position: 62267
+2025-10-11 17:38:12,214 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:38:42,214 - DEBUG - Last position: 62267
+2025-10-11 17:38:42,215 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:39:12,215 - DEBUG - Last position: 62267
+2025-10-11 17:39:12,215 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:39:42,216 - DEBUG - Last position: 62267
+2025-10-11 17:39:42,216 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:40:12,216 - DEBUG - Last position: 62267
+2025-10-11 17:40:12,216 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:40:42,217 - DEBUG - Last position: 62267
+2025-10-11 17:40:42,217 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:41:12,217 - DEBUG - Last position: 62267
+2025-10-11 17:41:12,218 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:41:42,218 - DEBUG - Last position: 62267
+2025-10-11 17:41:42,218 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:42:12,219 - DEBUG - Last position: 62267
+2025-10-11 17:42:12,219 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:42:42,219 - DEBUG - Last position: 62267
+2025-10-11 17:42:42,220 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:43:12,220 - DEBUG - Last position: 62267
+2025-10-11 17:43:12,220 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:43:42,221 - DEBUG - Last position: 62267
+2025-10-11 17:43:42,221 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:44:12,221 - DEBUG - Last position: 62267
+2025-10-11 17:44:12,222 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:44:42,222 - DEBUG - Last position: 62267
+2025-10-11 17:44:42,222 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:45:12,223 - DEBUG - Last position: 62267
+2025-10-11 17:45:12,223 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:45:42,223 - DEBUG - Last position: 62267
+2025-10-11 17:45:42,224 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:46:12,224 - DEBUG - Last position: 62267
+2025-10-11 17:46:12,224 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:46:42,225 - DEBUG - Last position: 62267
+2025-10-11 17:46:42,225 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:47:12,225 - DEBUG - Last position: 62267
+2025-10-11 17:47:12,226 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:47:42,226 - DEBUG - Last position: 62267
+2025-10-11 17:47:42,226 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:48:12,227 - DEBUG - Last position: 62267
+2025-10-11 17:48:12,227 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:48:42,228 - DEBUG - Last position: 62267
+2025-10-11 17:48:42,228 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:49:12,228 - DEBUG - Last position: 62267
+2025-10-11 17:49:12,229 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:49:42,229 - DEBUG - Last position: 62267
+2025-10-11 17:49:42,229 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:50:12,229 - DEBUG - Last position: 62267
+2025-10-11 17:50:12,230 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:50:42,230 - DEBUG - Last position: 62267
+2025-10-11 17:50:42,230 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:51:12,231 - DEBUG - Last position: 62267
+2025-10-11 17:51:12,231 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:51:42,232 - DEBUG - Last position: 62267
+2025-10-11 17:51:42,232 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:52:12,232 - DEBUG - Last position: 62267
+2025-10-11 17:52:12,233 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:52:42,233 - DEBUG - Last position: 62267
+2025-10-11 17:52:42,233 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:53:12,234 - DEBUG - Last position: 62267
+2025-10-11 17:53:12,234 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:53:42,235 - DEBUG - Last position: 62267
+2025-10-11 17:53:42,235 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:54:12,235 - DEBUG - Last position: 62267
+2025-10-11 17:54:12,236 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:54:42,236 - DEBUG - Last position: 62267
+2025-10-11 17:54:42,236 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:55:12,237 - DEBUG - Last position: 62267
+2025-10-11 17:55:12,237 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:55:42,238 - DEBUG - Last position: 62267
+2025-10-11 17:55:42,238 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:56:12,238 - DEBUG - Last position: 62267
+2025-10-11 17:56:12,239 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:56:42,239 - DEBUG - Last position: 62267
+2025-10-11 17:56:42,240 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:57:12,240 - DEBUG - Last position: 62267
+2025-10-11 17:57:12,240 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:57:42,241 - DEBUG - Last position: 62267
+2025-10-11 17:57:42,241 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:58:12,241 - DEBUG - Last position: 62267
+2025-10-11 17:58:12,242 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:58:42,242 - DEBUG - Last position: 62267
+2025-10-11 17:58:42,243 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:59:12,243 - DEBUG - Last position: 62267
+2025-10-11 17:59:12,243 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 17:59:42,244 - DEBUG - Last position: 62267
+2025-10-11 17:59:42,244 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:00:12,244 - DEBUG - Last position: 62267
+2025-10-11 18:00:12,245 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:00:42,245 - DEBUG - Last position: 62267
+2025-10-11 18:00:42,246 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:01:12,246 - DEBUG - Last position: 62267
+2025-10-11 18:01:12,246 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:01:42,247 - DEBUG - Last position: 62267
+2025-10-11 18:01:42,247 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:02:12,248 - DEBUG - Last position: 62267
+2025-10-11 18:02:12,248 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:02:42,248 - DEBUG - Last position: 62267
+2025-10-11 18:02:42,249 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:03:12,249 - DEBUG - Last position: 62267
+2025-10-11 18:03:12,249 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:03:42,250 - DEBUG - Last position: 62267
+2025-10-11 18:03:42,250 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:04:12,251 - DEBUG - Last position: 62267
+2025-10-11 18:04:12,251 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:04:42,251 - DEBUG - Last position: 62267
+2025-10-11 18:04:42,251 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:05:12,252 - DEBUG - Last position: 62267
+2025-10-11 18:05:12,252 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:05:42,252 - DEBUG - Last position: 62267
+2025-10-11 18:05:42,253 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:06:12,253 - DEBUG - Last position: 62267
+2025-10-11 18:06:12,253 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:06:42,253 - DEBUG - Last position: 62267
+2025-10-11 18:06:42,254 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:07:12,254 - DEBUG - Last position: 62267
+2025-10-11 18:07:12,254 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:07:42,255 - DEBUG - Last position: 62267
+2025-10-11 18:07:42,255 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:08:12,256 - DEBUG - Last position: 62267
+2025-10-11 18:08:12,256 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:08:42,257 - DEBUG - Last position: 62267
+2025-10-11 18:08:42,257 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:09:12,258 - DEBUG - Last position: 62267
+2025-10-11 18:09:12,258 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:09:42,259 - DEBUG - Last position: 62267
+2025-10-11 18:09:42,259 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:10:12,259 - DEBUG - Last position: 62267
+2025-10-11 18:10:12,260 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:10:42,260 - DEBUG - Last position: 62267
+2025-10-11 18:10:42,261 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:11:12,261 - DEBUG - Last position: 62267
+2025-10-11 18:11:12,261 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:11:42,262 - DEBUG - Last position: 62267
+2025-10-11 18:11:42,262 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:12:12,263 - DEBUG - Last position: 62267
+2025-10-11 18:12:12,263 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:12:42,264 - DEBUG - Last position: 62267
+2025-10-11 18:12:42,264 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:13:12,265 - DEBUG - Last position: 62267
+2025-10-11 18:13:12,265 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:13:42,266 - DEBUG - Last position: 62267
+2025-10-11 18:13:42,266 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:14:12,266 - DEBUG - Last position: 62267
+2025-10-11 18:14:12,267 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:14:42,267 - DEBUG - Last position: 62267
+2025-10-11 18:14:42,268 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:15:12,268 - DEBUG - Last position: 62267
+2025-10-11 18:15:12,268 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:15:42,268 - DEBUG - Last position: 62267
+2025-10-11 18:15:42,269 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:16:12,269 - DEBUG - Last position: 62267
+2025-10-11 18:16:12,270 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:16:42,270 - DEBUG - Last position: 62267
+2025-10-11 18:16:42,270 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:17:12,271 - DEBUG - Last position: 62267
+2025-10-11 18:17:12,271 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:17:42,272 - DEBUG - Last position: 62267
+2025-10-11 18:17:42,272 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:18:12,273 - DEBUG - Last position: 62267
+2025-10-11 18:18:12,273 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:18:42,274 - DEBUG - Last position: 62267
+2025-10-11 18:18:42,274 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:19:12,274 - DEBUG - Last position: 62267
+2025-10-11 18:19:12,275 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:19:42,275 - DEBUG - Last position: 62267
+2025-10-11 18:19:42,276 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:20:12,276 - DEBUG - Last position: 62267
+2025-10-11 18:20:12,277 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:20:42,277 - DEBUG - Last position: 62267
+2025-10-11 18:20:42,277 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:21:12,278 - DEBUG - Last position: 62267
+2025-10-11 18:21:12,278 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:21:42,279 - DEBUG - Last position: 62267
+2025-10-11 18:21:42,279 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:22:12,280 - DEBUG - Last position: 62267
+2025-10-11 18:22:12,280 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:22:42,281 - DEBUG - Last position: 62267
+2025-10-11 18:22:42,281 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:23:12,282 - DEBUG - Last position: 62267
+2025-10-11 18:23:12,282 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 18:23:42,283 - DEBUG - Last position: 62267
+2025-10-11 18:23:42,283 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:11:09,833 - INFO - ============================================================
+2025-10-11 20:11:09,833 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 20:11:09,833 - INFO - ============================================================
+2025-10-11 20:11:09,833 - INFO - Interface: wlo1
+2025-10-11 20:11:09,833 - INFO - Collection interval: 30 seconds
+2025-10-11 20:11:09,833 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 20:11:09,833 - INFO - ============================================================
+2025-10-11 20:11:09,834 - INFO - Starting ngrep on wlo1...
+2025-10-11 20:11:11,834 - INFO - ✓ ngrep started successfully
+2025-10-11 20:11:11,834 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 20:11:11,835 - DEBUG - Last position: 0
+2025-10-11 20:11:11,835 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:11:41,836 - DEBUG - Last position: 0
+2025-10-11 20:11:41,836 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:12:11,837 - DEBUG - Last position: 0
+2025-10-11 20:12:11,837 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:12:41,838 - DEBUG - Last position: 0
+2025-10-11 20:12:41,838 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:13:11,839 - DEBUG - Last position: 0
+2025-10-11 20:13:11,839 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:13:41,840 - DEBUG - Last position: 0
+2025-10-11 20:13:41,840 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:14:11,840 - DEBUG - Last position: 0
+2025-10-11 20:14:11,841 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:14:41,841 - DEBUG - Last position: 0
+2025-10-11 20:14:41,842 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:15:11,842 - DEBUG - Last position: 0
+2025-10-11 20:15:11,843 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:15:41,843 - DEBUG - Last position: 0
+2025-10-11 20:15:41,844 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:16:11,844 - DEBUG - Last position: 0
+2025-10-11 20:16:11,845 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:16:41,845 - DEBUG - Last position: 0
+2025-10-11 20:16:41,846 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:17:11,846 - DEBUG - Last position: 0
+2025-10-11 20:17:11,847 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:17:41,847 - DEBUG - Last position: 0
+2025-10-11 20:17:41,848 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:18:11,853 - DEBUG - Last position: 0
+2025-10-11 20:18:11,854 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:18:41,854 - DEBUG - Last position: 0
+2025-10-11 20:18:41,855 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:19:11,855 - DEBUG - Last position: 0
+2025-10-11 20:19:11,855 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:19:41,856 - DEBUG - Last position: 0
+2025-10-11 20:19:41,856 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:20:11,857 - DEBUG - Last position: 0
+2025-10-11 20:20:11,858 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:20:41,858 - DEBUG - Last position: 0
+2025-10-11 20:20:41,859 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:21:11,859 - DEBUG - Last position: 0
+2025-10-11 20:21:11,860 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:21:41,860 - DEBUG - Last position: 0
+2025-10-11 20:21:41,861 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:22:11,862 - DEBUG - Last position: 0
+2025-10-11 20:22:11,862 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:22:41,863 - DEBUG - Last position: 0
+2025-10-11 20:22:41,863 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:23:11,863 - DEBUG - Last position: 0
+2025-10-11 20:23:11,864 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:23:41,864 - DEBUG - Last position: 0
+2025-10-11 20:23:41,865 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:24:11,865 - DEBUG - Last position: 0
+2025-10-11 20:24:11,866 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:24:41,866 - DEBUG - Last position: 0
+2025-10-11 20:24:41,867 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:25:11,867 - DEBUG - Last position: 0
+2025-10-11 20:25:11,868 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:25:41,868 - DEBUG - Last position: 0
+2025-10-11 20:25:41,868 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:26:11,869 - DEBUG - Last position: 0
+2025-10-11 20:26:11,869 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:26:41,870 - DEBUG - Last position: 0
+2025-10-11 20:26:41,870 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:27:11,871 - DEBUG - Last position: 0
+2025-10-11 20:27:11,871 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:27:41,872 - DEBUG - Last position: 0
+2025-10-11 20:27:41,873 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:28:11,873 - DEBUG - Last position: 0
+2025-10-11 20:28:11,874 - DEBUG - Read 143 new lines from ngrep log
+2025-10-11 20:28:11,874 - DEBUG - Total entries: 1, Matched: 0, Parsed successfully: 0
+2025-10-11 20:28:41,875 - DEBUG - Last position: 19676
+2025-10-11 20:28:41,876 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:29:11,876 - DEBUG - Last position: 19676
+2025-10-11 20:29:11,877 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:29:41,877 - DEBUG - Last position: 19676
+2025-10-11 20:29:41,878 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:30:11,878 - DEBUG - Last position: 19676
+2025-10-11 20:30:11,879 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:30:41,879 - DEBUG - Last position: 19676
+2025-10-11 20:30:41,879 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:31:05,626 - INFO - ============================================================
+2025-10-11 20:31:05,627 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 20:31:05,627 - INFO - ============================================================
+2025-10-11 20:31:05,627 - INFO - Interface: wlo1
+2025-10-11 20:31:05,627 - INFO - Collection interval: 30 seconds
+2025-10-11 20:31:05,627 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 20:31:05,627 - INFO - ============================================================
+2025-10-11 20:31:05,627 - INFO - Starting ngrep on wlo1...
+2025-10-11 20:31:07,629 - INFO - ✓ ngrep started successfully
+2025-10-11 20:31:07,630 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 20:31:07,630 - DEBUG - Last position: 0
+2025-10-11 20:31:07,630 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:31:37,631 - DEBUG - Last position: 0
+2025-10-11 20:31:37,631 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:32:07,632 - DEBUG - Last position: 20139
+2025-10-11 20:32:07,633 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:32:37,633 - DEBUG - Last position: 20139
+2025-10-11 20:32:37,633 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:33:07,634 - DEBUG - Last position: 20139
+2025-10-11 20:33:07,634 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:33:37,635 - DEBUG - Last position: 20139
+2025-10-11 20:33:37,635 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:34:07,636 - DEBUG - Last position: 20139
+2025-10-11 20:34:07,636 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:34:37,637 - DEBUG - Last position: 20139
+2025-10-11 20:34:37,637 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:35:07,638 - DEBUG - Last position: 20139
+2025-10-11 20:35:07,638 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:35:37,639 - DEBUG - Last position: 20139
+2025-10-11 20:35:37,640 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:36:07,640 - DEBUG - Last position: 20139
+2025-10-11 20:36:07,640 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:36:37,640 - DEBUG - Last position: 20139
+2025-10-11 20:36:37,640 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:37:21,405 - INFO - ============================================================
+2025-10-11 20:37:21,405 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 20:37:21,405 - INFO - ============================================================
+2025-10-11 20:37:21,405 - INFO - Interface: wlo1
+2025-10-11 20:37:21,405 - INFO - Collection interval: 30 seconds
+2025-10-11 20:37:21,406 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 20:37:21,406 - INFO - ============================================================
+2025-10-11 20:37:21,406 - INFO - Starting ngrep on wlo1...
+2025-10-11 20:37:23,407 - INFO - ✓ ngrep started successfully
+2025-10-11 20:37:23,408 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 20:37:23,408 - DEBUG - Last position: 0
+2025-10-11 20:37:23,408 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:37:53,409 - DEBUG - Last position: 0
+2025-10-11 20:37:53,409 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:38:23,410 - DEBUG - Last position: 0
+2025-10-11 20:38:23,410 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:38:53,411 - DEBUG - Last position: 0
+2025-10-11 20:38:53,411 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:39:23,412 - DEBUG - Last position: 0
+2025-10-11 20:39:23,412 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:39:53,413 - DEBUG - Last position: 0
+2025-10-11 20:39:53,413 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:40:23,414 - DEBUG - Last position: 0
+2025-10-11 20:40:23,414 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:40:53,415 - DEBUG - Last position: 0
+2025-10-11 20:40:53,415 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:41:23,416 - DEBUG - Last position: 0
+2025-10-11 20:41:23,416 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:41:53,417 - DEBUG - Last position: 0
+2025-10-11 20:41:53,417 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:42:23,418 - DEBUG - Last position: 0
+2025-10-11 20:42:23,418 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:42:53,418 - DEBUG - Last position: 0
+2025-10-11 20:42:53,418 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:43:23,419 - DEBUG - Last position: 0
+2025-10-11 20:43:23,419 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:43:53,420 - DEBUG - Last position: 0
+2025-10-11 20:43:53,420 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:44:23,421 - DEBUG - Last position: 0
+2025-10-11 20:44:23,421 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:44:53,422 - DEBUG - Last position: 0
+2025-10-11 20:44:53,423 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:45:23,423 - DEBUG - Last position: 0
+2025-10-11 20:45:23,424 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:45:53,424 - DEBUG - Last position: 0
+2025-10-11 20:45:53,425 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:46:23,425 - DEBUG - Last position: 0
+2025-10-11 20:46:23,426 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:46:53,426 - DEBUG - Last position: 0
+2025-10-11 20:46:53,427 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:47:23,427 - DEBUG - Last position: 0
+2025-10-11 20:47:23,428 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:47:53,428 - DEBUG - Last position: 0
+2025-10-11 20:47:53,429 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:48:23,429 - DEBUG - Last position: 0
+2025-10-11 20:48:23,430 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:48:53,430 - DEBUG - Last position: 0
+2025-10-11 20:48:53,431 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:49:23,432 - DEBUG - Last position: 0
+2025-10-11 20:49:23,432 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:49:53,432 - DEBUG - Last position: 0
+2025-10-11 20:49:53,433 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:50:23,433 - DEBUG - Last position: 0
+2025-10-11 20:50:23,433 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:50:53,433 - DEBUG - Last position: 0
+2025-10-11 20:50:53,433 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:51:23,434 - DEBUG - Last position: 0
+2025-10-11 20:51:23,434 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:51:53,435 - DEBUG - Last position: 0
+2025-10-11 20:51:53,435 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:52:23,436 - DEBUG - Last position: 0
+2025-10-11 20:52:23,436 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:52:53,437 - DEBUG - Last position: 0
+2025-10-11 20:52:53,437 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:53:23,438 - DEBUG - Last position: 0
+2025-10-11 20:53:23,438 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:53:53,439 - DEBUG - Last position: 0
+2025-10-11 20:53:53,439 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:54:23,440 - DEBUG - Last position: 0
+2025-10-11 20:54:23,440 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:54:53,441 - DEBUG - Last position: 0
+2025-10-11 20:54:53,441 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:55:23,442 - DEBUG - Last position: 0
+2025-10-11 20:55:23,442 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:55:53,443 - DEBUG - Last position: 0
+2025-10-11 20:55:53,443 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:56:23,444 - DEBUG - Last position: 0
+2025-10-11 20:56:23,444 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:56:53,445 - DEBUG - Last position: 0
+2025-10-11 20:56:53,445 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:57:23,446 - DEBUG - Last position: 0
+2025-10-11 20:57:23,446 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:57:53,447 - DEBUG - Last position: 0
+2025-10-11 20:57:53,447 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:58:23,447 - DEBUG - Last position: 0
+2025-10-11 20:58:23,448 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:58:53,448 - DEBUG - Last position: 0
+2025-10-11 20:58:53,449 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:59:23,449 - DEBUG - Last position: 0
+2025-10-11 20:59:23,450 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 20:59:53,450 - DEBUG - Last position: 0
+2025-10-11 20:59:53,451 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:00:23,451 - DEBUG - Last position: 0
+2025-10-11 21:00:23,452 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:00:53,452 - DEBUG - Last position: 0
+2025-10-11 21:00:53,453 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:01:23,453 - DEBUG - Last position: 0
+2025-10-11 21:01:23,454 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:01:53,454 - DEBUG - Last position: 0
+2025-10-11 21:01:53,455 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:02:23,455 - DEBUG - Last position: 0
+2025-10-11 21:02:23,456 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:02:53,456 - DEBUG - Last position: 0
+2025-10-11 21:02:53,456 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:03:23,457 - DEBUG - Last position: 0
+2025-10-11 21:03:23,458 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:03:53,458 - DEBUG - Last position: 0
+2025-10-11 21:03:53,459 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:04:23,459 - DEBUG - Last position: 0
+2025-10-11 21:04:23,460 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:04:53,461 - DEBUG - Last position: 0
+2025-10-11 21:04:53,461 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:05:23,462 - DEBUG - Last position: 0
+2025-10-11 21:05:23,462 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:05:53,464 - DEBUG - Last position: 0
+2025-10-11 21:05:53,464 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:06:23,465 - DEBUG - Last position: 0
+2025-10-11 21:06:23,465 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:06:53,466 - DEBUG - Last position: 0
+2025-10-11 21:06:53,466 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:07:23,467 - DEBUG - Last position: 0
+2025-10-11 21:07:23,467 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:07:53,468 - DEBUG - Last position: 0
+2025-10-11 21:07:53,468 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:08:23,470 - DEBUG - Last position: 0
+2025-10-11 21:08:23,471 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:08:53,472 - DEBUG - Last position: 0
+2025-10-11 21:08:53,473 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:09:23,473 - DEBUG - Last position: 0
+2025-10-11 21:09:23,474 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:09:53,474 - DEBUG - Last position: 0
+2025-10-11 21:09:53,474 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:10:23,475 - DEBUG - Last position: 0
+2025-10-11 21:10:23,475 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:10:53,476 - DEBUG - Last position: 0
+2025-10-11 21:10:53,476 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:11:23,477 - DEBUG - Last position: 0
+2025-10-11 21:11:23,477 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:11:53,478 - DEBUG - Last position: 0
+2025-10-11 21:11:53,478 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:12:23,479 - DEBUG - Last position: 0
+2025-10-11 21:12:23,479 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:12:53,480 - DEBUG - Last position: 0
+2025-10-11 21:12:53,480 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:13:23,481 - DEBUG - Last position: 0
+2025-10-11 21:13:23,481 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:13:53,482 - DEBUG - Last position: 0
+2025-10-11 21:13:53,482 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:14:23,482 - DEBUG - Last position: 0
+2025-10-11 21:14:23,483 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:14:53,483 - DEBUG - Last position: 0
+2025-10-11 21:14:53,483 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:15:23,484 - DEBUG - Last position: 0
+2025-10-11 21:15:23,484 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:15:53,485 - DEBUG - Last position: 0
+2025-10-11 21:15:53,485 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:16:23,486 - DEBUG - Last position: 0
+2025-10-11 21:16:23,486 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:16:53,487 - DEBUG - Last position: 0
+2025-10-11 21:16:53,487 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:17:23,488 - DEBUG - Last position: 0
+2025-10-11 21:17:23,488 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:17:53,489 - DEBUG - Last position: 0
+2025-10-11 21:17:53,489 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:18:23,489 - DEBUG - Last position: 0
+2025-10-11 21:18:23,490 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:18:53,490 - DEBUG - Last position: 0
+2025-10-11 21:18:53,491 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:19:23,491 - DEBUG - Last position: 0
+2025-10-11 21:19:23,492 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:19:53,492 - DEBUG - Last position: 0
+2025-10-11 21:19:53,493 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:20:23,493 - DEBUG - Last position: 0
+2025-10-11 21:20:23,494 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:20:53,494 - DEBUG - Last position: 0
+2025-10-11 21:20:53,494 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:21:23,495 - DEBUG - Last position: 0
+2025-10-11 21:21:23,495 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:21:53,496 - DEBUG - Last position: 0
+2025-10-11 21:21:53,496 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:22:23,497 - DEBUG - Last position: 0
+2025-10-11 21:22:23,497 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:22:53,497 - DEBUG - Last position: 0
+2025-10-11 21:22:53,498 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:23:23,498 - DEBUG - Last position: 0
+2025-10-11 21:23:23,499 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:23:53,499 - DEBUG - Last position: 0
+2025-10-11 21:23:53,499 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:24:23,500 - DEBUG - Last position: 0
+2025-10-11 21:24:23,500 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:24:53,501 - DEBUG - Last position: 0
+2025-10-11 21:24:53,501 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:25:23,502 - DEBUG - Last position: 0
+2025-10-11 21:25:23,502 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:25:53,502 - DEBUG - Last position: 0
+2025-10-11 21:25:53,503 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:26:23,503 - DEBUG - Last position: 0
+2025-10-11 21:26:23,504 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:26:53,504 - DEBUG - Last position: 0
+2025-10-11 21:26:53,505 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:27:23,505 - DEBUG - Last position: 0
+2025-10-11 21:27:23,506 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:27:53,506 - DEBUG - Last position: 0
+2025-10-11 21:27:53,506 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:28:23,507 - DEBUG - Last position: 0
+2025-10-11 21:28:23,507 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:28:53,508 - DEBUG - Last position: 0
+2025-10-11 21:28:53,508 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:29:23,509 - DEBUG - Last position: 0
+2025-10-11 21:29:23,509 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:29:53,510 - DEBUG - Last position: 0
+2025-10-11 21:29:53,510 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:30:23,511 - DEBUG - Last position: 0
+2025-10-11 21:30:23,511 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:30:53,511 - DEBUG - Last position: 0
+2025-10-11 21:30:53,512 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:31:23,512 - DEBUG - Last position: 0
+2025-10-11 21:31:23,513 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:31:53,513 - DEBUG - Last position: 0
+2025-10-11 21:31:53,513 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:32:23,513 - DEBUG - Last position: 0
+2025-10-11 21:32:23,514 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:32:53,514 - DEBUG - Last position: 0
+2025-10-11 21:32:53,515 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:33:23,515 - DEBUG - Last position: 0
+2025-10-11 21:33:23,516 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:33:53,516 - DEBUG - Last position: 0
+2025-10-11 21:33:53,517 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:34:23,517 - DEBUG - Last position: 0
+2025-10-11 21:34:23,518 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:34:53,518 - DEBUG - Last position: 0
+2025-10-11 21:34:53,518 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:35:23,519 - DEBUG - Last position: 0
+2025-10-11 21:35:23,519 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:35:53,520 - DEBUG - Last position: 0
+2025-10-11 21:35:53,520 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:36:23,521 - DEBUG - Last position: 0
+2025-10-11 21:36:23,521 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:36:53,522 - DEBUG - Last position: 0
+2025-10-11 21:36:53,522 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:37:23,523 - DEBUG - Last position: 0
+2025-10-11 21:37:23,523 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:37:53,524 - DEBUG - Last position: 0
+2025-10-11 21:37:53,524 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:38:23,525 - DEBUG - Last position: 0
+2025-10-11 21:38:23,525 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:38:53,526 - DEBUG - Last position: 0
+2025-10-11 21:38:53,526 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:39:23,527 - DEBUG - Last position: 0
+2025-10-11 21:39:23,527 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:39:53,528 - DEBUG - Last position: 0
+2025-10-11 21:39:53,534 - DEBUG - Read 10413 new lines from ngrep log
+2025-10-11 21:39:53,547 - DEBUG - Total entries: 36, Matched: 0, Parsed successfully: 0
+2025-10-11 21:40:23,547 - DEBUG - Last position: 1864601
+2025-10-11 21:40:23,548 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:40:53,548 - DEBUG - Last position: 1864601
+2025-10-11 21:40:53,548 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:41:23,549 - DEBUG - Last position: 1864601
+2025-10-11 21:41:23,549 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:41:53,550 - DEBUG - Last position: 1864601
+2025-10-11 21:41:53,550 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:42:23,550 - DEBUG - Last position: 1864601
+2025-10-11 21:42:23,551 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:42:53,551 - DEBUG - Last position: 1864601
+2025-10-11 21:42:53,552 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:43:23,553 - DEBUG - Last position: 1864601
+2025-10-11 21:43:23,553 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:43:53,553 - DEBUG - Last position: 1864601
+2025-10-11 21:43:53,554 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:44:23,554 - DEBUG - Last position: 1864601
+2025-10-11 21:44:23,555 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:44:53,555 - DEBUG - Last position: 1864601
+2025-10-11 21:44:53,556 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:45:23,556 - DEBUG - Last position: 1864601
+2025-10-11 21:45:23,557 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:45:53,557 - DEBUG - Last position: 1864601
+2025-10-11 21:45:53,557 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:46:23,558 - DEBUG - Last position: 1864601
+2025-10-11 21:46:23,558 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:46:53,559 - DEBUG - Last position: 1864601
+2025-10-11 21:46:53,559 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:47:23,560 - DEBUG - Last position: 1864601
+2025-10-11 21:47:23,560 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:47:53,560 - DEBUG - Last position: 1864601
+2025-10-11 21:47:53,561 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:48:23,561 - DEBUG - Last position: 1864601
+2025-10-11 21:48:23,562 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:48:53,562 - DEBUG - Last position: 1864601
+2025-10-11 21:48:53,562 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:49:23,563 - DEBUG - Last position: 1864601
+2025-10-11 21:49:23,563 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:49:53,564 - DEBUG - Last position: 1864601
+2025-10-11 21:49:53,564 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:50:23,565 - DEBUG - Last position: 1864601
+2025-10-11 21:50:23,565 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:50:53,566 - DEBUG - Last position: 1864601
+2025-10-11 21:50:53,566 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:51:23,567 - DEBUG - Last position: 1864601
+2025-10-11 21:51:23,567 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:51:53,568 - DEBUG - Last position: 1864601
+2025-10-11 21:51:53,568 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:52:23,569 - DEBUG - Last position: 1864601
+2025-10-11 21:52:23,569 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:52:53,570 - DEBUG - Last position: 1864601
+2025-10-11 21:52:53,570 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:53:23,571 - DEBUG - Last position: 1864601
+2025-10-11 21:53:23,571 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:53:53,572 - DEBUG - Last position: 1864601
+2025-10-11 21:53:53,572 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:54:23,573 - DEBUG - Last position: 1864601
+2025-10-11 21:54:23,573 - DEBUG - Read 0 new lines from ngrep log
+2025-10-11 21:54:24,977 - INFO - ============================================================
+2025-10-11 21:54:24,977 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 21:54:24,977 - INFO - ============================================================
+2025-10-11 21:54:24,977 - INFO - Interface: eno1
+2025-10-11 21:54:24,977 - INFO - Collection interval: 30 seconds
+2025-10-11 21:54:24,977 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 21:54:24,977 - INFO - ============================================================
+2025-10-11 21:54:24,977 - INFO - Starting ngrep on eno1...
+2025-10-11 21:54:26,978 - INFO - ✓ ngrep started successfully
+2025-10-11 21:54:26,978 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 21:54:56,997 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215456'
+2025-10-11 21:55:27,024 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215527'
+2025-10-11 21:55:57,049 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215557'
+2025-10-11 21:56:27,066 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215627'
+2025-10-11 21:56:57,084 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215657'
+2025-10-11 21:57:27,104 - INFO - ✓ Inserted 12 matches into 'ngrep_20251011_215727'
+2025-10-11 21:57:57,140 - INFO - ✓ Inserted 32 matches into 'ngrep_20251011_215757'
+2025-10-11 21:58:27,166 - INFO - ✓ Inserted 8 matches into 'ngrep_20251011_215827'
+2025-10-11 21:58:57,185 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215857'
+2025-10-11 21:59:27,200 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215927'
+2025-10-11 21:59:57,223 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_215957'
+2025-10-11 22:00:27,243 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220027'
+2025-10-11 22:00:57,270 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220057'
+2025-10-11 22:01:27,289 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220127'
+2025-10-11 22:01:57,317 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220157'
+2025-10-11 22:02:57,347 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220257'
+2025-10-11 22:03:27,366 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220327'
+2025-10-11 22:03:57,385 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220357'
+2025-10-11 22:04:27,403 - INFO - ✓ Inserted 10 matches into 'ngrep_20251011_220427'
+2025-10-11 22:04:57,421 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220457'
+2025-10-11 22:05:27,447 - INFO - ✓ Inserted 7 matches into 'ngrep_20251011_220527'
+2025-10-11 22:05:57,480 - INFO - ✓ Inserted 52 matches into 'ngrep_20251011_220557'
+2025-10-11 22:06:27,512 - INFO - ✓ Inserted 36 matches into 'ngrep_20251011_220627'
+2025-10-11 22:06:57,548 - INFO - ✓ Inserted 23 matches into 'ngrep_20251011_220657'
+2025-10-11 22:07:27,571 - INFO - ✓ Inserted 8 matches into 'ngrep_20251011_220727'
+2025-10-11 22:07:57,594 - INFO - ✓ Inserted 14 matches into 'ngrep_20251011_220757'
+2025-10-11 22:08:27,613 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220827'
+2025-10-11 22:08:57,632 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220857'
+2025-10-11 22:09:27,668 - INFO - ✓ Inserted 29 matches into 'ngrep_20251011_220927'
+2025-10-11 22:09:57,690 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_220957'
+2025-10-11 22:10:27,711 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221027'
+2025-10-11 22:10:57,731 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221057'
+2025-10-11 22:11:27,754 - INFO - ✓ Inserted 5 matches into 'ngrep_20251011_221127'
+2025-10-11 22:11:57,793 - INFO - ✓ Inserted 107 matches into 'ngrep_20251011_221157'
+2025-10-11 22:12:27,815 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_221227'
+2025-10-11 22:12:57,846 - INFO - ✓ Inserted 10 matches into 'ngrep_20251011_221257'
+2025-10-11 22:13:27,877 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221327'
+2025-10-11 22:13:57,897 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221357'
+2025-10-11 22:14:27,918 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221427'
+2025-10-11 22:14:57,941 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221457'
+2025-10-11 22:15:27,960 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221527'
+2025-10-11 22:15:57,985 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221557'
+2025-10-11 22:16:28,009 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221627'
+2025-10-11 22:16:58,029 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221658'
+2025-10-11 22:17:28,062 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221728'
+2025-10-11 22:17:58,093 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221758'
+2025-10-11 22:18:58,121 - INFO - ✓ Inserted 28 matches into 'ngrep_20251011_221858'
+2025-10-11 22:19:28,147 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221928'
+2025-10-11 22:19:58,178 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_221958'
+2025-10-11 22:20:28,199 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222028'
+2025-10-11 22:20:58,226 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222058'
+2025-10-11 22:21:28,251 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222128'
+2025-10-11 22:21:58,272 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222158'
+2025-10-11 22:22:28,300 - INFO - ✓ Inserted 10 matches into 'ngrep_20251011_222228'
+2025-10-11 22:22:58,338 - INFO - ✓ Inserted 8 matches into 'ngrep_20251011_222258'
+2025-10-11 22:23:28,360 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222328'
+2025-10-11 22:23:58,391 - INFO - ✓ Inserted 3 matches into 'ngrep_20251011_222358'
+2025-10-11 22:24:28,418 - INFO - ✓ Inserted 14 matches into 'ngrep_20251011_222428'
+2025-10-11 22:24:58,455 - INFO - ✓ Inserted 17 matches into 'ngrep_20251011_222458'
+2025-10-11 22:25:28,482 - INFO - ✓ Inserted 25 matches into 'ngrep_20251011_222528'
+2025-10-11 22:25:58,512 - INFO - ✓ Inserted 22 matches into 'ngrep_20251011_222558'
+2025-10-11 22:26:28,532 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_222628'
+2025-10-11 22:26:58,556 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222658'
+2025-10-11 22:27:28,589 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222728'
+2025-10-11 22:27:58,631 - INFO - ✓ Inserted 30 matches into 'ngrep_20251011_222758'
+2025-10-11 22:28:28,664 - INFO - ✓ Inserted 20 matches into 'ngrep_20251011_222828'
+2025-10-11 22:28:58,689 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222858'
+2025-10-11 22:29:28,712 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_222928'
+2025-10-11 22:29:58,743 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_222958'
+2025-10-11 22:30:28,772 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_223028'
+2025-10-11 22:30:58,803 - INFO - ✓ Inserted 5 matches into 'ngrep_20251011_223058'
+2025-10-11 22:31:28,833 - INFO - ✓ Inserted 27 matches into 'ngrep_20251011_223128'
+2025-10-11 22:31:58,866 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_223158'
+2025-10-11 22:32:28,889 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_223228'
+2025-10-11 22:32:58,912 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_223258'
+2025-10-11 22:33:28,943 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_223328'
+2025-10-11 22:33:58,977 - INFO - ✓ Inserted 2 matches into 'ngrep_20251011_223358'
+2025-10-11 22:35:47,200 - INFO - ============================================================
+2025-10-11 22:35:47,200 - INFO - NetGuard Pro - ngrep Collector
+2025-10-11 22:35:47,201 - INFO - ============================================================
+2025-10-11 22:35:47,201 - INFO - Interface: eno1
+2025-10-11 22:35:47,201 - INFO - Collection interval: 300 seconds
+2025-10-11 22:35:47,201 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-11 22:35:47,201 - INFO - ============================================================
+2025-10-11 22:35:47,205 - INFO - Starting ngrep on eno1...
+2025-10-11 22:35:49,209 - INFO - ✓ ngrep started successfully
+2025-10-11 22:35:49,209 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-11 22:40:49,257 - INFO - ✓ Inserted 89 matches into 'ngrep_20251011_224049'
+2025-10-11 22:45:49,309 - INFO - ✓ Inserted 111 matches into 'ngrep_20251011_224549'
+2025-10-11 22:50:49,350 - INFO - ✓ Inserted 20 matches into 'ngrep_20251011_225049'
+2025-10-11 22:55:49,404 - INFO - ✓ Inserted 103 matches into 'ngrep_20251011_225549'
+2025-10-11 23:00:49,438 - INFO - ✓ Inserted 32 matches into 'ngrep_20251011_230049'
+2025-10-11 23:05:49,470 - INFO - ✓ Inserted 20 matches into 'ngrep_20251011_230549'
+2025-10-11 23:10:49,500 - INFO - ✓ Inserted 11 matches into 'ngrep_20251011_231049'
+2025-10-11 23:15:49,543 - INFO - ✓ Inserted 101 matches into 'ngrep_20251011_231549'
+2025-10-11 23:20:49,567 - INFO - ✓ Inserted 4 matches into 'ngrep_20251011_232049'
+2025-10-11 23:25:49,608 - INFO - ✓ Inserted 21 matches into 'ngrep_20251011_232549'
+2025-10-12 01:55:49,694 - INFO - ✓ Inserted 100 matches into 'ngrep_20251012_015549'
+2025-10-12 02:00:49,736 - INFO - ✓ Inserted 9 matches into 'ngrep_20251012_020049'
+2025-10-12 02:05:49,775 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_020549'
+2025-10-12 02:10:49,814 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_021049'
+2025-10-12 02:15:49,846 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_021549'
+2025-10-12 02:20:49,875 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_022049'
+2025-10-12 02:25:49,943 - INFO - ✓ Inserted 13 matches into 'ngrep_20251012_022549'
+2025-10-12 02:30:49,983 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_023049'
+2025-10-12 02:35:50,034 - INFO - ✓ Inserted 2 matches into 'ngrep_20251012_023550'
+2025-10-12 02:40:50,076 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_024050'
+2025-10-12 02:45:50,117 - INFO - ✓ Inserted 2 matches into 'ngrep_20251012_024550'
+2025-10-12 02:50:50,162 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_025050'
+2025-10-12 02:55:50,206 - INFO - ✓ Inserted 2 matches into 'ngrep_20251012_025550'
+2025-10-12 03:00:50,259 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_030050'
+2025-10-12 03:05:50,316 - INFO - ✓ Inserted 30 matches into 'ngrep_20251012_030550'
+2025-10-12 03:10:50,392 - INFO - ✓ Inserted 40 matches into 'ngrep_20251012_031050'
+2025-10-12 03:15:50,453 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_031550'
+2025-10-12 03:20:50,509 - INFO - ✓ Inserted 17 matches into 'ngrep_20251012_032050'
+2025-10-12 03:25:50,557 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_032550'
+2025-10-12 03:30:50,603 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_033050'
+2025-10-12 03:35:50,660 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_033550'
+2025-10-12 03:40:50,710 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_034050'
+2025-10-12 03:45:50,770 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_034550'
+2025-10-12 03:50:50,828 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_035050'
+2025-10-12 03:55:50,880 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_035550'
+2025-10-12 04:00:50,954 - INFO - ✓ Inserted 33 matches into 'ngrep_20251012_040050'
+2025-10-12 04:05:51,004 - INFO - ✓ Inserted 2 matches into 'ngrep_20251012_040550'
+2025-10-12 04:10:51,058 - INFO - ✓ Inserted 2 matches into 'ngrep_20251012_041051'
+2025-10-12 04:15:51,113 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_041551'
+2025-10-12 04:20:51,222 - INFO - ✓ Inserted 54 matches into 'ngrep_20251012_042051'
+2025-10-12 04:25:51,331 - INFO - ✓ Inserted 101 matches into 'ngrep_20251012_042551'
+2025-10-12 04:30:51,399 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_043051'
+2025-10-12 04:35:51,470 - INFO - ✓ Inserted 8 matches into 'ngrep_20251012_043551'
+2025-10-12 04:40:51,558 - INFO - ✓ Inserted 36 matches into 'ngrep_20251012_044051'
+2025-10-12 04:45:51,632 - INFO - ✓ Inserted 16 matches into 'ngrep_20251012_044551'
+2025-10-12 04:50:51,723 - INFO - ✓ Inserted 33 matches into 'ngrep_20251012_045051'
+2025-10-12 04:55:51,812 - INFO - ✓ Inserted 40 matches into 'ngrep_20251012_045551'
+2025-10-12 16:24:02,123 - INFO - ============================================================
+2025-10-12 16:24:02,124 - INFO - NetGuard Pro - ngrep Collector
+2025-10-12 16:24:02,124 - INFO - ============================================================
+2025-10-12 16:24:02,124 - INFO - Interface: eno1
+2025-10-12 16:24:02,124 - INFO - Collection interval: 300 seconds
+2025-10-12 16:24:02,124 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-12 16:24:02,125 - INFO - ============================================================
+2025-10-12 16:24:02,125 - INFO - Starting ngrep on eno1...
+2025-10-12 16:24:04,128 - INFO - ✓ ngrep started successfully
+2025-10-12 16:24:04,128 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-12 21:44:04,192 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_214404'
+2025-10-12 23:09:04,354 - INFO - ✓ Inserted 24 matches into 'ngrep_20251012_230904'
+2025-10-12 23:14:04,382 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_231404'
+2025-10-12 23:19:04,413 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_231904'
+2025-10-12 23:24:04,442 - INFO - ✓ Inserted 3 matches into 'ngrep_20251012_232404'
+2025-10-12 23:29:04,495 - INFO - ✓ Inserted 53 matches into 'ngrep_20251012_232904'
+2025-10-12 23:34:04,533 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_233404'
+2025-10-12 23:39:04,576 - INFO - ✓ Inserted 17 matches into 'ngrep_20251012_233904'
+2025-10-12 23:44:04,619 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_234404'
+2025-10-12 23:49:04,649 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_234904'
+2025-10-12 23:54:04,685 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_235404'
+2025-10-12 23:59:04,716 - INFO - ✓ Inserted 4 matches into 'ngrep_20251012_235904'
+2025-10-13 00:04:04,743 - INFO - ✓ Inserted 2 matches into 'ngrep_20251013_000404'
+2025-10-13 00:14:04,798 - INFO - ✓ Inserted 4 matches into 'ngrep_20251013_001404'
+2025-10-13 00:19:04,837 - INFO - ✓ Inserted 4 matches into 'ngrep_20251013_001904'
+2025-10-13 00:24:04,874 - INFO - ✓ Inserted 24 matches into 'ngrep_20251013_002404'
+2025-10-13 00:29:04,913 - INFO - ✓ Inserted 7 matches into 'ngrep_20251013_002904'
+2025-10-13 00:34:04,943 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_003404'
+2025-10-13 00:49:04,984 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_004904'
+2025-10-13 01:34:05,107 - INFO - ✓ Inserted 88 matches into 'ngrep_20251013_013405'
+2025-10-13 01:39:05,155 - INFO - ✓ Inserted 38 matches into 'ngrep_20251013_013905'
+2025-10-13 01:49:05,203 - INFO - ✓ Inserted 22 matches into 'ngrep_20251013_014905'
+2025-10-13 01:54:05,240 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_015405'
+2025-10-13 01:59:05,276 - INFO - ✓ Inserted 25 matches into 'ngrep_20251013_015905'
+2025-10-13 02:04:05,291 - INFO - ✓ Inserted 12 matches into 'ngrep_20251013_020405'
+2025-10-13 02:19:05,348 - INFO - ✓ Inserted 10 matches into 'ngrep_20251013_021905'
+2025-10-13 02:24:05,370 - INFO - ✓ Inserted 28 matches into 'ngrep_20251013_022405'
+2025-10-13 02:29:05,389 - INFO - ✓ Inserted 8 matches into 'ngrep_20251013_022905'
+2025-10-13 02:34:05,406 - INFO - ✓ Inserted 4 matches into 'ngrep_20251013_023405'
+2025-10-13 02:39:05,425 - INFO - ✓ Inserted 18 matches into 'ngrep_20251013_023905'
+2025-10-13 02:49:05,471 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_024905'
+2025-10-13 03:12:49,662 - INFO - ============================================================
+2025-10-13 03:12:49,662 - INFO - NetGuard Pro - ngrep Collector
+2025-10-13 03:12:49,662 - INFO - ============================================================
+2025-10-13 03:12:49,662 - INFO - Interface: eno1
+2025-10-13 03:12:49,662 - INFO - Collection interval: 300 seconds
+2025-10-13 03:12:49,662 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-13 03:12:49,662 - INFO - ============================================================
+2025-10-13 03:12:49,687 - INFO - Starting ngrep on eno1...
+2025-10-13 03:12:51,688 - INFO - ✓ ngrep started successfully
+2025-10-13 03:12:51,688 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-13 03:19:13,524 - INFO - ============================================================
+2025-10-13 03:19:13,525 - INFO - NetGuard Pro - ngrep Collector
+2025-10-13 03:19:13,525 - INFO - ============================================================
+2025-10-13 03:19:13,525 - INFO - Interface: eno1
+2025-10-13 03:19:13,525 - INFO - Collection interval: 300 seconds
+2025-10-13 03:19:13,525 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-13 03:19:13,525 - INFO - ============================================================
+2025-10-13 03:19:13,526 - INFO - Starting ngrep on eno1...
+2025-10-13 03:19:15,527 - INFO - ✓ ngrep started successfully
+2025-10-13 03:19:15,527 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-13 03:39:15,606 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_033915'
+2025-10-13 03:54:15,668 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_035415'
+2025-10-13 03:59:15,700 - INFO - ✓ Inserted 2 matches into 'ngrep_20251013_035915'
+2025-10-13 18:21:28,116 - INFO - ============================================================
+2025-10-13 18:21:28,117 - INFO - NetGuard Pro - ngrep Collector
+2025-10-13 18:21:28,117 - INFO - ============================================================
+2025-10-13 18:21:28,117 - INFO - Interface: eno1
+2025-10-13 18:21:28,117 - INFO - Collection interval: 300 seconds
+2025-10-13 18:21:28,117 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-13 18:21:28,117 - INFO - ============================================================
+2025-10-13 18:21:28,121 - INFO - Starting ngrep on eno1...
+2025-10-13 18:21:30,134 - INFO - ✓ ngrep started successfully
+2025-10-13 18:21:30,134 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-13 18:36:30,179 - INFO - ✓ Inserted 26 matches into 'ngrep_20251013_183630'
+2025-10-13 18:41:30,207 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_184130'
+2025-10-13 18:46:30,242 - INFO - ✓ Inserted 22 matches into 'ngrep_20251013_184630'
+2025-10-13 18:51:30,284 - INFO - ✓ Inserted 22 matches into 'ngrep_20251013_185130'
+2025-10-13 18:56:30,321 - INFO - ✓ Inserted 22 matches into 'ngrep_20251013_185630'
+2025-10-13 19:01:30,356 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_190130'
+2025-10-13 19:06:30,398 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_190630'
+2025-10-13 19:11:30,432 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_191130'
+2025-10-13 19:16:30,466 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_191630'
+2025-10-13 19:21:30,496 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_192130'
+2025-10-13 19:26:30,532 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_192630'
+2025-10-13 19:31:30,573 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_193130'
+2025-10-13 19:36:30,606 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_193630'
+2025-10-13 19:41:30,637 - INFO - ✓ Inserted 18 matches into 'ngrep_20251013_194130'
+2025-10-13 19:46:30,679 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_194630'
+2025-10-13 19:51:30,712 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_195130'
+2025-10-13 19:56:30,750 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_195630'
+2025-10-13 20:01:30,780 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_200130'
+2025-10-13 20:06:30,804 - INFO - ✓ Inserted 20 matches into 'ngrep_20251013_200630'
+2025-10-13 20:11:30,822 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_201130'
+2025-10-13 20:16:30,840 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_201630'
+2025-10-13 20:21:30,857 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_202130'
+2025-10-13 20:26:30,880 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_202630'
+2025-10-13 20:31:30,898 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_203130'
+2025-10-13 20:36:30,923 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_203630'
+2025-10-13 20:41:30,948 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_204130'
+2025-10-13 22:57:54,921 - INFO - ============================================================
+2025-10-13 22:57:54,923 - INFO - NetGuard Pro - ngrep Collector
+2025-10-13 22:57:54,923 - INFO - ============================================================
+2025-10-13 22:57:54,923 - INFO - Interface: eno1
+2025-10-13 22:57:54,923 - INFO - Collection interval: 300 seconds
+2025-10-13 22:57:54,923 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-13 22:57:54,923 - INFO - ============================================================
+2025-10-13 22:57:54,924 - INFO - Starting ngrep on eno1...
+2025-10-13 22:57:56,927 - INFO - ✓ ngrep started successfully
+2025-10-13 22:57:56,927 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-13 23:02:56,949 - INFO - ✓ Inserted 1 matches into 'ngrep_20251013_230256'
+2025-10-13 23:27:57,008 - INFO - ✓ Inserted 4 matches into 'ngrep_20251013_232756'
+2025-10-13 23:32:57,031 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_233257'
+2025-10-13 23:37:57,049 - INFO - ✓ Inserted 3 matches into 'ngrep_20251013_233757'
+2025-10-13 23:42:57,067 - INFO - ✓ Inserted 3 matches into 'ngrep_20251013_234257'
+2025-10-13 23:47:57,087 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_234757'
+2025-10-13 23:52:57,116 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_235257'
+2025-10-13 23:57:57,137 - INFO - ✓ Inserted 6 matches into 'ngrep_20251013_235757'
+2025-10-14 00:02:57,166 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_000257'
+2025-10-14 00:07:57,194 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_000757'
+2025-10-14 00:12:57,218 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_001257'
+2025-10-14 00:17:57,239 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_001757'
+2025-10-14 00:22:57,267 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_002257'
+2025-10-14 00:27:57,286 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_002757'
+2025-10-14 00:32:57,312 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_003257'
+2025-10-14 02:07:57,377 - INFO - ✓ Inserted 26 matches into 'ngrep_20251014_020757'
+2025-10-14 02:12:57,425 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_021257'
+2025-10-14 02:17:57,470 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_021757'
+2025-10-14 02:22:57,523 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_022257'
+2025-10-14 02:27:57,577 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_022757'
+2025-10-14 02:32:57,614 - INFO - ✓ Inserted 32 matches into 'ngrep_20251014_023257'
+2025-10-14 16:02:42,245 - INFO - ============================================================
+2025-10-14 16:02:42,249 - INFO - NetGuard Pro - ngrep Collector
+2025-10-14 16:02:42,249 - INFO - ============================================================
+2025-10-14 16:02:42,249 - INFO - Interface: eno1
+2025-10-14 16:02:42,249 - INFO - Collection interval: 300 seconds
+2025-10-14 16:02:42,249 - INFO - Patterns: GET, POST, password, pwd, login, user
+2025-10-14 16:02:42,249 - INFO - ============================================================
+2025-10-14 16:02:42,249 - INFO - Starting ngrep on eno1...
+2025-10-14 16:02:44,256 - INFO - ✓ ngrep started successfully
+2025-10-14 16:02:44,256 - INFO - ✓ Writing to: /home/jarvis/NetGuard/captures/ngrep/ngrep.log
+2025-10-14 17:12:44,322 - INFO - ✓ Inserted 16 matches into 'ngrep_20251014_171244'
+2025-10-14 17:17:44,343 - INFO - ✓ Inserted 1 matches into 'ngrep_20251014_171744'
+2025-10-14 17:22:44,360 - INFO - ✓ Inserted 1 matches into 'ngrep_20251014_172244'
+2025-10-14 17:32:44,388 - INFO - ✓ Inserted 1 matches into 'ngrep_20251014_173244'
+2025-10-14 17:42:44,414 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_174244'
+2025-10-14 17:47:44,436 - INFO - ✓ Inserted 3 matches into 'ngrep_20251014_174744'
+2025-10-14 17:52:44,457 - INFO - ✓ Inserted 3 matches into 'ngrep_20251014_175244'
+2025-10-14 17:57:44,470 - INFO - ✓ Inserted 7 matches into 'ngrep_20251014_175744'
+2025-10-14 18:02:44,483 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_180244'
+2025-10-14 18:07:44,496 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_180744'
+2025-10-14 18:12:44,508 - INFO - ✓ Inserted 3 matches into 'ngrep_20251014_181244'
+2025-10-14 18:27:44,958 - INFO - ✓ Inserted 1 matches into 'ngrep_20251014_182744'
+2025-10-14 18:47:45,021 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_184745'
+2025-10-14 18:52:45,048 - INFO - ✓ Inserted 18 matches into 'ngrep_20251014_185245'
+2025-10-14 18:57:45,073 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_185745'
+2025-10-14 19:02:45,093 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_190245'
+2025-10-14 19:07:45,133 - INFO - ✓ Inserted 26 matches into 'ngrep_20251014_190745'
+2025-10-14 19:12:45,150 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_191245'
+2025-10-14 19:17:45,177 - INFO - ✓ Inserted 14 matches into 'ngrep_20251014_191745'
+2025-10-14 19:22:45,201 - INFO - ✓ Inserted 30 matches into 'ngrep_20251014_192245'
+2025-10-14 19:27:45,228 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_192745'
+2025-10-14 19:32:45,253 - INFO - ✓ Inserted 4 matches into 'ngrep_20251014_193245'
+2025-10-14 19:42:45,286 - INFO - ✓ Inserted 1 matches into 'ngrep_20251014_194245'
+2025-10-14 19:52:45,322 - INFO - ✓ Inserted 27 matches into 'ngrep_20251014_195245'
+2025-10-14 19:57:45,339 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_195745'
+2025-10-14 20:02:45,358 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_200245'
+2025-10-14 20:07:45,380 - INFO - ✓ Inserted 27 matches into 'ngrep_20251014_200745'
+2025-10-14 20:12:45,414 - INFO - ✓ Inserted 19 matches into 'ngrep_20251014_201245'
+2025-10-14 20:17:45,444 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_201745'
+2025-10-14 20:22:45,470 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_202245'
+2025-10-14 20:27:45,502 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_202745'
+2025-10-14 20:32:45,531 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_203245'
+2025-10-14 20:37:45,566 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_203745'
+2025-10-14 20:42:45,613 - INFO - ✓ Inserted 57 matches into 'ngrep_20251014_204245'
+2025-10-14 20:47:45,643 - INFO - ✓ Inserted 20 matches into 'ngrep_20251014_204745'
+2025-10-14 20:52:45,680 - INFO - ✓ Inserted 22 matches into 'ngrep_20251014_205245'
+2025-10-14 20:57:45,717 - INFO - ✓ Inserted 22 matches into 'ngrep_20251014_205745'
+2025-10-14 21:02:45,750 - INFO - ✓ Inserted 24 matches into 'ngrep_20251014_210245'
+2025-10-14 21:07:45,779 - INFO - ✓ Inserted 24 matches into 'ngrep_20251014_210745'
+2025-10-14 21:12:45,816 - INFO - ✓ Inserted 24 matches into 'ngrep_20251014_211245'
+2025-10-14 21:17:45,846 - INFO - ✓ Inserted 23 matches into 'ngrep_20251014_211745'
+2025-10-14 21:22:45,894 - INFO - ✓ Inserted 84 matches into 'ngrep_20251014_212245'
+2025-10-14 21:27:45,944 - INFO - ✓ Inserted 40 matches into 'ngrep_20251014_212745'
+2025-10-14 21:32:46,044 - INFO - ✓ Inserted 185 matches into 'ngrep_20251014_213246'
+2025-10-14 21:37:46,119 - INFO - ✓ Inserted 193 matches into 'ngrep_20251014_213746'
+2025-10-14 21:42:46,172 - INFO - ✓ Inserted 72 matches into 'ngrep_20251014_214246'
+2025-10-14 21:47:46,218 - INFO - ✓ Inserted 101 matches into 'ngrep_20251014_214746'
+2025-10-14 21:52:46,279 - INFO - ✓ Inserted 68 matches into 'ngrep_20251014_215246'
+2025-10-14 21:57:46,341 - INFO - ✓ Inserted 104 matches into 'ngrep_20251014_215746'
+2025-10-14 22:02:46,393 - INFO - ✓ Inserted 75 matches into 'ngrep_20251014_220246'
+2025-10-14 22:07:46,428 - INFO - ✓ Inserted 31 matches into 'ngrep_20251014_220746'
+2025-10-14 22:12:46,484 - INFO - ✓ Inserted 117 matches into 'ngrep_20251014_221246'
+2025-10-14 22:17:46,537 - INFO - ✓ Inserted 78 matches into 'ngrep_20251014_221746'
+2025-10-14 22:22:46,594 - INFO - ✓ Inserted 78 matches into 'ngrep_20251014_222246'
+2025-10-14 22:27:46,646 - INFO - ✓ Inserted 80 matches into 'ngrep_20251014_222746'
+2025-10-14 22:32:46,699 - INFO - ✓ Inserted 42 matches into 'ngrep_20251014_223246'
+2025-10-14 22:37:46,756 - INFO - ✓ Inserted 60 matches into 'ngrep_20251014_223746'
+2025-10-14 22:42:46,816 - INFO - ✓ Inserted 70 matches into 'ngrep_20251014_224246'
+2025-10-14 22:47:46,869 - INFO - ✓ Inserted 96 matches into 'ngrep_20251014_224746'
+2025-10-14 22:52:46,929 - INFO - ✓ Inserted 99 matches into 'ngrep_20251014_225246'
+2025-10-14 22:57:46,989 - INFO - ✓ Inserted 60 matches into 'ngrep_20251014_225746'
+2025-10-14 23:02:47,056 - INFO - ✓ Inserted 60 matches into 'ngrep_20251014_230247'
+2025-10-14 23:07:47,131 - INFO - ✓ Inserted 170 matches into 'ngrep_20251014_230747'
+2025-10-14 23:12:47,182 - INFO - ✓ Inserted 61 matches into 'ngrep_20251014_231247'
+2025-10-14 23:17:47,233 - INFO - ✓ Inserted 71 matches into 'ngrep_20251014_231747'
+2025-10-14 23:22:47,265 - INFO - ✓ Inserted 19 matches into 'ngrep_20251014_232247'
+2025-10-14 23:27:47,302 - INFO - ✓ Inserted 55 matches into 'ngrep_20251014_232747'
+2025-10-14 23:32:47,324 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_233247'
+2025-10-14 23:37:47,354 - INFO - ✓ Inserted 15 matches into 'ngrep_20251014_233747'
+2025-10-14 23:42:47,384 - INFO - ✓ Inserted 4 matches into 'ngrep_20251014_234247'
+2025-10-14 23:47:47,415 - INFO - ✓ Inserted 6 matches into 'ngrep_20251014_234747'
+2025-10-14 23:52:47,435 - INFO - ✓ Inserted 9 matches into 'ngrep_20251014_235247'
+2025-10-14 23:57:47,453 - INFO - ✓ Inserted 2 matches into 'ngrep_20251014_235747'
+2025-10-15 00:07:47,512 - INFO - ✓ Inserted 28 matches into 'ngrep_20251015_000747'
+2025-10-15 00:12:47,560 - INFO - ✓ Inserted 32 matches into 'ngrep_20251015_001247'
+2025-10-15 00:17:47,598 - INFO - ✓ Inserted 40 matches into 'ngrep_20251015_001747'
+2025-10-15 00:22:47,625 - INFO - ✓ Inserted 40 matches into 'ngrep_20251015_002247'
+2025-10-15 00:27:47,669 - INFO - ✓ Inserted 40 matches into 'ngrep_20251015_002747'
+2025-10-15 00:32:47,701 - INFO - ✓ Inserted 8 matches into 'ngrep_20251015_003247'
+2025-10-15 00:37:47,728 - INFO - ✓ Inserted 2 matches into 'ngrep_20251015_003747'
+2025-10-15 00:42:47,749 - INFO - ✓ Inserted 9 matches into 'ngrep_20251015_004247'
+2025-10-15 00:47:47,783 - INFO - ✓ Inserted 9 matches into 'ngrep_20251015_004747'
+2025-10-15 00:52:47,815 - INFO - ✓ Inserted 44 matches into 'ngrep_20251015_005247'

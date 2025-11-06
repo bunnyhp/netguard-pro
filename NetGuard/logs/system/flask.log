@@ -1,0 +1,232 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.161:8080
+Press CTRL+C to quit
+192.168.1.94 - - [13/Oct/2025 01:34:15] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:16] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:16] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:16] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:16] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:17] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:17] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:17] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:17] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:18] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:18] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:18] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:18] "GET /help HTTP/1.1" 200 -
+[2025-10-13 01:34:20,623] ERROR in app: Exception on /alerts [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/NetGuard/web/app.py", line 858, in alerts_dashboard
+    cursor.execute("""
+sqlite3.OperationalError: no such table: security_alerts
+192.168.1.94 - - [13/Oct/2025 01:34:20] "GET /alerts HTTP/1.1" 500 -
+192.168.1.94 - - [13/Oct/2025 01:34:23] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:23] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:23] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:23] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:23] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:24] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:24] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:28] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:34:49] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:03] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:04] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:07] "GET /network-topology HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:16] "GET /suricata HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:20] "GET /analysis HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:35:25] "GET /ai-dashboard HTTP/1.1" 200 -
+[2025-10-13 01:35:54,830] ERROR in app: Exception on /alerts [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/NetGuard/web/app.py", line 858, in alerts_dashboard
+    cursor.execute("""
+sqlite3.OperationalError: no such table: security_alerts
+192.168.1.94 - - [13/Oct/2025 01:35:54] "GET /alerts HTTP/1.1" 500 -
+192.168.1.94 - - [13/Oct/2025 01:35:59] "GET /iot-devices HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:36:04] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:36:23] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:37:55] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:37:57] "GET /network-topology HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:02] "GET /suricata HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:04] "GET /analysis HTTP/1.1" 200 -
+[2025-10-13 01:38:07,595] ERROR in app: Exception on /alerts [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/NetGuard/web/app.py", line 858, in alerts_dashboard
+    cursor.execute("""
+sqlite3.OperationalError: no such table: security_alerts
+192.168.1.94 - - [13/Oct/2025 01:38:07] "GET /alerts HTTP/1.1" 500 -
+192.168.1.94 - - [13/Oct/2025 01:38:09] "GET /iot-devices HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:15] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:36] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:37] "GET /iot-devices HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:39] "GET /analysis HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:40] "GET /suricata HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:41] "GET /network-topology HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:38:44] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:14] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:29] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:29] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:29] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:30] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:30] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:30] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:52] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:52] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:52] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:52] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:53] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:53] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:53] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:53] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:54] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:54] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:54] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:55] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:56] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:57] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:58] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:40:59] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:00] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:02] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:03] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.94 - - [13/Oct/2025 01:41:10] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:10] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:41:10] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:47:41] "GET / HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:47:42] "GET / HTTP/1.1" 200 -
+[2025-10-13 01:47:46,103] ERROR in app: Exception on /alerts [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/NetGuard/web/app.py", line 858, in alerts_dashboard
+    cursor.execute("""
+sqlite3.OperationalError: no such table: security_alerts
+192.168.1.94 - - [13/Oct/2025 01:47:46] "GET /alerts HTTP/1.1" 500 -
+192.168.1.94 - - [13/Oct/2025 01:47:48] "GET /iot-devices HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:47:58] "GET /help HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:48:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:49:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:50:01] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:50:25] "GET /ai-dashboard HTTP/1.1" 200 -
+192.168.1.94 - - [13/Oct/2025 01:51:25] "GET /ai-dashboard HTTP/1.1" 200 -

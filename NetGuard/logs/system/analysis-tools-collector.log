@@ -1,0 +1,1184 @@
+2025-10-10 21:47:47,675 - INFO - ======================================================================
+2025-10-10 21:47:47,675 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-10 21:47:47,675 - INFO - ======================================================================
+2025-10-10 21:47:47,675 - INFO - Managing 8 analysis tool collectors:
+2025-10-10 21:47:47,676 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-10 21:47:47,676 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-10 21:47:47,676 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-10 21:47:47,676 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-10 21:47:47,676 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-10 21:47:47,676 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-10 21:47:47,676 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-10 21:47:47,676 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-10 21:47:47,676 - INFO - Check interval: 30 seconds
+2025-10-10 21:47:47,676 - INFO - ======================================================================
+2025-10-10 21:47:47,676 - INFO - 
+Starting all collectors...
+
+2025-10-10 21:47:47,676 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-10 21:47:49,677 - INFO - ✓ tshark started successfully (PID: 39088)
+2025-10-10 21:47:50,678 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-10 21:47:52,682 - INFO - ✓ p0f started successfully (PID: 39128)
+2025-10-10 21:47:53,683 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:47:55,686 - INFO - ✓ argus started successfully (PID: 39189)
+2025-10-10 21:47:56,687 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-10 21:47:58,690 - INFO - ✓ ngrep started successfully (PID: 39201)
+2025-10-10 21:47:59,691 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-10 21:48:01,694 - INFO - ✓ netsniff started successfully (PID: 39218)
+2025-10-10 21:48:02,695 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:48:04,699 - INFO - ✓ httpry started successfully (PID: 39229)
+2025-10-10 21:48:05,699 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-10 21:48:07,703 - INFO - ✓ iftop started successfully (PID: 39245)
+2025-10-10 21:48:08,704 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-10 21:48:10,707 - INFO - ✓ nethogs started successfully (PID: 39257)
+2025-10-10 21:48:11,708 - INFO - 
+Initial status: 6 running, 2 stopped
+
+2025-10-10 21:48:11,708 - INFO - ======================================================================
+2025-10-10 21:48:11,708 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-10 21:48:11,708 - INFO - ======================================================================
+
+2025-10-10 21:48:41,709 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:48:41,709 - INFO - Restarting argus...
+2025-10-10 21:48:41,709 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:48:43,713 - INFO - ✓ argus started successfully (PID: 39428)
+2025-10-10 21:48:43,713 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:48:43,713 - INFO - Restarting httpry...
+2025-10-10 21:48:43,714 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:48:45,717 - INFO - ✓ httpry started successfully (PID: 39440)
+2025-10-10 21:49:15,718 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:49:15,718 - INFO - Restarting argus...
+2025-10-10 21:49:15,718 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:49:17,722 - INFO - ✓ argus started successfully (PID: 39612)
+2025-10-10 21:49:17,722 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:49:17,723 - INFO - Restarting httpry...
+2025-10-10 21:49:17,723 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:49:19,726 - INFO - ✓ httpry started successfully (PID: 39624)
+2025-10-10 21:49:49,727 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:49:49,727 - INFO - Restarting argus...
+2025-10-10 21:49:49,728 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:49:51,731 - INFO - ✓ argus started successfully (PID: 39926)
+2025-10-10 21:49:51,731 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:49:51,731 - INFO - Restarting httpry...
+2025-10-10 21:49:51,731 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:49:53,733 - INFO - ✓ httpry started successfully (PID: 39940)
+2025-10-10 21:50:23,734 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:50:23,734 - INFO - Restarting argus...
+2025-10-10 21:50:23,734 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:50:25,738 - INFO - ✓ argus started successfully (PID: 40065)
+2025-10-10 21:50:25,739 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:50:25,739 - INFO - Restarting httpry...
+2025-10-10 21:50:25,739 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:50:27,743 - INFO - ✓ httpry started successfully (PID: 40077)
+2025-10-10 21:50:57,744 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:50:57,744 - INFO - Restarting argus...
+2025-10-10 21:50:57,744 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:50:59,747 - INFO - ✓ argus started successfully (PID: 40253)
+2025-10-10 21:50:59,748 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:50:59,748 - INFO - Restarting httpry...
+2025-10-10 21:50:59,748 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:51:01,751 - INFO - ✓ httpry started successfully (PID: 40266)
+2025-10-10 21:51:31,752 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:51:31,752 - INFO - Restarting argus...
+2025-10-10 21:51:31,752 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:51:33,756 - INFO - ✓ argus started successfully (PID: 40410)
+2025-10-10 21:51:33,757 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:51:33,757 - INFO - Restarting httpry...
+2025-10-10 21:51:33,757 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:51:35,760 - INFO - ✓ httpry started successfully (PID: 40422)
+2025-10-10 21:52:05,761 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:52:05,762 - INFO - Restarting argus...
+2025-10-10 21:52:05,762 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:52:07,765 - INFO - ✓ argus started successfully (PID: 40588)
+2025-10-10 21:52:07,766 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:52:07,766 - INFO - Restarting httpry...
+2025-10-10 21:52:07,766 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:52:09,770 - INFO - ✓ httpry started successfully (PID: 40600)
+2025-10-10 21:52:39,770 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:52:39,771 - INFO - Restarting argus...
+2025-10-10 21:52:39,771 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:52:41,774 - INFO - ✓ argus started successfully (PID: 40771)
+2025-10-10 21:52:41,775 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:52:41,775 - INFO - Restarting httpry...
+2025-10-10 21:52:41,775 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:52:43,779 - INFO - ✓ httpry started successfully (PID: 40783)
+2025-10-10 21:53:13,780 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:53:13,780 - INFO - Restarting argus...
+2025-10-10 21:53:13,780 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:53:15,784 - INFO - ✓ argus started successfully (PID: 40902)
+2025-10-10 21:53:15,784 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:53:15,785 - INFO - Restarting httpry...
+2025-10-10 21:53:15,785 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:53:17,788 - INFO - ✓ httpry started successfully (PID: 40914)
+2025-10-10 21:53:47,789 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:53:47,789 - INFO - Restarting argus...
+2025-10-10 21:53:47,790 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:53:49,793 - INFO - ✓ argus started successfully (PID: 41116)
+2025-10-10 21:53:49,794 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:53:49,794 - INFO - Restarting httpry...
+2025-10-10 21:53:49,794 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:53:51,797 - INFO - ✓ httpry started successfully (PID: 41129)
+2025-10-10 21:53:51,798 - INFO - Status check: 7 running, 1 stopped
+2025-10-10 21:54:21,799 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:54:21,799 - INFO - Restarting argus...
+2025-10-10 21:54:21,799 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:54:23,803 - INFO - ✓ argus started successfully (PID: 41246)
+2025-10-10 21:54:23,803 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:54:23,803 - INFO - Restarting httpry...
+2025-10-10 21:54:23,804 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:54:25,807 - INFO - ✓ httpry started successfully (PID: 41258)
+2025-10-10 21:54:55,808 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:54:55,808 - INFO - Restarting argus...
+2025-10-10 21:54:55,808 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:54:57,810 - INFO - ✓ argus started successfully (PID: 41430)
+2025-10-10 21:54:57,811 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:54:57,811 - INFO - Restarting httpry...
+2025-10-10 21:54:57,811 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:54:59,814 - INFO - ✓ httpry started successfully (PID: 41442)
+2025-10-10 21:55:29,815 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:55:29,816 - INFO - Restarting argus...
+2025-10-10 21:55:29,816 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:55:31,819 - INFO - ✓ argus started successfully (PID: 41584)
+2025-10-10 21:55:31,820 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:55:31,820 - INFO - Restarting httpry...
+2025-10-10 21:55:31,820 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:55:33,824 - INFO - ✓ httpry started successfully (PID: 41596)
+2025-10-10 21:56:03,825 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:56:03,825 - INFO - Restarting argus...
+2025-10-10 21:56:03,826 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:56:05,829 - INFO - ✓ argus started successfully (PID: 41769)
+2025-10-10 21:56:05,830 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:56:05,830 - INFO - Restarting httpry...
+2025-10-10 21:56:05,831 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:56:07,834 - INFO - ✓ httpry started successfully (PID: 41781)
+2025-10-10 21:56:37,834 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:56:37,835 - INFO - Restarting argus...
+2025-10-10 21:56:37,835 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:56:39,839 - INFO - ✓ argus started successfully (PID: 41900)
+2025-10-10 21:56:39,839 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:56:39,839 - INFO - Restarting httpry...
+2025-10-10 21:56:39,840 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:56:41,842 - INFO - ✓ httpry started successfully (PID: 41966)
+2025-10-10 21:57:11,843 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:57:11,843 - INFO - Restarting argus...
+2025-10-10 21:57:11,844 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:57:13,848 - INFO - ✓ argus started successfully (PID: 42111)
+2025-10-10 21:57:13,848 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:57:13,849 - INFO - Restarting httpry...
+2025-10-10 21:57:13,849 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:57:15,852 - INFO - ✓ httpry started successfully (PID: 42123)
+2025-10-10 21:57:45,853 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:57:45,854 - INFO - Restarting argus...
+2025-10-10 21:57:45,854 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:57:47,857 - INFO - ✓ argus started successfully (PID: 42298)
+2025-10-10 21:57:47,858 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:57:47,858 - INFO - Restarting httpry...
+2025-10-10 21:57:47,858 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:57:49,862 - INFO - ✓ httpry started successfully (PID: 42310)
+2025-10-10 21:58:19,863 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:58:19,863 - INFO - Restarting argus...
+2025-10-10 21:58:19,863 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:58:21,866 - INFO - ✓ argus started successfully (PID: 42432)
+2025-10-10 21:58:21,867 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:58:21,867 - INFO - Restarting httpry...
+2025-10-10 21:58:21,868 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:58:23,871 - INFO - ✓ httpry started successfully (PID: 42444)
+2025-10-10 21:58:53,872 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:58:53,872 - INFO - Restarting argus...
+2025-10-10 21:58:53,872 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:58:55,873 - INFO - ✓ argus started successfully (PID: 42643)
+2025-10-10 21:58:55,874 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:58:55,874 - INFO - Restarting httpry...
+2025-10-10 21:58:55,875 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:58:57,878 - INFO - ✓ httpry started successfully (PID: 42655)
+2025-10-10 21:59:27,879 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 21:59:27,879 - INFO - Restarting argus...
+2025-10-10 21:59:27,879 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 21:59:29,880 - INFO - ✓ argus started successfully (PID: 42767)
+2025-10-10 21:59:29,881 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 21:59:29,881 - INFO - Restarting httpry...
+2025-10-10 21:59:29,881 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 21:59:31,884 - INFO - ✓ httpry started successfully (PID: 42780)
+2025-10-10 21:59:31,885 - INFO - Status check: 7 running, 1 stopped
+2025-10-10 22:00:01,885 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 22:00:01,886 - INFO - Restarting argus...
+2025-10-10 22:00:01,886 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 22:00:03,889 - INFO - ✓ argus started successfully (PID: 42955)
+2025-10-10 22:00:03,890 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 22:00:03,890 - INFO - Restarting httpry...
+2025-10-10 22:00:03,890 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 22:00:05,893 - INFO - ✓ httpry started successfully (PID: 42967)
+2025-10-10 22:00:35,894 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 22:00:35,895 - INFO - Restarting argus...
+2025-10-10 22:00:35,895 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 22:00:37,898 - INFO - ✓ argus started successfully (PID: 43096)
+2025-10-10 22:00:37,899 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 22:00:37,899 - INFO - Restarting httpry...
+2025-10-10 22:00:37,899 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 22:00:39,902 - INFO - ✓ httpry started successfully (PID: 43108)
+2025-10-10 22:01:09,903 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 22:01:09,904 - INFO - Restarting argus...
+2025-10-10 22:01:09,904 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 22:01:11,907 - INFO - ✓ argus started successfully (PID: 43305)
+2025-10-10 22:01:11,908 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 22:01:11,908 - INFO - Restarting httpry...
+2025-10-10 22:01:11,908 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 22:01:13,912 - INFO - ✓ httpry started successfully (PID: 43317)
+2025-10-10 22:01:43,913 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 22:01:43,913 - INFO - Restarting argus...
+2025-10-10 22:01:43,913 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 22:01:45,916 - INFO - ✓ argus started successfully (PID: 43493)
+2025-10-10 22:01:45,917 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 22:01:45,917 - INFO - Restarting httpry...
+2025-10-10 22:01:45,918 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 22:01:47,921 - INFO - ✓ httpry started successfully (PID: 43505)
+2025-10-10 22:01:50,841 - INFO - Received signal 15, initiating graceful shutdown...
+2025-10-10 22:02:17,922 - WARNING - ⚠ tshark died (exit code: -15)
+2025-10-10 22:02:17,922 - INFO - Restarting tshark...
+2025-10-10 22:02:17,923 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-10 22:02:19,926 - INFO - ✓ tshark started successfully (PID: 43621)
+2025-10-10 22:02:19,927 - WARNING - ⚠ p0f died (exit code: -15)
+2025-10-10 22:02:19,927 - INFO - Restarting p0f...
+2025-10-10 22:02:19,928 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-10 22:02:21,931 - INFO - ✓ p0f started successfully (PID: 43663)
+2025-10-10 22:02:21,932 - WARNING - ⚠ argus died (exit code: 0)
+2025-10-10 22:02:21,932 - INFO - Restarting argus...
+2025-10-10 22:02:21,933 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-10 22:02:23,936 - INFO - ✓ argus started successfully (PID: 43674)
+2025-10-10 22:02:23,937 - WARNING - ⚠ ngrep died (exit code: -15)
+2025-10-10 22:02:23,937 - INFO - Restarting ngrep...
+2025-10-10 22:02:23,937 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-10 22:02:25,941 - INFO - ✓ ngrep started successfully (PID: 43686)
+2025-10-10 22:02:25,942 - WARNING - ⚠ netsniff died (exit code: -15)
+2025-10-10 22:02:25,942 - INFO - Restarting netsniff...
+2025-10-10 22:02:25,942 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-10 22:02:27,945 - INFO - ✓ netsniff started successfully (PID: 43696)
+2025-10-10 22:02:27,946 - WARNING - ⚠ httpry died (exit code: 0)
+2025-10-10 22:02:27,946 - INFO - Restarting httpry...
+2025-10-10 22:02:27,946 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-10 22:02:29,950 - INFO - ✓ httpry started successfully (PID: 43708)
+2025-10-10 22:02:29,951 - WARNING - ⚠ iftop died (exit code: -15)
+2025-10-10 22:02:29,951 - INFO - Restarting iftop...
+2025-10-10 22:02:29,951 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-10 22:02:31,954 - INFO - ✓ iftop started successfully (PID: 43719)
+2025-10-10 22:02:31,955 - WARNING - ⚠ nethogs died (exit code: -15)
+2025-10-10 22:02:31,955 - INFO - Restarting nethogs...
+2025-10-10 22:02:31,955 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-10 22:02:33,959 - INFO - ✓ nethogs started successfully (PID: 43731)
+2025-10-10 22:02:33,959 - INFO - 
+======================================================================
+2025-10-10 22:02:33,959 - INFO - Shutting down all collectors...
+2025-10-10 22:02:33,960 - INFO - ======================================================================
+2025-10-10 22:02:33,960 - INFO - Stopping tshark collector...
+2025-10-10 22:02:33,963 - INFO - ✓ tshark stopped gracefully
+2025-10-10 22:02:33,964 - INFO - Stopping p0f collector...
+2025-10-10 22:02:33,967 - INFO - ✓ p0f stopped gracefully
+2025-10-10 22:02:33,968 - INFO - Stopping ngrep collector...
+2025-10-10 22:02:33,971 - INFO - ✓ ngrep stopped gracefully
+2025-10-10 22:02:33,971 - INFO - Stopping netsniff collector...
+2025-10-10 22:02:33,975 - INFO - ✓ netsniff stopped gracefully
+2025-10-10 22:02:33,975 - INFO - Stopping iftop collector...
+2025-10-10 22:02:33,979 - INFO - ✓ iftop stopped gracefully
+2025-10-10 22:02:33,979 - INFO - Stopping nethogs collector...
+2025-10-10 22:02:33,980 - INFO - ✓ nethogs stopped gracefully
+2025-10-10 22:02:33,980 - INFO - 
+======================================================================
+2025-10-10 22:02:33,980 - INFO - NetGuard Pro Analysis Tools Collector - Shutdown Complete
+2025-10-10 22:02:33,980 - INFO - ======================================================================
+2025-10-11 16:17:42,009 - INFO - ======================================================================
+2025-10-11 16:17:42,010 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-11 16:17:42,010 - INFO - ======================================================================
+2025-10-11 16:17:42,010 - INFO - Managing 8 analysis tool collectors:
+2025-10-11 16:17:42,010 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-11 16:17:42,010 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-11 16:17:42,010 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-11 16:17:42,010 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-11 16:17:42,010 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-11 16:17:42,010 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-11 16:17:42,010 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-11 16:17:42,010 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-11 16:17:42,010 - INFO - Check interval: 30 seconds
+2025-10-11 16:17:42,010 - INFO - ======================================================================
+2025-10-11 16:17:42,010 - INFO - 
+Starting all collectors...
+
+2025-10-11 16:17:42,010 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-11 16:17:44,013 - INFO - ✓ tshark started successfully (PID: 1094)
+2025-10-11 16:17:45,014 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-11 16:17:47,017 - INFO - ✓ p0f started successfully (PID: 1171)
+2025-10-11 16:17:48,018 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-11 16:17:50,022 - INFO - ✓ argus started successfully (PID: 1190)
+2025-10-11 16:17:51,022 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-11 16:17:53,026 - INFO - ✓ ngrep started successfully (PID: 1239)
+2025-10-11 16:17:54,027 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-11 16:17:56,030 - INFO - ✓ netsniff started successfully (PID: 1244)
+2025-10-11 16:17:57,031 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-11 16:17:59,035 - INFO - ✓ httpry started successfully (PID: 1249)
+2025-10-11 16:18:00,035 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-11 16:18:02,039 - INFO - ✓ iftop started successfully (PID: 1256)
+2025-10-11 16:18:03,040 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-11 16:18:05,043 - INFO - ✓ nethogs started successfully (PID: 1268)
+2025-10-11 16:18:06,044 - INFO - 
+Initial status: 8 running, 0 stopped
+
+2025-10-11 16:18:06,044 - INFO - ======================================================================
+2025-10-11 16:18:06,044 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-11 16:18:06,044 - INFO - ======================================================================
+
+2025-10-11 16:23:06,188 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:28:06,191 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:33:06,193 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:38:06,196 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:43:06,198 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:48:06,200 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:53:06,203 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 16:58:06,205 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:03:06,207 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:08:06,210 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:13:06,212 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:18:06,214 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:23:06,217 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:28:06,219 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:33:06,222 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:38:06,224 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:43:06,226 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:48:06,229 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:53:06,231 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 17:58:06,233 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:03:06,235 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:08:06,238 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:13:06,240 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:18:06,243 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:23:06,245 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:24:36,246 - WARNING - ⚠ tshark died (exit code: -15)
+2025-10-11 18:24:36,247 - INFO - Restarting tshark...
+2025-10-11 18:24:36,247 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-11 18:24:38,250 - INFO - ✓ tshark started successfully (PID: 50741)
+2025-10-11 18:24:38,251 - WARNING - ⚠ p0f died (exit code: -9)
+2025-10-11 18:24:38,252 - INFO - Restarting p0f...
+2025-10-11 18:24:38,252 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-11 18:24:40,255 - INFO - ✓ p0f started successfully (PID: 50780)
+2025-10-11 18:24:40,256 - WARNING - ⚠ argus died (exit code: -9)
+2025-10-11 18:24:40,257 - INFO - Restarting argus...
+2025-10-11 18:24:40,257 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-11 18:24:42,260 - INFO - ✓ argus started successfully (PID: 50790)
+2025-10-11 18:24:42,262 - WARNING - ⚠ netsniff died (exit code: -9)
+2025-10-11 18:24:42,262 - INFO - Restarting netsniff...
+2025-10-11 18:24:42,262 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-11 18:24:44,265 - INFO - ✓ netsniff started successfully (PID: 50832)
+2025-10-11 18:24:44,266 - WARNING - ⚠ httpry died (exit code: -9)
+2025-10-11 18:24:44,266 - INFO - Restarting httpry...
+2025-10-11 18:24:44,267 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-11 18:24:46,270 - INFO - ✓ httpry started successfully (PID: 50881)
+2025-10-11 18:24:46,270 - WARNING - ⚠ iftop died (exit code: -9)
+2025-10-11 18:24:46,270 - INFO - Restarting iftop...
+2025-10-11 18:24:46,270 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-11 18:24:48,273 - INFO - ✓ iftop started successfully (PID: 50902)
+2025-10-11 18:24:48,274 - WARNING - ⚠ nethogs died (exit code: -9)
+2025-10-11 18:24:48,274 - INFO - Restarting nethogs...
+2025-10-11 18:24:48,274 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-11 18:24:50,277 - INFO - ✓ nethogs started successfully (PID: 50974)
+2025-10-11 18:28:20,280 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:33:20,282 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:38:20,285 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:43:20,287 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:48:20,290 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:53:20,292 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 18:58:20,295 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:03:20,298 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:08:20,300 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:13:20,303 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:18:20,306 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:23:20,308 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:28:20,311 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:33:20,314 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:38:20,316 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:43:20,319 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:48:20,321 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:53:20,324 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 19:58:20,327 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:03:20,329 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:08:20,332 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:13:20,334 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:18:20,337 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:23:20,339 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:28:20,342 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:33:20,345 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:38:20,347 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:43:20,350 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:48:20,353 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:53:20,355 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 20:58:20,358 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:03:20,361 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:08:20,363 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:13:20,365 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:18:20,368 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:23:20,370 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:28:20,373 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:33:20,375 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:38:20,378 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:43:20,380 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:48:20,383 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:53:20,385 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 21:58:20,388 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:03:20,391 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:08:20,393 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:13:20,395 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:18:20,398 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:23:20,401 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:28:20,403 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:33:20,406 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:38:20,408 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:43:20,411 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:48:20,413 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:53:20,416 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 22:58:20,418 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:03:20,420 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:08:20,423 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:13:20,425 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:18:20,428 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:23:20,430 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:28:20,433 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:33:20,436 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:38:20,438 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:43:20,441 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:48:20,443 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:53:20,446 - INFO - Status check: 8 running, 0 stopped
+2025-10-11 23:58:20,448 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:03:20,451 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:08:20,453 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:13:20,456 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:18:20,459 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:23:20,461 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:28:20,464 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:33:20,466 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:38:20,469 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:43:20,472 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:48:20,475 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:53:20,477 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 00:58:20,480 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:03:20,482 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:08:20,485 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:13:20,487 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:18:20,490 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:23:20,492 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:28:20,495 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:33:20,497 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:38:20,500 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:43:20,503 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:48:20,505 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:53:20,508 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 01:58:20,510 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:03:20,512 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:08:20,515 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:13:20,517 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:18:20,519 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:23:20,522 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:28:20,524 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:33:20,527 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:38:20,529 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:43:20,531 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:48:20,534 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:53:20,536 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 02:58:20,539 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:03:20,541 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:08:20,544 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:13:20,546 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:18:20,548 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:23:20,551 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:28:20,554 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:33:20,556 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:38:20,558 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:43:20,561 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:48:20,563 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:53:20,566 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 03:58:20,568 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:03:20,571 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:08:20,573 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:13:20,576 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:18:20,578 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:23:20,580 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:28:20,582 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:33:20,585 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:38:20,588 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:43:20,590 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:48:20,593 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:53:20,595 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:58:20,597 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 04:59:54,180 - INFO - Received signal 15, initiating graceful shutdown...
+2025-10-12 05:00:20,599 - WARNING - ⚠ tshark died (exit code: -15)
+2025-10-12 05:00:20,599 - INFO - Restarting tshark...
+2025-10-12 05:00:20,599 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-12 05:00:22,602 - INFO - ✓ tshark started successfully (PID: 255560)
+2025-10-12 05:00:22,603 - WARNING - ⚠ p0f died (exit code: -15)
+2025-10-12 05:00:22,604 - INFO - Restarting p0f...
+2025-10-12 05:00:22,604 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-12 05:00:24,607 - INFO - ✓ p0f started successfully (PID: 255592)
+2025-10-12 05:00:24,608 - WARNING - ⚠ argus died (exit code: -15)
+2025-10-12 05:00:24,608 - INFO - Restarting argus...
+2025-10-12 05:00:24,608 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-12 05:00:26,612 - INFO - ✓ argus started successfully (PID: 255598)
+2025-10-12 05:00:26,613 - WARNING - ⚠ ngrep died (exit code: -15)
+2025-10-12 05:00:26,613 - INFO - Restarting ngrep...
+2025-10-12 05:00:26,613 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-12 05:00:28,616 - INFO - ✓ ngrep started successfully (PID: 255631)
+2025-10-12 05:00:28,617 - WARNING - ⚠ netsniff died (exit code: -15)
+2025-10-12 05:00:28,618 - INFO - Restarting netsniff...
+2025-10-12 05:00:28,618 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-12 05:00:30,621 - INFO - ✓ netsniff started successfully (PID: 255635)
+2025-10-12 05:00:30,622 - WARNING - ⚠ httpry died (exit code: -15)
+2025-10-12 05:00:30,622 - INFO - Restarting httpry...
+2025-10-12 05:00:30,622 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-12 05:00:32,625 - INFO - ✓ httpry started successfully (PID: 255640)
+2025-10-12 05:00:32,626 - WARNING - ⚠ iftop died (exit code: -15)
+2025-10-12 05:00:32,627 - INFO - Restarting iftop...
+2025-10-12 05:00:32,627 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-12 05:00:34,630 - INFO - ✓ iftop started successfully (PID: 255644)
+2025-10-12 05:00:34,631 - WARNING - ⚠ nethogs died (exit code: -15)
+2025-10-12 05:00:34,631 - INFO - Restarting nethogs...
+2025-10-12 05:00:34,631 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-12 05:00:36,634 - INFO - ✓ nethogs started successfully (PID: 255650)
+2025-10-12 05:00:36,635 - INFO - 
+======================================================================
+2025-10-12 05:00:36,635 - INFO - Shutting down all collectors...
+2025-10-12 05:00:36,635 - INFO - ======================================================================
+2025-10-12 05:00:36,635 - INFO - Stopping tshark collector...
+2025-10-12 05:00:36,639 - INFO - ✓ tshark stopped gracefully
+2025-10-12 05:00:36,639 - INFO - Stopping p0f collector...
+2025-10-12 05:00:36,643 - INFO - ✓ p0f stopped gracefully
+2025-10-12 05:00:36,643 - INFO - Stopping argus collector...
+2025-10-12 05:00:36,646 - INFO - ✓ argus stopped gracefully
+2025-10-12 05:00:36,647 - INFO - Stopping ngrep collector...
+2025-10-12 05:00:36,650 - INFO - ✓ ngrep stopped gracefully
+2025-10-12 05:00:36,650 - INFO - Stopping netsniff collector...
+2025-10-12 05:00:36,654 - INFO - ✓ netsniff stopped gracefully
+2025-10-12 05:00:36,654 - INFO - Stopping httpry collector...
+2025-10-12 05:00:36,657 - INFO - ✓ httpry stopped gracefully
+2025-10-12 05:00:36,658 - INFO - Stopping iftop collector...
+2025-10-12 05:00:36,659 - INFO - ✓ iftop stopped gracefully
+2025-10-12 05:00:36,659 - INFO - Stopping nethogs collector...
+2025-10-12 05:00:36,663 - INFO - ✓ nethogs stopped gracefully
+2025-10-12 05:00:36,663 - INFO - 
+======================================================================
+2025-10-12 05:00:36,663 - INFO - NetGuard Pro Analysis Tools Collector - Shutdown Complete
+2025-10-12 05:00:36,663 - INFO - ======================================================================
+2025-10-12 16:22:04,010 - INFO - ======================================================================
+2025-10-12 16:22:04,011 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-12 16:22:04,011 - INFO - ======================================================================
+2025-10-12 16:22:04,011 - INFO - Managing 8 analysis tool collectors:
+2025-10-12 16:22:04,011 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-12 16:22:04,011 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-12 16:22:04,011 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-12 16:22:04,011 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-12 16:22:04,011 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-12 16:22:04,011 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-12 16:22:04,011 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-12 16:22:04,011 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-12 16:22:04,011 - INFO - Check interval: 30 seconds
+2025-10-12 16:22:04,011 - INFO - ======================================================================
+2025-10-12 16:22:04,011 - INFO - 
+Starting all collectors...
+
+2025-10-12 16:22:04,011 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-12 16:22:06,013 - INFO - ✓ tshark started successfully (PID: 1075)
+2025-10-12 16:22:07,013 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-12 16:22:09,015 - INFO - ✓ p0f started successfully (PID: 1154)
+2025-10-12 16:22:10,016 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-12 16:22:12,019 - INFO - ✓ argus started successfully (PID: 1174)
+2025-10-12 16:22:13,020 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-12 16:22:15,024 - INFO - ✓ ngrep started successfully (PID: 1221)
+2025-10-12 16:22:16,024 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-12 16:22:18,028 - INFO - ✓ netsniff started successfully (PID: 1226)
+2025-10-12 16:22:19,029 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-12 16:22:21,032 - INFO - ✓ httpry started successfully (PID: 1231)
+2025-10-12 16:22:22,033 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-12 16:22:24,037 - INFO - ✓ iftop started successfully (PID: 1238)
+2025-10-12 16:22:25,037 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-12 16:22:27,041 - INFO - ✓ nethogs started successfully (PID: 1244)
+2025-10-12 16:22:28,042 - INFO - 
+Initial status: 8 running, 0 stopped
+
+2025-10-12 16:22:28,042 - INFO - ======================================================================
+2025-10-12 16:22:28,042 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-12 16:22:28,047 - INFO - ======================================================================
+
+2025-10-12 16:27:28,326 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:32:28,329 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:37:28,331 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:42:28,334 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:47:28,336 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:52:28,339 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 16:57:28,341 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:02:28,344 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:07:28,346 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:12:28,349 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:17:28,351 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:22:28,354 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:27:28,356 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:32:28,359 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:37:28,361 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:42:28,364 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:47:28,366 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:52:28,369 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 17:57:28,371 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:02:28,373 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:07:28,376 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:12:28,378 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:17:28,380 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:22:28,383 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:27:28,386 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:32:28,388 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:37:28,391 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:42:28,393 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:47:28,395 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:52:28,398 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 18:57:28,401 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:02:28,403 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:07:28,405 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:12:28,408 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:17:28,411 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:22:28,413 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:27:28,416 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:32:28,418 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:37:28,421 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:42:28,423 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:47:28,426 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:52:28,428 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 19:57:28,431 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:02:28,433 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:07:28,436 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:12:28,438 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:17:28,440 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:22:28,443 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:27:28,446 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:32:28,448 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:37:28,450 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:42:28,453 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:47:28,455 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:52:28,457 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 20:57:28,460 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:02:28,462 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:07:28,465 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:12:28,467 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:17:28,469 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:22:28,472 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:27:28,475 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:32:28,477 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:37:28,480 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:42:28,482 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:47:28,485 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:52:28,487 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 21:57:28,489 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:02:28,492 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:07:28,494 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:12:28,496 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:17:28,499 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:22:28,501 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:27:28,503 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:32:28,506 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:37:28,508 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:42:28,510 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:47:28,513 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:52:28,515 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 22:57:28,518 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:02:28,520 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:07:28,522 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:12:28,525 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:17:28,527 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:22:28,530 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:27:28,532 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:32:28,535 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:37:28,537 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:42:28,540 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:47:28,542 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:52:28,544 - INFO - Status check: 8 running, 0 stopped
+2025-10-12 23:57:28,547 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:02:28,549 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:07:28,551 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:12:28,553 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:17:28,556 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:22:28,558 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:27:28,560 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:32:28,563 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:37:28,565 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:42:28,568 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:47:28,570 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:52:28,572 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 00:57:28,575 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:02:28,577 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:07:28,580 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:12:28,582 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:17:28,584 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:22:28,587 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:27:28,589 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:32:28,591 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:37:28,594 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:42:28,596 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:47:28,598 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:52:28,601 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 01:57:28,603 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:02:28,606 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:07:28,608 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:12:28,611 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:17:28,613 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:22:28,615 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:27:28,618 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:32:28,620 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:37:28,623 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:42:28,625 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:47:28,627 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:52:28,630 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 02:57:28,632 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:02:28,635 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:07:28,637 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:12:28,639 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:17:28,641 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:22:28,643 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:27:28,646 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:32:28,648 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:37:28,650 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:42:28,653 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:47:28,655 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:52:28,657 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:57:28,660 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 03:59:28,661 - WARNING - ⚠ p0f died (exit code: -9)
+2025-10-13 03:59:28,661 - INFO - Restarting p0f...
+2025-10-13 03:59:28,661 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 03:59:30,665 - INFO - ✓ p0f started successfully (PID: 141065)
+2025-10-13 04:00:00,666 - WARNING - ⚠ p0f died (exit code: -9)
+2025-10-13 04:00:00,666 - INFO - Restarting p0f...
+2025-10-13 04:00:00,666 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 04:00:02,670 - INFO - ✓ p0f started successfully (PID: 141349)
+2025-10-13 04:02:32,671 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 04:03:02,672 - WARNING - ⚠ p0f died (exit code: -9)
+2025-10-13 04:03:02,672 - INFO - Restarting p0f...
+2025-10-13 04:03:02,672 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 04:03:04,676 - INFO - ✓ p0f started successfully (PID: 142492)
+2025-10-13 04:07:34,679 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 04:07:36,766 - INFO - Received signal 15, initiating graceful shutdown...
+2025-10-13 04:08:04,679 - WARNING - ⚠ tshark died (exit code: -15)
+2025-10-13 04:08:04,680 - INFO - Restarting tshark...
+2025-10-13 04:08:04,680 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-13 04:08:06,683 - INFO - ✓ tshark started successfully (PID: 145149)
+2025-10-13 04:08:06,684 - WARNING - ⚠ p0f died (exit code: -15)
+2025-10-13 04:08:06,684 - INFO - Restarting p0f...
+2025-10-13 04:08:06,684 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 04:08:08,688 - INFO - ✓ p0f started successfully (PID: 145181)
+2025-10-13 04:08:08,689 - WARNING - ⚠ argus died (exit code: -15)
+2025-10-13 04:08:08,689 - INFO - Restarting argus...
+2025-10-13 04:08:08,689 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-13 04:08:10,692 - INFO - ✓ argus started successfully (PID: 145185)
+2025-10-13 04:08:10,693 - WARNING - ⚠ ngrep died (exit code: -15)
+2025-10-13 04:08:10,693 - INFO - Restarting ngrep...
+2025-10-13 04:08:10,693 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-13 04:08:12,697 - INFO - ✓ ngrep started successfully (PID: 145218)
+2025-10-13 04:08:12,698 - WARNING - ⚠ netsniff died (exit code: -15)
+2025-10-13 04:08:12,698 - INFO - Restarting netsniff...
+2025-10-13 04:08:12,698 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-13 04:08:14,701 - INFO - ✓ netsniff started successfully (PID: 145222)
+2025-10-13 04:08:14,702 - WARNING - ⚠ httpry died (exit code: -15)
+2025-10-13 04:08:14,702 - INFO - Restarting httpry...
+2025-10-13 04:08:14,703 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-13 04:08:16,706 - INFO - ✓ httpry started successfully (PID: 145227)
+2025-10-13 04:08:16,707 - WARNING - ⚠ iftop died (exit code: -15)
+2025-10-13 04:08:16,707 - INFO - Restarting iftop...
+2025-10-13 04:08:16,707 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-13 04:08:18,710 - INFO - ✓ iftop started successfully (PID: 145231)
+2025-10-13 04:08:18,711 - WARNING - ⚠ nethogs died (exit code: -15)
+2025-10-13 04:08:18,711 - INFO - Restarting nethogs...
+2025-10-13 04:08:18,711 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-13 04:08:20,715 - INFO - ✓ nethogs started successfully (PID: 145237)
+2025-10-13 04:08:20,715 - INFO - 
+======================================================================
+2025-10-13 04:08:20,716 - INFO - Shutting down all collectors...
+2025-10-13 04:08:20,716 - INFO - ======================================================================
+2025-10-13 04:08:20,716 - INFO - Stopping tshark collector...
+2025-10-13 04:08:20,719 - INFO - ✓ tshark stopped gracefully
+2025-10-13 04:08:20,719 - INFO - Stopping p0f collector...
+2025-10-13 04:08:20,723 - INFO - ✓ p0f stopped gracefully
+2025-10-13 04:08:20,723 - INFO - Stopping argus collector...
+2025-10-13 04:08:20,727 - INFO - ✓ argus stopped gracefully
+2025-10-13 04:08:20,727 - INFO - Stopping ngrep collector...
+2025-10-13 04:08:20,730 - INFO - ✓ ngrep stopped gracefully
+2025-10-13 04:08:20,730 - INFO - Stopping netsniff collector...
+2025-10-13 04:08:20,734 - INFO - ✓ netsniff stopped gracefully
+2025-10-13 04:08:20,734 - INFO - Stopping httpry collector...
+2025-10-13 04:08:20,738 - INFO - ✓ httpry stopped gracefully
+2025-10-13 04:08:20,738 - INFO - Stopping iftop collector...
+2025-10-13 04:08:20,741 - INFO - ✓ iftop stopped gracefully
+2025-10-13 04:08:20,741 - INFO - Stopping nethogs collector...
+2025-10-13 04:08:20,745 - INFO - ✓ nethogs stopped gracefully
+2025-10-13 04:08:20,745 - INFO - 
+======================================================================
+2025-10-13 04:08:20,745 - INFO - NetGuard Pro Analysis Tools Collector - Shutdown Complete
+2025-10-13 04:08:20,745 - INFO - ======================================================================
+2025-10-13 18:19:30,139 - INFO - ======================================================================
+2025-10-13 18:19:30,140 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-13 18:19:30,140 - INFO - ======================================================================
+2025-10-13 18:19:30,140 - INFO - Managing 8 analysis tool collectors:
+2025-10-13 18:19:30,140 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-13 18:19:30,140 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-13 18:19:30,140 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-13 18:19:30,140 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-13 18:19:30,140 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-13 18:19:30,140 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-13 18:19:30,140 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-13 18:19:30,140 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-13 18:19:30,140 - INFO - Check interval: 30 seconds
+2025-10-13 18:19:30,140 - INFO - ======================================================================
+2025-10-13 18:19:30,140 - INFO - 
+Starting all collectors...
+
+2025-10-13 18:19:30,141 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-13 18:19:32,143 - INFO - ✓ tshark started successfully (PID: 1078)
+2025-10-13 18:19:33,143 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 18:19:35,147 - INFO - ✓ p0f started successfully (PID: 1156)
+2025-10-13 18:19:36,147 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-13 18:19:38,151 - INFO - ✓ argus started successfully (PID: 1176)
+2025-10-13 18:19:39,152 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-13 18:19:41,155 - INFO - ✓ ngrep started successfully (PID: 1224)
+2025-10-13 18:19:42,156 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-13 18:19:44,159 - INFO - ✓ netsniff started successfully (PID: 1228)
+2025-10-13 18:19:45,160 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-13 18:19:47,164 - INFO - ✓ httpry started successfully (PID: 1233)
+2025-10-13 18:19:48,164 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-13 18:19:50,168 - INFO - ✓ iftop started successfully (PID: 1239)
+2025-10-13 18:19:51,169 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-13 18:19:53,172 - INFO - ✓ nethogs started successfully (PID: 1245)
+2025-10-13 18:19:54,173 - INFO - 
+Initial status: 8 running, 0 stopped
+
+2025-10-13 18:19:54,173 - INFO - ======================================================================
+2025-10-13 18:19:54,173 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-13 18:19:54,173 - INFO - ======================================================================
+
+2025-10-13 18:24:54,379 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:29:54,382 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:34:54,384 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:38:54,386 - WARNING - ⚠ p0f died (exit code: -9)
+2025-10-13 18:38:54,386 - INFO - Restarting p0f...
+2025-10-13 18:38:54,386 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 18:38:56,390 - INFO - ✓ p0f started successfully (PID: 4435)
+2025-10-13 18:39:56,391 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:44:56,393 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:49:56,395 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:54:56,398 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 18:59:56,400 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:04:56,402 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:09:56,405 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:14:56,407 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:19:56,410 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:24:56,412 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:29:56,414 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:34:56,417 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:39:56,419 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:44:56,422 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:49:56,424 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:54:56,427 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 19:59:56,429 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:04:56,431 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:09:56,434 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:14:56,436 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:19:56,438 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:24:56,441 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:29:56,443 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:34:56,446 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 20:39:56,448 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 22:55:56,755 - INFO - ======================================================================
+2025-10-13 22:55:56,756 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-13 22:55:56,756 - INFO - ======================================================================
+2025-10-13 22:55:56,756 - INFO - Managing 8 analysis tool collectors:
+2025-10-13 22:55:56,756 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-13 22:55:56,756 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-13 22:55:56,756 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-13 22:55:56,756 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-13 22:55:56,756 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-13 22:55:56,756 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-13 22:55:56,756 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-13 22:55:56,756 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-13 22:55:56,756 - INFO - Check interval: 30 seconds
+2025-10-13 22:55:56,756 - INFO - ======================================================================
+2025-10-13 22:55:56,756 - INFO - 
+Starting all collectors...
+
+2025-10-13 22:55:56,757 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-13 22:55:58,759 - INFO - ✓ tshark started successfully (PID: 1084)
+2025-10-13 22:55:59,760 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-13 22:56:01,763 - INFO - ✓ p0f started successfully (PID: 1163)
+2025-10-13 22:56:02,764 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-13 22:56:04,767 - INFO - ✓ argus started successfully (PID: 1195)
+2025-10-13 22:56:05,769 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-13 22:56:07,772 - INFO - ✓ ngrep started successfully (PID: 1231)
+2025-10-13 22:56:08,772 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-13 22:56:10,776 - INFO - ✓ netsniff started successfully (PID: 1237)
+2025-10-13 22:56:11,777 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-13 22:56:13,780 - INFO - ✓ httpry started successfully (PID: 1242)
+2025-10-13 22:56:15,205 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-13 22:56:17,209 - INFO - ✓ iftop started successfully (PID: 1249)
+2025-10-13 22:56:18,209 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-13 22:56:20,213 - INFO - ✓ nethogs started successfully (PID: 1255)
+2025-10-13 22:56:21,214 - INFO - 
+Initial status: 8 running, 0 stopped
+
+2025-10-13 22:56:21,214 - INFO - ======================================================================
+2025-10-13 22:56:21,214 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-13 22:56:21,214 - INFO - ======================================================================
+
+2025-10-13 23:01:21,217 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:06:21,219 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:11:21,221 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:16:21,224 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:21:21,226 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:26:21,228 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:31:21,231 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:36:21,234 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:41:21,237 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:46:21,239 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:51:21,242 - INFO - Status check: 8 running, 0 stopped
+2025-10-13 23:56:21,244 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:01:21,246 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:06:21,249 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:11:21,251 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:16:21,253 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:21:21,256 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:26:21,258 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:31:21,261 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:36:21,263 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:41:21,266 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:46:21,268 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:51:21,270 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 00:56:21,273 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:01:21,275 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:06:21,278 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:11:21,280 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:16:21,283 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:21:21,285 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:26:21,288 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:31:21,290 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:36:21,293 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:41:21,295 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:46:21,298 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:51:21,301 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 01:56:21,303 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:01:21,305 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:06:21,308 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:11:21,310 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:16:21,312 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:21:21,314 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:26:21,317 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:31:21,319 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:36:21,322 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:41:21,324 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:46:21,326 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:51:21,328 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 02:56:21,331 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:01:21,333 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:06:21,335 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:11:21,338 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:16:21,340 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:21:21,342 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:26:21,345 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:31:21,347 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 03:35:27,952 - INFO - Received signal 15, initiating graceful shutdown...
+2025-10-14 03:35:51,350 - WARNING - ⚠ tshark died (exit code: -15)
+2025-10-14 03:35:51,350 - INFO - Restarting tshark...
+2025-10-14 03:35:51,350 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-14 03:35:53,354 - INFO - ✓ tshark started successfully (PID: 65168)
+2025-10-14 03:35:53,354 - WARNING - ⚠ p0f died (exit code: -15)
+2025-10-14 03:35:53,355 - INFO - Restarting p0f...
+2025-10-14 03:35:53,355 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-14 03:35:55,358 - INFO - ✓ p0f started successfully (PID: 65200)
+2025-10-14 03:35:55,359 - WARNING - ⚠ argus died (exit code: -15)
+2025-10-14 03:35:55,359 - INFO - Restarting argus...
+2025-10-14 03:35:55,359 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-14 03:35:57,363 - INFO - ✓ argus started successfully (PID: 65204)
+2025-10-14 03:35:57,363 - WARNING - ⚠ ngrep died (exit code: -15)
+2025-10-14 03:35:57,363 - INFO - Restarting ngrep...
+2025-10-14 03:35:57,364 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-14 03:35:59,367 - INFO - ✓ ngrep started successfully (PID: 65237)
+2025-10-14 03:35:59,368 - WARNING - ⚠ netsniff died (exit code: -15)
+2025-10-14 03:35:59,368 - INFO - Restarting netsniff...
+2025-10-14 03:35:59,368 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-14 03:36:01,371 - INFO - ✓ netsniff started successfully (PID: 65243)
+2025-10-14 03:36:01,372 - WARNING - ⚠ httpry died (exit code: -15)
+2025-10-14 03:36:01,372 - INFO - Restarting httpry...
+2025-10-14 03:36:01,372 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-14 03:36:03,376 - INFO - ✓ httpry started successfully (PID: 65248)
+2025-10-14 03:36:03,376 - WARNING - ⚠ iftop died (exit code: -15)
+2025-10-14 03:36:03,377 - INFO - Restarting iftop...
+2025-10-14 03:36:03,377 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-14 03:36:05,380 - INFO - ✓ iftop started successfully (PID: 65252)
+2025-10-14 03:36:05,381 - WARNING - ⚠ nethogs died (exit code: -15)
+2025-10-14 03:36:05,381 - INFO - Restarting nethogs...
+2025-10-14 03:36:05,381 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-14 03:36:07,384 - INFO - ✓ nethogs started successfully (PID: 65258)
+2025-10-14 03:36:07,384 - INFO - 
+======================================================================
+2025-10-14 03:36:07,384 - INFO - Shutting down all collectors...
+2025-10-14 03:36:07,385 - INFO - ======================================================================
+2025-10-14 03:36:07,385 - INFO - Stopping tshark collector...
+2025-10-14 03:36:07,388 - INFO - ✓ tshark stopped gracefully
+2025-10-14 03:36:07,389 - INFO - Stopping p0f collector...
+2025-10-14 03:36:07,392 - INFO - ✓ p0f stopped gracefully
+2025-10-14 03:36:07,392 - INFO - Stopping argus collector...
+2025-10-14 03:36:07,396 - INFO - ✓ argus stopped gracefully
+2025-10-14 03:36:07,396 - INFO - Stopping ngrep collector...
+2025-10-14 03:36:07,400 - INFO - ✓ ngrep stopped gracefully
+2025-10-14 03:36:07,400 - INFO - Stopping netsniff collector...
+2025-10-14 03:36:07,403 - INFO - ✓ netsniff stopped gracefully
+2025-10-14 03:36:07,403 - INFO - Stopping httpry collector...
+2025-10-14 03:36:07,407 - INFO - ✓ httpry stopped gracefully
+2025-10-14 03:36:07,407 - INFO - Stopping iftop collector...
+2025-10-14 03:36:07,408 - INFO - ✓ iftop stopped gracefully
+2025-10-14 03:36:07,408 - INFO - Stopping nethogs collector...
+2025-10-14 03:36:07,409 - INFO - ✓ nethogs stopped gracefully
+2025-10-14 03:36:07,409 - INFO - 
+======================================================================
+2025-10-14 03:36:07,409 - INFO - NetGuard Pro Analysis Tools Collector - Shutdown Complete
+2025-10-14 03:36:07,410 - INFO - ======================================================================
+2025-10-14 16:00:43,981 - INFO - ======================================================================
+2025-10-14 16:00:43,982 - INFO - NetGuard Pro - Analysis Tools Collector (Master Orchestrator)
+2025-10-14 16:00:43,982 - INFO - ======================================================================
+2025-10-14 16:00:43,982 - INFO - Managing 8 analysis tool collectors:
+2025-10-14 16:00:43,982 - INFO -   • tshark: Protocol Analysis (wlo1)
+2025-10-14 16:00:43,982 - INFO -   • p0f: OS Fingerprinting (wlo1)
+2025-10-14 16:00:43,982 - INFO -   • argus: Flow Analysis (wlo1)
+2025-10-14 16:00:43,982 - INFO -   • ngrep: Pattern Matching (wlo1)
+2025-10-14 16:00:43,982 - INFO -   • netsniff: High-Performance Capture (wlx1cbfce6265ad)
+2025-10-14 16:00:43,982 - INFO -   • httpry: HTTP Logging (eno1)
+2025-10-14 16:00:43,982 - INFO -   • iftop: Bandwidth Monitoring (eno1)
+2025-10-14 16:00:43,982 - INFO -   • nethogs: Process Bandwidth (eno1)
+2025-10-14 16:00:43,982 - INFO - Check interval: 30 seconds
+2025-10-14 16:00:43,982 - INFO - ======================================================================
+2025-10-14 16:00:43,982 - INFO - 
+Starting all collectors...
+
+2025-10-14 16:00:43,982 - INFO - Starting tshark collector (Protocol Analysis (wlo1))...
+2025-10-14 16:00:45,984 - INFO - ✓ tshark started successfully (PID: 1076)
+2025-10-14 16:00:46,985 - INFO - Starting p0f collector (OS Fingerprinting (wlo1))...
+2025-10-14 16:00:48,988 - INFO - ✓ p0f started successfully (PID: 1155)
+2025-10-14 16:00:49,989 - INFO - Starting argus collector (Flow Analysis (wlo1))...
+2025-10-14 16:00:51,993 - INFO - ✓ argus started successfully (PID: 1174)
+2025-10-14 16:00:52,993 - INFO - Starting ngrep collector (Pattern Matching (wlo1))...
+2025-10-14 16:00:55,411 - INFO - ✓ ngrep started successfully (PID: 1224)
+2025-10-14 16:00:56,412 - INFO - Starting netsniff collector (High-Performance Capture (wlx1cbfce6265ad))...
+2025-10-14 16:00:58,416 - INFO - ✓ netsniff started successfully (PID: 1228)
+2025-10-14 16:00:59,416 - INFO - Starting httpry collector (HTTP Logging (eno1))...
+2025-10-14 16:01:01,420 - INFO - ✓ httpry started successfully (PID: 1233)
+2025-10-14 16:01:02,421 - INFO - Starting iftop collector (Bandwidth Monitoring (eno1))...
+2025-10-14 16:01:04,424 - INFO - ✓ iftop started successfully (PID: 1239)
+2025-10-14 16:01:05,425 - INFO - Starting nethogs collector (Process Bandwidth (eno1))...
+2025-10-14 16:01:07,428 - INFO - ✓ nethogs started successfully (PID: 1245)
+2025-10-14 16:01:08,429 - INFO - 
+Initial status: 8 running, 0 stopped
+
+2025-10-14 16:01:08,429 - INFO - ======================================================================
+2025-10-14 16:01:08,429 - INFO - Monitoring collectors... (Press Ctrl+C to stop)
+2025-10-14 16:01:08,430 - INFO - ======================================================================
+
+2025-10-14 16:06:08,432 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:11:08,434 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:16:08,436 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:21:08,439 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:26:08,441 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:31:08,443 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:36:08,445 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:41:08,448 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:46:08,450 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:51:08,452 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 16:56:08,455 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:01:08,457 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:06:08,459 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:11:08,461 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:16:08,464 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:21:08,466 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:26:08,469 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:31:08,471 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:36:08,473 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:41:08,475 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:46:08,478 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:51:08,480 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 17:56:08,482 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:01:08,484 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:06:08,487 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:11:08,489 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:16:08,491 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:21:08,494 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:26:08,496 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:31:08,498 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:36:08,500 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:41:08,502 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:46:08,505 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:51:08,507 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 18:56:08,509 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:01:08,511 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:06:08,514 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:11:08,516 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:16:08,519 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:21:08,521 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:26:08,524 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:31:08,526 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:36:08,528 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:41:08,531 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:46:08,533 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:51:08,535 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 19:56:08,538 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:01:08,540 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:06:08,542 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:11:08,545 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:16:08,547 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:21:08,549 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:26:08,552 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:31:08,554 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:36:08,556 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:41:08,558 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:46:08,561 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:51:08,563 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 20:56:08,565 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:01:08,568 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:06:08,570 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:11:08,572 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:16:08,575 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:21:08,577 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:26:08,580 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:31:08,582 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:36:08,584 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:41:08,586 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:46:08,588 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:51:08,590 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 21:56:08,592 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:01:08,594 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:06:08,597 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:11:08,599 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:16:08,601 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:21:08,603 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:26:08,606 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:31:08,608 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:36:08,610 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:41:08,613 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:46:08,615 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:51:08,618 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 22:56:08,620 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:01:08,622 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:06:08,624 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:11:08,627 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:16:08,629 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:21:08,631 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:26:08,633 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:31:08,636 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:36:08,638 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:41:08,641 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:46:08,643 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:51:08,645 - INFO - Status check: 8 running, 0 stopped
+2025-10-14 23:56:08,648 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:01:08,650 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:06:08,652 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:11:08,655 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:16:08,657 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:21:08,659 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:26:08,661 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:31:08,664 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:36:08,666 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:41:08,668 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:46:08,671 - INFO - Status check: 8 running, 0 stopped
+2025-10-15 00:51:08,673 - INFO - Status check: 8 running, 0 stopped

@@ -1,0 +1,2124 @@
+2025-10-13 00:14:49,874 - INFO - ============================================================
+2025-10-13 00:14:49,874 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-13 00:14:49,874 - INFO - ============================================================
+2025-10-13 00:14:49,874 - INFO - Calculating security scores for all devices...
+2025-10-13 00:14:49,890 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-13 00:14:49,890 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-13 00:14:49,890 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-13 00:14:49,891 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-13 00:14:49,891 - INFO -     - No MAC address identified (-15)
+2025-10-13 00:14:49,891 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-13 00:14:49,891 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-13 00:14:49,891 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-13 00:14:49,891 - INFO -     - No hostname resolution (-10)
+2025-10-13 00:14:49,891 - INFO -     - No MAC address identified (-15)
+2025-10-13 00:14:49,891 - INFO -     - Unknown device type (-10)
+2025-10-13 00:14:49,892 - INFO -   192.168.1.182   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-13 00:14:49,892 - INFO -   192.168.1.93    | Score:  75/100 (Grade C) | Unknown
+2025-10-13 00:14:49,892 - INFO -     - No MAC address identified (-15)
+2025-10-13 00:14:49,892 - INFO -     - Unknown device type (-10)
+2025-10-13 00:14:49,893 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-13 00:14:49,893 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-13 00:14:49,893 - INFO -     - No hostname resolution (-10)
+2025-10-13 00:14:49,893 - INFO -     - No MAC address identified (-15)
+2025-10-13 00:14:49,893 - INFO -     - Unknown device type (-10)
+2025-10-13 00:14:49,893 - INFO -   192.168.1.195   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-13 00:14:49,894 - INFO -   192.168.1.241   | Score:  75/100 (Grade C) | Unknown
+2025-10-13 00:14:49,894 - INFO -     - No MAC address identified (-15)
+2025-10-13 00:14:49,894 - INFO -     - Unknown device type (-10)
+2025-10-13 00:14:49,894 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-13 00:14:49,897 - INFO - 
+✓ Updated 12 device security scores
+2025-10-13 00:14:49,897 - INFO - Score Distribution: A=2, B=5, C=2, D=3, F=0
+2025-10-13 00:14:49,897 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-13 00:14:49,897 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-13 00:14:49,897 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-13 00:14:49,897 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:02:34,356 - INFO - ============================================================
+2025-10-14 19:02:34,358 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:02:34,358 - INFO - ============================================================
+2025-10-14 19:02:34,358 - INFO - Calculating security scores for all devices...
+2025-10-14 19:02:34,361 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:02:34,361 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:02:34,361 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:02:34,361 - INFO -   192.168.1.195   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:02:34,361 - INFO -   192.168.1.241   | Score:  75/100 (Grade C) | Unknown
+2025-10-14 19:02:34,362 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:02:34,362 - INFO -     - Unknown device type (-10)
+2025-10-14 19:02:34,362 - INFO -   192.168.1.182   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:02:34,362 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:02:34,362 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:02:34,362 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:02:34,362 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:02:34,363 - INFO - 
+✓ Updated 7 device security scores
+2025-10-14 19:02:34,363 - INFO - Score Distribution: A=2, B=3, C=1, D=1, F=0
+2025-10-14 19:02:34,363 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-14 19:02:34,363 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:07:34,686 - INFO - ============================================================
+2025-10-14 19:07:34,687 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:07:34,687 - INFO - ============================================================
+2025-10-14 19:07:34,687 - INFO - Calculating security scores for all devices...
+2025-10-14 19:07:34,689 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:07:34,689 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:07:34,690 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:07:34,690 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:07:34,690 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:07:34,690 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:07:34,690 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:07:34,690 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:07:34,690 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:07:34,690 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:07:34,693 - INFO - 
+✓ Updated 7 device security scores
+2025-10-14 19:07:34,693 - INFO - Score Distribution: A=5, B=1, C=0, D=1, F=0
+2025-10-14 19:07:34,693 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-14 19:07:34,693 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:12:35,694 - INFO - ============================================================
+2025-10-14 19:12:35,694 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:12:35,695 - INFO - ============================================================
+2025-10-14 19:12:35,695 - INFO - Calculating security scores for all devices...
+2025-10-14 19:12:35,697 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:12:35,698 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:12:35,698 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:12:35,698 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:12:35,698 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:12:35,698 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:12:35,698 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:12:35,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:12:35,698 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:12:35,698 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:12:35,698 - INFO - 
+✓ Updated 7 device security scores
+2025-10-14 19:12:35,698 - INFO - Score Distribution: A=5, B=1, C=0, D=1, F=0
+2025-10-14 19:12:35,698 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-14 19:12:35,698 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:17:36,704 - INFO - ============================================================
+2025-10-14 19:17:36,704 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:17:36,704 - INFO - ============================================================
+2025-10-14 19:17:36,704 - INFO - Calculating security scores for all devices...
+2025-10-14 19:17:36,707 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:17:36,707 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:17:36,707 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:17:36,707 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:17:36,707 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:17:36,708 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:17:36,708 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:17:36,708 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:17:36,708 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:17:36,708 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:17:36,708 - INFO - 
+✓ Updated 7 device security scores
+2025-10-14 19:17:36,708 - INFO - Score Distribution: A=5, B=1, C=0, D=1, F=0
+2025-10-14 19:17:36,708 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-14 19:17:36,708 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:22:37,694 - INFO - ============================================================
+2025-10-14 19:22:37,694 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:22:37,694 - INFO - ============================================================
+2025-10-14 19:22:37,694 - INFO - Calculating security scores for all devices...
+2025-10-14 19:22:37,697 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:22:37,697 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:22:37,697 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:22:37,698 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:22:37,698 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:22:37,698 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:22:37,698 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:22:37,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:22:37,698 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:22:37,698 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:22:37,698 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:22:37,698 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:22:37,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:22:37,698 - INFO -     - Unknown device type (-10)
+2025-10-14 19:22:37,701 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:22:37,701 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:22:37,701 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:22:37,701 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:22:37,701 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:27:38,701 - INFO - ============================================================
+2025-10-14 19:27:38,701 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:27:38,702 - INFO - ============================================================
+2025-10-14 19:27:38,702 - INFO - Calculating security scores for all devices...
+2025-10-14 19:27:38,704 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:27:38,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:27:38,705 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:27:38,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:27:38,705 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:27:38,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:27:38,706 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:27:38,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:27:38,706 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:27:38,706 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:27:38,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:27:38,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:27:38,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:27:38,706 - INFO -     - Unknown device type (-10)
+2025-10-14 19:27:38,706 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:27:38,706 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:27:38,706 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:27:38,706 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:27:38,706 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:32:39,692 - INFO - ============================================================
+2025-10-14 19:32:39,693 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:32:39,693 - INFO - ============================================================
+2025-10-14 19:32:39,693 - INFO - Calculating security scores for all devices...
+2025-10-14 19:32:39,696 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:32:39,696 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:32:39,696 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:32:39,696 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:32:39,696 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:32:39,697 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:32:39,697 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:32:39,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:32:39,697 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:32:39,697 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:32:39,697 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:32:39,697 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:32:39,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:32:39,697 - INFO -     - Unknown device type (-10)
+2025-10-14 19:32:39,697 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:32:39,697 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:32:39,697 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:32:39,697 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:32:39,697 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:37:40,201 - INFO - ============================================================
+2025-10-14 19:37:40,201 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:37:40,201 - INFO - ============================================================
+2025-10-14 19:37:40,202 - INFO - Calculating security scores for all devices...
+2025-10-14 19:37:40,205 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:37:40,205 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:37:40,205 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:37:40,205 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:37:40,205 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:37:40,205 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:37:40,206 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:37:40,206 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:37:40,206 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:37:40,206 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:37:40,206 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:37:40,206 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:37:40,206 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:37:40,206 - INFO -     - Unknown device type (-10)
+2025-10-14 19:37:40,206 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:37:40,206 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:37:40,206 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:37:40,206 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:37:40,206 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:42:40,687 - INFO - ============================================================
+2025-10-14 19:42:40,687 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:42:40,687 - INFO - ============================================================
+2025-10-14 19:42:40,687 - INFO - Calculating security scores for all devices...
+2025-10-14 19:42:40,691 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:42:40,691 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:42:40,691 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:42:40,691 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:42:40,691 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:42:40,691 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:42:40,692 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:42:40,692 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:42:40,692 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:42:40,692 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:42:40,692 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:42:40,692 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:42:40,692 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:42:40,692 - INFO -     - Unknown device type (-10)
+2025-10-14 19:42:40,692 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:42:40,692 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:42:40,692 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:42:40,692 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:42:40,692 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:47:41,690 - INFO - ============================================================
+2025-10-14 19:47:41,691 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:47:41,691 - INFO - ============================================================
+2025-10-14 19:47:41,691 - INFO - Calculating security scores for all devices...
+2025-10-14 19:47:41,694 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:47:41,694 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:47:41,694 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:47:41,695 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:47:41,695 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:47:41,695 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:47:41,695 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:47:41,695 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:47:41,695 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:47:41,695 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:47:41,695 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:47:41,695 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:47:41,695 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:47:41,695 - INFO -     - Unknown device type (-10)
+2025-10-14 19:47:41,695 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:47:41,696 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:47:41,696 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:47:41,696 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:47:41,696 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:52:42,701 - INFO - ============================================================
+2025-10-14 19:52:42,701 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:52:42,701 - INFO - ============================================================
+2025-10-14 19:52:42,701 - INFO - Calculating security scores for all devices...
+2025-10-14 19:52:42,704 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:52:42,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:52:42,705 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:52:42,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:52:42,705 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:52:42,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:52:42,705 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:52:42,705 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:52:42,705 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:52:42,705 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:52:42,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:52:42,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:52:42,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:52:42,706 - INFO -     - Unknown device type (-10)
+2025-10-14 19:52:42,706 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:52:42,706 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:52:42,706 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:52:42,706 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:52:42,706 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 19:57:43,705 - INFO - ============================================================
+2025-10-14 19:57:43,705 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 19:57:43,705 - INFO - ============================================================
+2025-10-14 19:57:43,705 - INFO - Calculating security scores for all devices...
+2025-10-14 19:57:43,709 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 19:57:43,709 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 19:57:43,710 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 19:57:43,710 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:57:43,710 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 19:57:43,710 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 19:57:43,710 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 19:57:43,710 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:57:43,710 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 19:57:43,710 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 19:57:43,710 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 19:57:43,711 - INFO -     - No hostname resolution (-10)
+2025-10-14 19:57:43,711 - INFO -     - No MAC address identified (-15)
+2025-10-14 19:57:43,711 - INFO -     - Unknown device type (-10)
+2025-10-14 19:57:43,711 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 19:57:43,711 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 19:57:43,711 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 19:57:43,711 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 19:57:43,711 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:02:44,699 - INFO - ============================================================
+2025-10-14 20:02:44,699 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:02:44,699 - INFO - ============================================================
+2025-10-14 20:02:44,699 - INFO - Calculating security scores for all devices...
+2025-10-14 20:02:44,702 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:02:44,703 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:02:44,703 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:02:44,703 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:02:44,703 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:02:44,703 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:02:44,704 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:02:44,704 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:02:44,704 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:02:44,704 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:02:44,704 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:02:44,704 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:02:44,704 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:02:44,704 - INFO -     - Unknown device type (-10)
+2025-10-14 20:02:44,704 - INFO - 
+✓ Updated 8 device security scores
+2025-10-14 20:02:44,704 - INFO - Score Distribution: A=5, B=1, C=0, D=2, F=0
+2025-10-14 20:02:44,704 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:02:44,704 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:02:44,704 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:07:45,705 - INFO - ============================================================
+2025-10-14 20:07:45,705 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:07:45,705 - INFO - ============================================================
+2025-10-14 20:07:45,706 - INFO - Calculating security scores for all devices...
+2025-10-14 20:07:45,707 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:07:45,707 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:07:45,707 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:07:45,707 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:07:45,707 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:07:45,710 - INFO - 
+✓ Updated 5 device security scores
+2025-10-14 20:07:45,710 - INFO - Score Distribution: A=5, B=0, C=0, D=0, F=0
+2025-10-14 20:07:45,710 - INFO - 
+✓ All devices have acceptable security scores!
+2025-10-14 20:12:46,701 - INFO - ============================================================
+2025-10-14 20:12:46,701 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:12:46,701 - INFO - ============================================================
+2025-10-14 20:12:46,701 - INFO - Calculating security scores for all devices...
+2025-10-14 20:12:46,702 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:12:46,703 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:12:46,703 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:12:46,703 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:12:46,703 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:12:46,703 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:12:46,703 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:12:46,704 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:12:46,704 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:12:46,704 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:12:46,704 - INFO -     - Unknown device type (-10)
+2025-10-14 20:12:46,704 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:12:46,704 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:12:46,704 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:12:46,704 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:12:46,705 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:12:46,705 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:12:46,705 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:12:46,706 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:12:46,706 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:17:47,702 - INFO - ============================================================
+2025-10-14 20:17:47,702 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:17:47,702 - INFO - ============================================================
+2025-10-14 20:17:47,702 - INFO - Calculating security scores for all devices...
+2025-10-14 20:17:47,703 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:17:47,704 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:17:47,704 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:17:47,704 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:17:47,704 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:17:47,704 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:17:47,704 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:17:47,704 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:17:47,705 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:17:47,705 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:17:47,705 - INFO -     - Unknown device type (-10)
+2025-10-14 20:17:47,705 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:17:47,705 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:17:47,705 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:17:47,705 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:17:47,705 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:17:47,705 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:17:47,705 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:17:47,705 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:17:47,705 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:22:48,697 - INFO - ============================================================
+2025-10-14 20:22:48,697 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:22:48,697 - INFO - ============================================================
+2025-10-14 20:22:48,697 - INFO - Calculating security scores for all devices...
+2025-10-14 20:22:48,698 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:22:48,699 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:22:48,699 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:22:48,699 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:22:48,699 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:22:48,699 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:22:48,699 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:22:48,699 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:22:48,699 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:22:48,699 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:22:48,699 - INFO -     - Unknown device type (-10)
+2025-10-14 20:22:48,699 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:22:48,699 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:22:48,699 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:22:48,699 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:22:48,700 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:22:48,700 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:22:48,700 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:22:48,700 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:22:48,700 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:27:49,707 - INFO - ============================================================
+2025-10-14 20:27:49,707 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:27:49,707 - INFO - ============================================================
+2025-10-14 20:27:49,707 - INFO - Calculating security scores for all devices...
+2025-10-14 20:27:49,708 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:27:49,709 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:27:49,709 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:27:49,709 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:27:49,709 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:27:49,709 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:27:49,709 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:27:49,709 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:27:49,709 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:27:49,709 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:27:49,709 - INFO -     - Unknown device type (-10)
+2025-10-14 20:27:49,709 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:27:49,709 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:27:49,709 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:27:49,709 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:27:49,710 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:27:49,710 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:27:49,710 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:27:49,710 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:27:49,710 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:32:50,151 - INFO - ============================================================
+2025-10-14 20:32:50,151 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:32:50,151 - INFO - ============================================================
+2025-10-14 20:32:50,151 - INFO - Calculating security scores for all devices...
+2025-10-14 20:32:50,153 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:32:50,153 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:32:50,153 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:32:50,153 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:32:50,154 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:32:50,154 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:32:50,154 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:32:50,154 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:32:50,154 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:32:50,154 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:32:50,154 - INFO -     - Unknown device type (-10)
+2025-10-14 20:32:50,154 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:32:50,154 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:32:50,154 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:32:50,154 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:32:50,154 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:32:50,154 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:32:50,154 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:32:50,155 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:32:50,155 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:37:50,308 - INFO - ============================================================
+2025-10-14 20:37:50,308 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:37:50,308 - INFO - ============================================================
+2025-10-14 20:37:50,309 - INFO - Calculating security scores for all devices...
+2025-10-14 20:37:50,310 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:37:50,310 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:37:50,310 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:37:50,311 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:37:50,311 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:37:50,311 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:37:50,311 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:37:50,311 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:37:50,311 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:37:50,311 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:37:50,311 - INFO -     - Unknown device type (-10)
+2025-10-14 20:37:50,311 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:37:50,312 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:37:50,312 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:37:50,312 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:37:50,312 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:37:50,312 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:37:50,312 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:37:50,312 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:37:50,312 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:42:50,684 - INFO - ============================================================
+2025-10-14 20:42:50,684 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:42:50,684 - INFO - ============================================================
+2025-10-14 20:42:50,684 - INFO - Calculating security scores for all devices...
+2025-10-14 20:42:50,686 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:42:50,686 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:42:50,686 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:42:50,687 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:42:50,687 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:42:50,687 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:42:50,687 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:42:50,687 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:42:50,687 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:42:50,687 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:42:50,687 - INFO -     - Unknown device type (-10)
+2025-10-14 20:42:50,687 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:42:50,687 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:42:50,687 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:42:50,687 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:42:50,687 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:42:50,688 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:42:50,688 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:42:50,688 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:42:50,688 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:47:51,698 - INFO - ============================================================
+2025-10-14 20:47:51,698 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:47:51,698 - INFO - ============================================================
+2025-10-14 20:47:51,698 - INFO - Calculating security scores for all devices...
+2025-10-14 20:47:51,700 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:47:51,700 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:47:51,700 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:47:51,700 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:47:51,700 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:47:51,701 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:47:51,701 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:47:51,701 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:47:51,701 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:47:51,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:47:51,701 - INFO -     - Unknown device type (-10)
+2025-10-14 20:47:51,701 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:47:51,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:47:51,701 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:47:51,701 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:47:51,701 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:47:51,701 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:47:51,701 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:47:51,702 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:47:51,702 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:52:52,693 - INFO - ============================================================
+2025-10-14 20:52:52,693 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:52:52,693 - INFO - ============================================================
+2025-10-14 20:52:52,694 - INFO - Calculating security scores for all devices...
+2025-10-14 20:52:52,695 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:52:52,696 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:52:52,696 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:52:52,696 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:52:52,696 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:52:52,696 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:52:52,696 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:52:52,697 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:52:52,697 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:52:52,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:52:52,697 - INFO -     - Unknown device type (-10)
+2025-10-14 20:52:52,697 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:52:52,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:52:52,697 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:52:52,697 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:52:52,697 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:52:52,697 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:52:52,697 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:52:52,697 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:52:52,697 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 20:57:53,689 - INFO - ============================================================
+2025-10-14 20:57:53,689 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 20:57:53,689 - INFO - ============================================================
+2025-10-14 20:57:53,689 - INFO - Calculating security scores for all devices...
+2025-10-14 20:57:53,691 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 20:57:53,691 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 20:57:53,692 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:57:53,692 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 20:57:53,692 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 20:57:53,692 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 20:57:53,692 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 20:57:53,692 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 20:57:53,692 - INFO -     - No hostname resolution (-10)
+2025-10-14 20:57:53,692 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:57:53,692 - INFO -     - Unknown device type (-10)
+2025-10-14 20:57:53,692 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 20:57:53,692 - INFO -     - No MAC address identified (-15)
+2025-10-14 20:57:53,692 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 20:57:53,692 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 20:57:53,693 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 20:57:53,693 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 20:57:53,693 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 20:57:53,693 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 20:57:53,693 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:02:54,697 - INFO - ============================================================
+2025-10-14 21:02:54,698 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:02:54,698 - INFO - ============================================================
+2025-10-14 21:02:54,698 - INFO - Calculating security scores for all devices...
+2025-10-14 21:02:54,700 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:02:54,700 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:02:54,700 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:02:54,701 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:02:54,701 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:02:54,701 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 21:02:54,701 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:02:54,701 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:02:54,701 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:02:54,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:02:54,701 - INFO -     - Unknown device type (-10)
+2025-10-14 21:02:54,701 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:02:54,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:02:54,701 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:02:54,702 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:02:54,702 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:02:54,702 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 21:02:54,702 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:02:54,702 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:02:54,702 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:07:55,127 - INFO - ============================================================
+2025-10-14 21:07:55,127 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:07:55,127 - INFO - ============================================================
+2025-10-14 21:07:55,127 - INFO - Calculating security scores for all devices...
+2025-10-14 21:07:55,129 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:07:55,130 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:07:55,130 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:07:55,130 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:07:55,130 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:07:55,130 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 21:07:55,130 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:07:55,130 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:07:55,130 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:07:55,130 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:07:55,130 - INFO -     - Unknown device type (-10)
+2025-10-14 21:07:55,130 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:07:55,131 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:07:55,131 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:07:55,131 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:07:55,131 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:07:55,131 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 21:07:55,131 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:07:55,131 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:07:55,131 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:12:55,705 - INFO - ============================================================
+2025-10-14 21:12:55,706 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:12:55,706 - INFO - ============================================================
+2025-10-14 21:12:55,706 - INFO - Calculating security scores for all devices...
+2025-10-14 21:12:55,708 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:12:55,708 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:12:55,708 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:12:55,708 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:12:55,709 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:12:55,709 - INFO -   192.168.1.164   | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-14 21:12:55,709 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:12:55,709 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:12:55,709 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:12:55,709 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:12:55,709 - INFO -     - Unknown device type (-10)
+2025-10-14 21:12:55,709 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:12:55,709 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:12:55,709 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:12:55,709 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:12:55,709 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:12:55,709 - INFO - Score Distribution: A=5, B=2, C=0, D=2, F=0
+2025-10-14 21:12:55,709 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:12:55,709 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:12:55,709 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:17:56,696 - INFO - ============================================================
+2025-10-14 21:17:56,696 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:17:56,696 - INFO - ============================================================
+2025-10-14 21:17:56,697 - INFO - Calculating security scores for all devices...
+2025-10-14 21:17:56,699 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:17:56,699 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:17:56,699 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:17:56,700 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:17:56,700 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:17:56,700 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:17:56,700 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:17:56,700 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:17:56,700 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:17:56,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:17:56,701 - INFO -     - Unknown device type (-10)
+2025-10-14 21:17:56,701 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:17:56,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:17:56,701 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:17:56,701 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:17:56,703 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:17:56,704 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:17:56,704 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:17:56,704 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:17:56,704 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:22:57,687 - INFO - ============================================================
+2025-10-14 21:22:57,687 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:22:57,687 - INFO - ============================================================
+2025-10-14 21:22:57,687 - INFO - Calculating security scores for all devices...
+2025-10-14 21:22:57,690 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:22:57,690 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:22:57,690 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:22:57,690 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:22:57,690 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:22:57,691 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:22:57,691 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:22:57,691 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:22:57,691 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:22:57,691 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:22:57,691 - INFO -     - Unknown device type (-10)
+2025-10-14 21:22:57,691 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:22:57,691 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:22:57,691 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:22:57,691 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:22:57,691 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:22:57,691 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:22:57,691 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:22:57,691 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:22:57,691 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:27:58,712 - INFO - ============================================================
+2025-10-14 21:27:58,712 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:27:58,712 - INFO - ============================================================
+2025-10-14 21:27:58,712 - INFO - Calculating security scores for all devices...
+2025-10-14 21:27:58,715 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:27:58,715 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:27:58,715 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:27:58,715 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:27:58,715 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:27:58,716 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:27:58,716 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:27:58,716 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:27:58,716 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:27:58,716 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:27:58,716 - INFO -     - Unknown device type (-10)
+2025-10-14 21:27:58,716 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:27:58,716 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:27:58,716 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:27:58,716 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:27:58,716 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:27:58,716 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:27:58,717 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:27:58,717 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:27:58,717 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:32:14,504 - INFO - ============================================================
+2025-10-14 21:32:14,504 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:32:14,504 - INFO - ============================================================
+2025-10-14 21:32:14,505 - INFO - Calculating security scores for all devices...
+2025-10-14 21:32:14,507 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:32:14,507 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:32:14,508 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:32:14,508 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:32:14,508 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:32:14,508 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:32:14,508 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:32:14,508 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:32:14,508 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:32:14,508 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:32:14,508 - INFO -     - Unknown device type (-10)
+2025-10-14 21:32:14,508 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:32:14,508 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:32:14,508 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:32:14,509 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:32:14,509 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:32:14,509 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:32:14,509 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:32:14,509 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:32:14,509 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:37:14,701 - INFO - ============================================================
+2025-10-14 21:37:14,702 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:37:14,702 - INFO - ============================================================
+2025-10-14 21:37:14,702 - INFO - Calculating security scores for all devices...
+2025-10-14 21:37:14,704 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:37:14,705 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:37:14,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:14,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:37:14,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:14,705 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:14,705 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:37:14,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:37:14,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:37:14,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:37:14,706 - INFO -     - Unknown device type (-10)
+2025-10-14 21:37:14,706 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:37:14,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:37:14,706 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:37:14,706 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:37:14,706 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:37:14,706 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:37:14,706 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:37:14,706 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:37:14,706 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:37:53,030 - INFO - ============================================================
+2025-10-14 21:37:53,030 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:37:53,031 - INFO - ============================================================
+2025-10-14 21:37:53,031 - INFO - Calculating security scores for all devices...
+2025-10-14 21:37:53,033 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:37:53,034 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:37:53,034 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:53,034 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:37:53,034 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:53,034 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:37:53,035 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:37:53,035 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:37:53,035 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:37:53,035 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:37:53,035 - INFO -     - Unknown device type (-10)
+2025-10-14 21:37:53,035 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:37:53,035 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:37:53,035 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:37:53,035 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:37:53,035 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:37:53,035 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:37:53,035 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:37:53,035 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:37:53,035 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:42:53,693 - INFO - ============================================================
+2025-10-14 21:42:53,693 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:42:53,693 - INFO - ============================================================
+2025-10-14 21:42:53,693 - INFO - Calculating security scores for all devices...
+2025-10-14 21:42:53,696 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:42:53,696 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:42:53,696 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:42:53,696 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:42:53,696 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:42:53,697 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:42:53,697 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:42:53,697 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:42:53,697 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:42:53,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:42:53,697 - INFO -     - Unknown device type (-10)
+2025-10-14 21:42:53,697 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:42:53,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:42:53,697 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:42:53,697 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:42:53,697 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:42:53,697 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:42:53,697 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:42:53,697 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:42:53,697 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:47:54,693 - INFO - ============================================================
+2025-10-14 21:47:54,693 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:47:54,693 - INFO - ============================================================
+2025-10-14 21:47:54,693 - INFO - Calculating security scores for all devices...
+2025-10-14 21:47:54,696 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:47:54,696 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:47:54,696 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:47:54,697 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:47:54,697 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:47:54,697 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:47:54,697 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:47:54,697 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:47:54,697 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:47:54,697 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:47:54,697 - INFO -     - Unknown device type (-10)
+2025-10-14 21:47:54,697 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:47:54,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:47:54,698 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:47:54,698 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:47:54,698 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:47:54,698 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:47:54,698 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:47:54,698 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:47:54,698 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:49:16,785 - INFO - ============================================================
+2025-10-14 21:49:16,785 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:49:16,785 - INFO - ============================================================
+2025-10-14 21:49:16,785 - INFO - Calculating security scores for all devices...
+2025-10-14 21:49:16,788 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:49:16,788 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:49:16,788 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:49:16,788 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:49:16,788 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:49:16,788 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:49:16,789 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:49:16,789 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:49:16,789 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:49:16,789 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:49:16,789 - INFO -     - Unknown device type (-10)
+2025-10-14 21:49:16,789 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:49:16,789 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:49:16,789 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:49:16,789 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:49:16,789 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:49:16,789 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:49:16,789 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:49:16,789 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:49:16,789 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:54:17,199 - INFO - ============================================================
+2025-10-14 21:54:17,199 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:54:17,199 - INFO - ============================================================
+2025-10-14 21:54:17,199 - INFO - Calculating security scores for all devices...
+2025-10-14 21:54:17,202 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:54:17,202 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:54:17,203 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:17,203 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:54:17,203 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:17,203 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:17,203 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:54:17,203 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:54:17,203 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:54:17,203 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:54:17,203 - INFO -     - Unknown device type (-10)
+2025-10-14 21:54:17,204 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:54:17,204 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:54:17,204 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:54:17,204 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:54:17,204 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:54:17,204 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:54:17,204 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:54:17,204 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:54:17,204 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:54:54,646 - INFO - ============================================================
+2025-10-14 21:54:54,647 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:54:54,647 - INFO - ============================================================
+2025-10-14 21:54:54,647 - INFO - Calculating security scores for all devices...
+2025-10-14 21:54:54,649 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:54:54,650 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:54:54,650 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:54,650 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:54:54,650 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:54,650 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:54:54,650 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:54:54,651 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:54:54,651 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:54:54,651 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:54:54,651 - INFO -     - Unknown device type (-10)
+2025-10-14 21:54:54,651 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:54:54,651 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:54:54,651 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:54:54,651 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:54:54,651 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:54:54,651 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:54:54,651 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:54:54,651 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:54:54,651 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:55:38,733 - INFO - ============================================================
+2025-10-14 21:55:38,733 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:55:38,733 - INFO - ============================================================
+2025-10-14 21:55:38,733 - INFO - Calculating security scores for all devices...
+2025-10-14 21:55:38,736 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:55:38,736 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:55:38,736 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:55:38,736 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:55:38,736 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:55:38,737 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:55:38,737 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:55:38,737 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:55:38,737 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:55:38,737 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:55:38,737 - INFO -     - Unknown device type (-10)
+2025-10-14 21:55:38,737 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:55:38,737 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:55:38,737 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:55:38,737 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:55:38,737 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:55:38,737 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:55:38,738 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:55:38,738 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:55:38,738 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:56:39,090 - INFO - ============================================================
+2025-10-14 21:56:39,090 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:56:39,090 - INFO - ============================================================
+2025-10-14 21:56:39,090 - INFO - Calculating security scores for all devices...
+2025-10-14 21:56:39,093 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:56:39,094 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:56:39,094 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:56:39,094 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:56:39,094 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:56:39,094 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:56:39,094 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:56:39,094 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:56:39,094 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:56:39,095 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:56:39,095 - INFO -     - Unknown device type (-10)
+2025-10-14 21:56:39,095 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:56:39,095 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:56:39,095 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:56:39,095 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:56:39,095 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:56:39,095 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:56:39,095 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:56:39,095 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:56:39,095 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 21:57:00,961 - INFO - ============================================================
+2025-10-14 21:57:00,961 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 21:57:00,961 - INFO - ============================================================
+2025-10-14 21:57:00,961 - INFO - Calculating security scores for all devices...
+2025-10-14 21:57:00,964 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 21:57:00,964 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 21:57:00,964 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:57:00,965 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 21:57:00,965 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:57:00,965 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 21:57:00,965 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 21:57:00,965 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 21:57:00,965 - INFO -     - No hostname resolution (-10)
+2025-10-14 21:57:00,965 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:57:00,965 - INFO -     - Unknown device type (-10)
+2025-10-14 21:57:00,966 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 21:57:00,966 - INFO -     - No MAC address identified (-15)
+2025-10-14 21:57:00,966 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 21:57:00,966 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 21:57:00,966 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 21:57:00,966 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 21:57:00,966 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 21:57:00,966 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 21:57:00,966 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:01:39,697 - INFO - ============================================================
+2025-10-14 22:01:39,697 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:01:39,697 - INFO - ============================================================
+2025-10-14 22:01:39,698 - INFO - Calculating security scores for all devices...
+2025-10-14 22:01:39,701 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:01:39,701 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:01:39,701 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:01:39,701 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:01:39,701 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:01:39,702 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:01:39,702 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:01:39,702 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:01:39,702 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:01:39,702 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:01:39,702 - INFO -     - Unknown device type (-10)
+2025-10-14 22:01:39,702 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:01:39,702 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:01:39,702 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:01:39,702 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:01:39,702 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:01:39,702 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:01:39,702 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:01:39,702 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:01:39,702 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:02:04,622 - INFO - ============================================================
+2025-10-14 22:02:04,622 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:02:04,622 - INFO - ============================================================
+2025-10-14 22:02:04,622 - INFO - Calculating security scores for all devices...
+2025-10-14 22:02:04,625 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:02:04,626 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:02:04,626 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:02:04,626 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:02:04,626 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:02:04,626 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:02:04,626 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:02:04,626 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:02:04,627 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:02:04,627 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:02:04,627 - INFO -     - Unknown device type (-10)
+2025-10-14 22:02:04,627 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:02:04,627 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:02:04,627 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:02:04,627 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:02:04,627 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:02:04,627 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:02:04,627 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:02:04,627 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:02:04,627 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:07:04,701 - INFO - ============================================================
+2025-10-14 22:07:04,701 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:07:04,701 - INFO - ============================================================
+2025-10-14 22:07:04,701 - INFO - Calculating security scores for all devices...
+2025-10-14 22:07:04,704 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:07:04,705 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:07:04,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:07:04,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:07:04,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:07:04,705 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:07:04,705 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:07:04,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:07:04,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:07:04,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:07:04,706 - INFO -     - Unknown device type (-10)
+2025-10-14 22:07:04,706 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:07:04,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:07:04,706 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:07:04,706 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:07:04,706 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:07:04,706 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:07:04,706 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:07:04,706 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:07:04,706 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:12:06,702 - INFO - ============================================================
+2025-10-14 22:12:06,703 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:12:06,703 - INFO - ============================================================
+2025-10-14 22:12:06,703 - INFO - Calculating security scores for all devices...
+2025-10-14 22:12:06,706 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:12:06,706 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:12:06,706 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:06,707 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:12:06,707 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:06,707 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:06,707 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:12:06,707 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:12:06,707 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:12:06,707 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:12:06,707 - INFO -     - Unknown device type (-10)
+2025-10-14 22:12:06,707 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:12:06,708 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:12:06,708 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:12:06,708 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:12:06,708 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:12:06,708 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:12:06,708 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:12:06,708 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:12:06,708 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:12:41,960 - INFO - ============================================================
+2025-10-14 22:12:41,960 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:12:41,960 - INFO - ============================================================
+2025-10-14 22:12:41,960 - INFO - Calculating security scores for all devices...
+2025-10-14 22:12:41,963 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:12:41,963 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:12:41,963 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:41,963 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:12:41,963 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:41,964 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:12:41,964 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:12:41,964 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:12:41,964 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:12:41,964 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:12:41,964 - INFO -     - Unknown device type (-10)
+2025-10-14 22:12:41,964 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:12:41,964 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:12:41,964 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:12:41,964 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:12:41,964 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:12:41,964 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:12:41,964 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:12:41,964 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:12:41,964 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:17:07,691 - INFO - ============================================================
+2025-10-14 22:17:07,691 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:17:07,691 - INFO - ============================================================
+2025-10-14 22:17:07,692 - INFO - Calculating security scores for all devices...
+2025-10-14 22:17:07,695 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:17:07,695 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:17:07,695 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:17:07,695 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:17:07,695 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:17:07,696 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:17:07,696 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:17:07,696 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:17:07,696 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:17:07,696 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:17:07,696 - INFO -     - Unknown device type (-10)
+2025-10-14 22:17:07,696 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:17:07,696 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:17:07,696 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:17:07,696 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:17:07,696 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:17:07,696 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:17:07,696 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:17:07,697 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:17:07,697 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:22:08,459 - INFO - ============================================================
+2025-10-14 22:22:08,459 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:22:08,459 - INFO - ============================================================
+2025-10-14 22:22:08,459 - INFO - Calculating security scores for all devices...
+2025-10-14 22:22:08,462 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:22:08,462 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:22:08,463 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:22:08,463 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:22:08,463 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:22:08,463 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:22:08,463 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:22:08,463 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:22:08,463 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:22:08,464 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:22:08,464 - INFO -     - Unknown device type (-10)
+2025-10-14 22:22:08,464 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:22:08,464 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:22:08,464 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:22:08,464 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:22:08,464 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:22:08,464 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:22:08,464 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:22:08,464 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:22:08,464 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:27:08,688 - INFO - ============================================================
+2025-10-14 22:27:08,688 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:27:08,688 - INFO - ============================================================
+2025-10-14 22:27:08,688 - INFO - Calculating security scores for all devices...
+2025-10-14 22:27:08,692 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:27:08,692 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:27:08,692 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:27:08,692 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:27:08,692 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:27:08,693 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:27:08,693 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:27:08,693 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:27:08,693 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:27:08,693 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:27:08,693 - INFO -     - Unknown device type (-10)
+2025-10-14 22:27:08,693 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:27:08,693 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:27:08,693 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:27:08,693 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:27:08,693 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:27:08,693 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:27:08,694 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:27:08,694 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:27:08,694 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:32:09,697 - INFO - ============================================================
+2025-10-14 22:32:09,698 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:32:09,698 - INFO - ============================================================
+2025-10-14 22:32:09,698 - INFO - Calculating security scores for all devices...
+2025-10-14 22:32:09,701 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:32:09,701 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:32:09,702 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:32:09,702 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:32:09,702 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:32:09,702 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:32:09,702 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:32:09,703 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:32:09,703 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:32:09,703 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:32:09,703 - INFO -     - Unknown device type (-10)
+2025-10-14 22:32:09,703 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:32:09,703 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:32:09,703 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:32:09,703 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:32:09,703 - INFO - 
+✓ Updated 9 device security scores
+2025-10-14 22:32:09,703 - INFO - Score Distribution: A=6, B=1, C=0, D=2, F=0
+2025-10-14 22:32:09,703 - INFO - 
+⚠️  2 device(s) need attention (score < 70):
+2025-10-14 22:32:09,703 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:32:09,703 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:37:10,451 - INFO - ============================================================
+2025-10-14 22:37:10,451 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:37:10,451 - INFO - ============================================================
+2025-10-14 22:37:10,451 - INFO - Calculating security scores for all devices...
+2025-10-14 22:37:10,454 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:37:10,455 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:37:10,455 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:37:10,455 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:37:10,455 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:37:10,455 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:37:10,456 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:37:10,456 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:37:10,456 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:37:10,456 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:37:10,456 - INFO -     - Unknown device type (-10)
+2025-10-14 22:37:10,456 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:37:10,456 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:37:10,456 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:37:10,456 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:37:10,456 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:37:10,456 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:37:10,456 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:37:10,456 - INFO -     - Unknown device type (-10)
+2025-10-14 22:37:10,459 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 22:37:10,459 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 22:37:10,459 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 22:37:10,459 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:37:10,459 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 22:37:10,459 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:42:10,696 - INFO - ============================================================
+2025-10-14 22:42:10,696 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:42:10,696 - INFO - ============================================================
+2025-10-14 22:42:10,696 - INFO - Calculating security scores for all devices...
+2025-10-14 22:42:10,700 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:42:10,700 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:42:10,700 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:42:10,700 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:42:10,701 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:42:10,701 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:42:10,701 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:42:10,701 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:42:10,701 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:42:10,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:42:10,701 - INFO -     - Unknown device type (-10)
+2025-10-14 22:42:10,701 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:42:10,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:42:10,702 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:42:10,702 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:42:10,702 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:42:10,702 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:42:10,702 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:42:10,702 - INFO -     - Unknown device type (-10)
+2025-10-14 22:42:10,702 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 22:42:10,702 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 22:42:10,702 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 22:42:10,702 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:42:10,702 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 22:42:10,702 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:47:11,694 - INFO - ============================================================
+2025-10-14 22:47:11,694 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:47:11,694 - INFO - ============================================================
+2025-10-14 22:47:11,694 - INFO - Calculating security scores for all devices...
+2025-10-14 22:47:11,698 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:47:11,698 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:47:11,698 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:47:11,699 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:47:11,699 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:47:11,699 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:47:11,699 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:47:11,699 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:47:11,699 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:47:11,699 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:47:11,699 - INFO -     - Unknown device type (-10)
+2025-10-14 22:47:11,700 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:47:11,700 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:47:11,700 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:47:11,700 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:47:11,700 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:47:11,700 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:47:11,700 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:47:11,700 - INFO -     - Unknown device type (-10)
+2025-10-14 22:47:11,700 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 22:47:11,700 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 22:47:11,700 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 22:47:11,700 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:47:11,700 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 22:47:11,700 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:52:12,451 - INFO - ============================================================
+2025-10-14 22:52:12,451 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:52:12,451 - INFO - ============================================================
+2025-10-14 22:52:12,451 - INFO - Calculating security scores for all devices...
+2025-10-14 22:52:12,455 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:52:12,455 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:52:12,455 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:52:12,455 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:52:12,456 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:52:12,456 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:52:12,456 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:52:12,456 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:52:12,456 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:52:12,456 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:52:12,456 - INFO -     - Unknown device type (-10)
+2025-10-14 22:52:12,456 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:52:12,456 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:52:12,456 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:52:12,456 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:52:12,457 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:52:12,457 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:52:12,457 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:52:12,457 - INFO -     - Unknown device type (-10)
+2025-10-14 22:52:12,457 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 22:52:12,457 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 22:52:12,457 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 22:52:12,457 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:52:12,457 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 22:52:12,457 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 22:57:12,697 - INFO - ============================================================
+2025-10-14 22:57:12,697 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 22:57:12,697 - INFO - ============================================================
+2025-10-14 22:57:12,697 - INFO - Calculating security scores for all devices...
+2025-10-14 22:57:12,701 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 22:57:12,701 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 22:57:12,701 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:57:12,702 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 22:57:12,702 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:57:12,702 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 22:57:12,702 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 22:57:12,702 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:57:12,702 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:57:12,702 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:57:12,702 - INFO -     - Unknown device type (-10)
+2025-10-14 22:57:12,702 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 22:57:12,703 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:57:12,703 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 22:57:12,703 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 22:57:12,703 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 22:57:12,703 - INFO -     - No hostname resolution (-10)
+2025-10-14 22:57:12,703 - INFO -     - No MAC address identified (-15)
+2025-10-14 22:57:12,703 - INFO -     - Unknown device type (-10)
+2025-10-14 22:57:12,703 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 22:57:12,703 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 22:57:12,703 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 22:57:12,703 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 22:57:12,703 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 22:57:12,703 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:02:12,817 - INFO - ============================================================
+2025-10-14 23:02:12,817 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:02:12,818 - INFO - ============================================================
+2025-10-14 23:02:12,818 - INFO - Calculating security scores for all devices...
+2025-10-14 23:02:12,821 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:02:12,822 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:02:12,822 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:02:12,822 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:02:12,822 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:02:12,822 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:02:12,822 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:02:12,823 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:02:12,823 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:02:12,823 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:02:12,823 - INFO -     - Unknown device type (-10)
+2025-10-14 23:02:12,823 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:02:12,823 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:02:12,823 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:02:12,823 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:02:12,823 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:02:12,823 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:02:12,823 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:02:12,823 - INFO -     - Unknown device type (-10)
+2025-10-14 23:02:12,823 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:02:12,823 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:02:12,823 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:02:12,823 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:02:12,823 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:02:12,823 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:07:13,692 - INFO - ============================================================
+2025-10-14 23:07:13,692 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:07:13,692 - INFO - ============================================================
+2025-10-14 23:07:13,693 - INFO - Calculating security scores for all devices...
+2025-10-14 23:07:13,697 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:07:13,697 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:07:13,697 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:07:13,697 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:07:13,698 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:07:13,698 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:07:13,698 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:07:13,698 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:07:13,698 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:07:13,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:07:13,698 - INFO -     - Unknown device type (-10)
+2025-10-14 23:07:13,698 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:07:13,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:07:13,698 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:07:13,698 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:07:13,699 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:07:13,699 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:07:13,699 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:07:13,699 - INFO -     - Unknown device type (-10)
+2025-10-14 23:07:13,699 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:07:13,699 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:07:13,699 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:07:13,699 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:07:13,699 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:07:13,699 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:12:14,695 - INFO - ============================================================
+2025-10-14 23:12:14,695 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:12:14,695 - INFO - ============================================================
+2025-10-14 23:12:14,695 - INFO - Calculating security scores for all devices...
+2025-10-14 23:12:14,699 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:12:14,700 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:12:14,700 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:12:14,700 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:12:14,700 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:12:14,700 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:12:14,700 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:12:14,701 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:12:14,701 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:12:14,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:12:14,701 - INFO -     - Unknown device type (-10)
+2025-10-14 23:12:14,701 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:12:14,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:12:14,701 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:12:14,701 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:12:14,701 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:12:14,701 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:12:14,701 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:12:14,701 - INFO -     - Unknown device type (-10)
+2025-10-14 23:12:14,780 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:12:14,780 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:12:14,781 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:12:14,781 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:12:14,781 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:12:14,781 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:17:15,112 - INFO - ============================================================
+2025-10-14 23:17:15,113 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:17:15,113 - INFO - ============================================================
+2025-10-14 23:17:15,113 - INFO - Calculating security scores for all devices...
+2025-10-14 23:17:15,117 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:17:15,117 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:17:15,118 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:15,118 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:17:15,118 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:15,118 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:15,118 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:17:15,119 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:17:15,119 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:17:15,119 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:15,119 - INFO -     - Unknown device type (-10)
+2025-10-14 23:17:15,119 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:17:15,119 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:15,119 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:17:15,119 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:17:15,119 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:17:15,119 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:17:15,119 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:15,119 - INFO -     - Unknown device type (-10)
+2025-10-14 23:17:15,119 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:17:15,119 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:17:15,119 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:17:15,120 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:17:15,120 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:17:15,120 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:17:41,775 - INFO - ============================================================
+2025-10-14 23:17:41,775 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:17:41,775 - INFO - ============================================================
+2025-10-14 23:17:41,776 - INFO - Calculating security scores for all devices...
+2025-10-14 23:17:41,780 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:17:41,780 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:17:41,780 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:41,780 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:17:41,781 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:41,781 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:17:41,781 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:17:41,781 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:17:41,781 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:17:41,781 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:41,781 - INFO -     - Unknown device type (-10)
+2025-10-14 23:17:41,781 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:17:41,781 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:41,782 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:17:41,782 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:17:41,782 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:17:41,782 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:17:41,782 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:17:41,782 - INFO -     - Unknown device type (-10)
+2025-10-14 23:17:41,782 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:17:41,782 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:17:41,782 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:17:41,782 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:17:41,782 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:17:41,782 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:22:15,700 - INFO - ============================================================
+2025-10-14 23:22:15,700 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:22:15,700 - INFO - ============================================================
+2025-10-14 23:22:15,700 - INFO - Calculating security scores for all devices...
+2025-10-14 23:22:15,704 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:22:15,705 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:22:15,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:22:15,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:22:15,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:22:15,705 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:22:15,706 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:22:15,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:22:15,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:22:15,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:22:15,706 - INFO -     - Unknown device type (-10)
+2025-10-14 23:22:15,706 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:22:15,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:22:15,706 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:22:15,706 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:22:15,706 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:22:15,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:22:15,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:22:15,706 - INFO -     - Unknown device type (-10)
+2025-10-14 23:22:15,706 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:22:15,706 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:22:15,706 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:22:15,707 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:22:15,707 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:22:15,707 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:26:20,997 - INFO - ============================================================
+2025-10-14 23:26:20,997 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:26:20,997 - INFO - ============================================================
+2025-10-14 23:26:20,997 - INFO - Calculating security scores for all devices...
+2025-10-14 23:26:21,002 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:26:21,003 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:26:21,003 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:26:21,003 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:26:21,003 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:26:21,004 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:26:21,004 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:26:21,004 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:26:21,004 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:26:21,004 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:26:21,004 - INFO -     - Unknown device type (-10)
+2025-10-14 23:26:21,005 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:26:21,005 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:26:21,005 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:26:21,005 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:26:21,005 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:26:21,005 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:26:21,005 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:26:21,005 - INFO -     - Unknown device type (-10)
+2025-10-14 23:26:21,005 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:26:21,005 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:26:21,005 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:26:21,005 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:26:21,005 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:26:21,006 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:28:35,149 - INFO - ============================================================
+2025-10-14 23:28:35,149 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:28:35,149 - INFO - ============================================================
+2025-10-14 23:28:35,149 - INFO - Calculating security scores for all devices...
+2025-10-14 23:28:35,154 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:28:35,154 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:28:35,155 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:28:35,155 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:28:35,155 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:28:35,155 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:28:35,156 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:28:35,156 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:28:35,156 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:28:35,156 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:28:35,156 - INFO -     - Unknown device type (-10)
+2025-10-14 23:28:35,156 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:28:35,156 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:28:35,156 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:28:35,156 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:28:35,156 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:28:35,156 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:28:35,156 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:28:35,156 - INFO -     - Unknown device type (-10)
+2025-10-14 23:28:35,157 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:28:35,157 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:28:35,157 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:28:35,157 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:28:35,157 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:28:35,157 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:33:35,699 - INFO - ============================================================
+2025-10-14 23:33:35,699 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:33:35,699 - INFO - ============================================================
+2025-10-14 23:33:35,699 - INFO - Calculating security scores for all devices...
+2025-10-14 23:33:35,704 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:33:35,704 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:33:35,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:33:35,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:33:35,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:33:35,706 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:33:35,706 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:33:35,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:33:35,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:33:35,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:33:35,706 - INFO -     - Unknown device type (-10)
+2025-10-14 23:33:35,707 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:33:35,707 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:33:35,707 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:33:35,707 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:33:35,707 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:33:35,707 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:33:35,708 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:33:35,708 - INFO -     - Unknown device type (-10)
+2025-10-14 23:33:35,708 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:33:35,708 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:33:35,708 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:33:35,708 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:33:35,708 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:33:35,708 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:38:36,683 - INFO - ============================================================
+2025-10-14 23:38:36,683 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:38:36,683 - INFO - ============================================================
+2025-10-14 23:38:36,683 - INFO - Calculating security scores for all devices...
+2025-10-14 23:38:36,688 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:38:36,688 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:38:36,688 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:38:36,688 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:38:36,689 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:38:36,689 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:38:36,689 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:38:36,689 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:38:36,689 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:38:36,689 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:38:36,689 - INFO -     - Unknown device type (-10)
+2025-10-14 23:38:36,690 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:38:36,690 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:38:36,690 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:38:36,690 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:38:36,690 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:38:36,690 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:38:36,690 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:38:36,690 - INFO -     - Unknown device type (-10)
+2025-10-14 23:38:36,690 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:38:36,690 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:38:36,690 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:38:36,690 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:38:36,690 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:38:36,690 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:43:37,700 - INFO - ============================================================
+2025-10-14 23:43:37,700 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:43:37,700 - INFO - ============================================================
+2025-10-14 23:43:37,700 - INFO - Calculating security scores for all devices...
+2025-10-14 23:43:37,704 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:43:37,705 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:43:37,705 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:43:37,705 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:43:37,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:43:37,706 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:43:37,706 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:43:37,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:43:37,706 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:43:37,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:43:37,706 - INFO -     - Unknown device type (-10)
+2025-10-14 23:43:37,706 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:43:37,706 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:43:37,706 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:43:37,706 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:43:37,707 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:43:37,707 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:43:37,707 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:43:37,707 - INFO -     - Unknown device type (-10)
+2025-10-14 23:43:37,707 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:43:37,707 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:43:37,707 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:43:37,707 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:43:37,707 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:43:37,707 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:48:38,691 - INFO - ============================================================
+2025-10-14 23:48:38,691 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:48:38,691 - INFO - ============================================================
+2025-10-14 23:48:38,691 - INFO - Calculating security scores for all devices...
+2025-10-14 23:48:38,696 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:48:38,696 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:48:38,697 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:48:38,697 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:48:38,697 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:48:38,697 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:48:38,697 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:48:38,698 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:48:38,698 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:48:38,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:48:38,698 - INFO -     - Unknown device type (-10)
+2025-10-14 23:48:38,698 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:48:38,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:48:38,698 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:48:38,698 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:48:38,698 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:48:38,698 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:48:38,698 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:48:38,698 - INFO -     - Unknown device type (-10)
+2025-10-14 23:48:38,698 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:48:38,698 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:48:38,698 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:48:38,698 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:48:38,698 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:48:38,698 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:53:39,450 - INFO - ============================================================
+2025-10-14 23:53:39,450 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:53:39,450 - INFO - ============================================================
+2025-10-14 23:53:39,450 - INFO - Calculating security scores for all devices...
+2025-10-14 23:53:39,455 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:53:39,455 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:53:39,456 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:53:39,456 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:53:39,456 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:53:39,456 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:53:39,456 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:53:39,457 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:53:39,457 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:53:39,457 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:53:39,457 - INFO -     - Unknown device type (-10)
+2025-10-14 23:53:39,457 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:53:39,457 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:53:39,457 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:53:39,457 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:53:39,457 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:53:39,457 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:53:39,457 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:53:39,457 - INFO -     - Unknown device type (-10)
+2025-10-14 23:53:39,457 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:53:39,457 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:53:39,457 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:53:39,457 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:53:39,457 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:53:39,457 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-14 23:58:39,688 - INFO - ============================================================
+2025-10-14 23:58:39,688 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-14 23:58:39,688 - INFO - ============================================================
+2025-10-14 23:58:39,688 - INFO - Calculating security scores for all devices...
+2025-10-14 23:58:39,693 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-14 23:58:39,693 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-14 23:58:39,693 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:58:39,694 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-14 23:58:39,694 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:58:39,694 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-14 23:58:39,694 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-14 23:58:39,694 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:58:39,694 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:58:39,694 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:58:39,694 - INFO -     - Unknown device type (-10)
+2025-10-14 23:58:39,695 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-14 23:58:39,695 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:58:39,695 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-14 23:58:39,695 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-14 23:58:39,695 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-14 23:58:39,695 - INFO -     - No hostname resolution (-10)
+2025-10-14 23:58:39,695 - INFO -     - No MAC address identified (-15)
+2025-10-14 23:58:39,695 - INFO -     - Unknown device type (-10)
+2025-10-14 23:58:39,695 - INFO - 
+✓ Updated 10 device security scores
+2025-10-14 23:58:39,695 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-14 23:58:39,695 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-14 23:58:39,695 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-14 23:58:39,695 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-14 23:58:39,695 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-15 00:03:40,705 - INFO - ============================================================
+2025-10-15 00:03:40,705 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:03:40,705 - INFO - ============================================================
+2025-10-15 00:03:40,705 - INFO - Calculating security scores for all devices...
+2025-10-15 00:03:40,710 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:03:40,710 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:03:40,711 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:03:40,711 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:03:40,711 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:03:40,711 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:03:40,711 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-15 00:03:40,712 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:03:40,712 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:03:40,712 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:03:40,712 - INFO -     - Unknown device type (-10)
+2025-10-15 00:03:40,712 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-15 00:03:40,712 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:03:40,712 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-15 00:03:40,712 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-15 00:03:40,712 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:03:40,712 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:03:40,712 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:03:40,712 - INFO -     - Unknown device type (-10)
+2025-10-15 00:03:40,712 - INFO - 
+✓ Updated 10 device security scores
+2025-10-15 00:03:40,712 - INFO - Score Distribution: A=6, B=1, C=0, D=3, F=0
+2025-10-15 00:03:40,712 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-15 00:03:40,712 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:03:40,713 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-15 00:03:40,713 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-15 00:08:41,446 - INFO - ============================================================
+2025-10-15 00:08:41,447 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:08:41,447 - INFO - ============================================================
+2025-10-15 00:08:41,447 - INFO - Calculating security scores for all devices...
+2025-10-15 00:08:41,452 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:08:41,452 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:08:41,452 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:08:41,453 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:08:41,453 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:08:41,453 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:08:41,453 - INFO -   192.168.1.100   | Score:  83/100 (Grade B) | Tablet Device
+2025-10-15 00:08:41,453 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:08:41,453 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:08:41,453 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:08:41,453 - INFO -     - Unknown device type (-10)
+2025-10-15 00:08:41,454 - INFO -   192.168.1.244   | Score:  68/100 (Grade D) | Raspberry Pi
+2025-10-15 00:08:41,454 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:08:41,454 - INFO -     - Medium severity vulnerabilities (1) (-15)
+2025-10-15 00:08:41,454 - INFO -     - IoT device (inherent risk) (-5)
+2025-10-15 00:08:41,454 - INFO -   192.168.1.60    | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:08:41,454 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:08:41,454 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:08:41,454 - INFO -     - Unknown device type (-10)
+2025-10-15 00:08:41,454 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-15 00:08:41,457 - INFO - 
+✓ Updated 11 device security scores
+2025-10-15 00:08:41,457 - INFO - Score Distribution: A=6, B=2, C=0, D=3, F=0
+2025-10-15 00:08:41,457 - INFO - 
+⚠️  3 device(s) need attention (score < 70):
+2025-10-15 00:08:41,457 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:08:41,457 - INFO -   - 192.168.1.60    (Unknown): 65/100
+2025-10-15 00:08:41,457 - INFO -   - 192.168.1.244   (pi.lan): 68/100
+2025-10-15 00:13:41,466 - INFO - ============================================================
+2025-10-15 00:13:41,466 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:13:41,466 - INFO - ============================================================
+2025-10-15 00:13:41,466 - INFO - Calculating security scores for all devices...
+2025-10-15 00:13:41,467 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:13:41,467 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:13:41,468 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:13:41,468 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:13:41,468 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:13:41,468 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:13:41,468 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:13:41,474 - INFO - 
+✓ Updated 7 device security scores
+2025-10-15 00:13:41,474 - INFO - Score Distribution: A=7, B=0, C=0, D=0, F=0
+2025-10-15 00:13:41,475 - INFO - 
+✓ All devices have acceptable security scores!
+2025-10-15 00:18:41,645 - INFO - ============================================================
+2025-10-15 00:18:41,645 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:18:41,645 - INFO - ============================================================
+2025-10-15 00:18:41,645 - INFO - Calculating security scores for all devices...
+2025-10-15 00:18:41,646 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:18:41,647 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:18:41,647 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:18:41,647 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:18:41,647 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:18:41,647 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:18:41,647 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:18:41,647 - INFO - 
+✓ Updated 7 device security scores
+2025-10-15 00:18:41,647 - INFO - Score Distribution: A=7, B=0, C=0, D=0, F=0
+2025-10-15 00:18:41,647 - INFO - 
+✓ All devices have acceptable security scores!
+2025-10-15 00:23:41,697 - INFO - ============================================================
+2025-10-15 00:23:41,697 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:23:41,697 - INFO - ============================================================
+2025-10-15 00:23:41,697 - INFO - Calculating security scores for all devices...
+2025-10-15 00:23:41,699 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:23:41,699 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:23:41,699 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:23:41,699 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:23:41,699 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:23:41,699 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:23:41,700 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:23:41,700 - INFO - 
+✓ Updated 7 device security scores
+2025-10-15 00:23:41,700 - INFO - Score Distribution: A=7, B=0, C=0, D=0, F=0
+2025-10-15 00:23:41,700 - INFO - 
+✓ All devices have acceptable security scores!
+2025-10-15 00:28:42,198 - INFO - ============================================================
+2025-10-15 00:28:42,198 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:28:42,198 - INFO - ============================================================
+2025-10-15 00:28:42,198 - INFO - Calculating security scores for all devices...
+2025-10-15 00:28:42,200 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:28:42,200 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:28:42,200 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:28:42,200 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:28:42,200 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:28:42,201 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:28:42,201 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:28:42,201 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:28:42,201 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:28:42,201 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:28:42,201 - INFO -     - Unknown device type (-10)
+2025-10-15 00:28:42,204 - INFO - 
+✓ Updated 8 device security scores
+2025-10-15 00:28:42,204 - INFO - Score Distribution: A=7, B=0, C=0, D=1, F=0
+2025-10-15 00:28:42,204 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:28:42,204 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:33:42,692 - INFO - ============================================================
+2025-10-15 00:33:42,692 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:33:42,692 - INFO - ============================================================
+2025-10-15 00:33:42,692 - INFO - Calculating security scores for all devices...
+2025-10-15 00:33:42,693 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:33:42,694 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:33:42,694 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:33:42,694 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:33:42,694 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:33:42,694 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:33:42,694 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:33:42,694 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:33:42,694 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:33:42,694 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:33:42,694 - INFO -     - Unknown device type (-10)
+2025-10-15 00:33:42,694 - INFO - 
+✓ Updated 8 device security scores
+2025-10-15 00:33:42,694 - INFO - Score Distribution: A=7, B=0, C=0, D=1, F=0
+2025-10-15 00:33:42,695 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:33:42,695 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:38:43,698 - INFO - ============================================================
+2025-10-15 00:38:43,698 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:38:43,698 - INFO - ============================================================
+2025-10-15 00:38:43,698 - INFO - Calculating security scores for all devices...
+2025-10-15 00:38:43,700 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:38:43,700 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:38:43,700 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:38:43,700 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:38:43,700 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:38:43,700 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:38:43,701 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:38:43,701 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:38:43,701 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:38:43,701 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:38:43,701 - INFO -     - Unknown device type (-10)
+2025-10-15 00:38:43,701 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-15 00:38:43,703 - INFO - 
+✓ Updated 9 device security scores
+2025-10-15 00:38:43,703 - INFO - Score Distribution: A=7, B=1, C=0, D=1, F=0
+2025-10-15 00:38:43,704 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:38:43,704 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:43:44,684 - INFO - ============================================================
+2025-10-15 00:43:44,684 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:43:44,684 - INFO - ============================================================
+2025-10-15 00:43:44,684 - INFO - Calculating security scores for all devices...
+2025-10-15 00:43:44,686 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:43:44,686 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:43:44,686 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:43:44,686 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:43:44,687 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:43:44,687 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:43:44,687 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:43:44,687 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:43:44,687 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:43:44,687 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:43:44,687 - INFO -     - Unknown device type (-10)
+2025-10-15 00:43:44,687 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-15 00:43:44,687 - INFO - 
+✓ Updated 9 device security scores
+2025-10-15 00:43:44,687 - INFO - Score Distribution: A=7, B=1, C=0, D=1, F=0
+2025-10-15 00:43:44,687 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:43:44,688 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:48:45,198 - INFO - ============================================================
+2025-10-15 00:48:45,198 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:48:45,198 - INFO - ============================================================
+2025-10-15 00:48:45,198 - INFO - Calculating security scores for all devices...
+2025-10-15 00:48:45,199 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:48:45,200 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:48:45,200 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:48:45,200 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:48:45,200 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:48:45,200 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:48:45,200 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:48:45,200 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:48:45,200 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:48:45,201 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:48:45,201 - INFO -     - Unknown device type (-10)
+2025-10-15 00:48:45,201 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-15 00:48:45,201 - INFO - 
+✓ Updated 9 device security scores
+2025-10-15 00:48:45,201 - INFO - Score Distribution: A=7, B=1, C=0, D=1, F=0
+2025-10-15 00:48:45,201 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:48:45,201 - INFO -   - 192.168.1.255   (Unknown): 65/100
+2025-10-15 00:53:45,703 - INFO - ============================================================
+2025-10-15 00:53:45,703 - INFO - NetGuard Pro - Device Security Scorer
+2025-10-15 00:53:45,703 - INFO - ============================================================
+2025-10-15 00:53:45,704 - INFO - Calculating security scores for all devices...
+2025-10-15 00:53:45,705 - INFO -   192.168.1.182   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:53:45,705 - INFO -   192.168.1.94    | Score: 100/100 (Grade A) | Desktop/Laptop
+2025-10-15 00:53:45,706 - INFO -   192.168.1.164   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:53:45,706 - INFO -   192.168.1.195   | Score: 100/100 (Grade A) | Smartphone/Tablet
+2025-10-15 00:53:45,706 - INFO -   192.168.1.1     | Score: 100/100 (Grade A) | Router/Switch
+2025-10-15 00:53:45,706 - INFO -   192.168.1.100   | Score:  98/100 (Grade A) | Tablet Device
+2025-10-15 00:53:45,706 - INFO -   192.168.1.241   | Score:  90/100 (Grade A) | Unknown
+2025-10-15 00:53:45,706 - INFO -   192.168.1.255   | Score:  65/100 (Grade D) | Unknown
+2025-10-15 00:53:45,706 - INFO -     - No hostname resolution (-10)
+2025-10-15 00:53:45,706 - INFO -     - No MAC address identified (-15)
+2025-10-15 00:53:45,706 - INFO -     - Unknown device type (-10)
+2025-10-15 00:53:45,706 - INFO -   192.168.1.57    | Score:  85/100 (Grade B) | Smartphone/Tablet
+2025-10-15 00:53:45,706 - INFO - 
+✓ Updated 9 device security scores
+2025-10-15 00:53:45,706 - INFO - Score Distribution: A=7, B=1, C=0, D=1, F=0
+2025-10-15 00:53:45,707 - INFO - 
+⚠️  1 device(s) need attention (score < 70):
+2025-10-15 00:53:45,707 - INFO -   - 192.168.1.255   (Unknown): 65/100

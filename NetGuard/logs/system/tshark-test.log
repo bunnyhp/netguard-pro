@@ -1,0 +1,13 @@
+2025-10-10 23:39:50,255 - INFO - ============================================================
+2025-10-10 23:39:50,256 - INFO - NetGuard Pro - tshark Collector
+2025-10-10 23:39:50,256 - INFO - ============================================================
+2025-10-10 23:39:50,256 - INFO - Interface: wlo1
+2025-10-10 23:39:50,256 - INFO - Collection interval: 310 seconds
+2025-10-10 23:39:50,256 - INFO - ============================================================
+2025-10-10 23:39:50,256 - INFO - Capturing on wlo1 for 300 seconds...
+2025-10-10 23:44:50,600 - INFO - Analyzing captured packets...
+2025-10-10 23:44:50,712 - WARNING - No data captured - stdout empty. Stderr: Running as user "root" and group "root". This could be dangerous.
+tshark: Some fields aren't valid:
+	dns.resp.addr
+	tcp.flags.rst
+

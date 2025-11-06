@@ -1,0 +1,142 @@
+{
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_161741.pcap": {
+    "processed": true,
+    "timestamp": "2025-10-11T18:27:52.109596"
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_183314_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T18:35:11.533023"
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_183508_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T18:37:17.703817"
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_184556_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T18:47:01.566501"
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_203105_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T20:32:10.721185"
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_220804_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T22:27:39.590187",
+    "size": 86906
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_221009_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T22:27:39.861475",
+    "size": 154880
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_222406_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T22:27:41.073852",
+    "size": 70595
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_222738_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-11T22:34:18.936950",
+    "size": 86538
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_223547_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-12T04:43:43.234990",
+    "size": 5000072
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251011_223547_%03d.pcap1": {
+    "processed": true,
+    "timestamp": "2025-10-12T04:58:47.693734",
+    "size": 244618
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251012_162402_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-12T21:45:43.251117",
+    "size": 5001250
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251012_162402_%03d.pcap1": {
+    "processed": true,
+    "timestamp": "2025-10-12T21:50:45.719849",
+    "size": 5000016
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251012_162402_%03d.pcap2": {
+    "processed": true,
+    "timestamp": "2025-10-13T02:07:13.097018",
+    "size": 5000140
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251012_162402_%03d.pcap3": {
+    "processed": true,
+    "timestamp": "2025-10-13T03:12:30.559224",
+    "size": 1238697
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251013_031247_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-13T03:19:13.468434",
+    "size": 121258
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251013_031911_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-13T18:21:29.538020",
+    "size": 764612
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251013_182128_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-13T22:57:56.697124",
+    "size": 1006582
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251013_225754_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-14T03:34:40.483942",
+    "size": 4726619
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap0": {
+    "processed": true,
+    "timestamp": "2025-10-14T17:23:12.674141",
+    "size": 5000043
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap1": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:13:35.325070",
+    "size": 5000048
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap2": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:40.369328",
+    "size": 5000906
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap3": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:41.077418",
+    "size": 5000128
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap4": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:41.780732",
+    "size": 5000622
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap5": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:42.504662",
+    "size": 5000342
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap6": {
+    "processed": true,
+    "timestamp": "2025-10-14T21:19:38.426696",
+    "size": 5000119
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap7": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:43.664904",
+    "size": 5000382
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap8": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:44.366494",
+    "size": 5000890
+  },
+  "/home/jarvis/NetGuard/captures/tcpdump/capture_20251014_160242_%03d.pcap9": {
+    "processed": true,
+    "timestamp": "2025-10-14T18:28:45.063917",
+    "size": 5001126
+  }
+}

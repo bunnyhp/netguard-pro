@@ -1,0 +1,5 @@
+[2025-10-11 16:17:41] Starting tcpdump capture on interface eno1
+[2025-10-11 16:17:41] Capture directory: /home/jarvis/NetGuard/captures/tcpdump
+[2025-10-11 16:17:41] Rotation interval: 600s (10 minutes)
+[2025-10-11 16:17:41] Buffer size: 8192 KB
+tcpdump: listening on eno1, link-type EN10MB (Ethernet), snapshot length 65535 bytes

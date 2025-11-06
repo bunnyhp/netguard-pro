@@ -1,0 +1,2 @@
+Job for network-dashboard.service failed because the control process exited with error code.
+See "systemctl status network-dashboard.service" and "journalctl -xeu network-dashboard.service" for details.

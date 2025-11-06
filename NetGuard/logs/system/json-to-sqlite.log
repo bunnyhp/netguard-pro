@@ -1,0 +1,35 @@
+2025-10-11 16:17:42,038 - INFO - ============================================================
+2025-10-11 16:17:42,038 - INFO - NetGuard Pro - JSON to SQLite Converter
+2025-10-11 16:17:42,039 - INFO - ============================================================
+2025-10-11 16:17:42,039 - INFO - Monitoring directory: /home/jarvis/NetGuard/captures/processed_json
+2025-10-11 16:17:42,039 - INFO - Database: /home/jarvis/NetGuard/network.db
+2025-10-11 16:17:42,039 - INFO - Check interval: 10 seconds
+2025-10-11 16:17:42,039 - INFO - ============================================================
+2025-10-12 16:22:01,861 - INFO - ============================================================
+2025-10-12 16:22:01,862 - INFO - NetGuard Pro - JSON to SQLite Converter
+2025-10-12 16:22:01,862 - INFO - ============================================================
+2025-10-12 16:22:01,862 - INFO - Monitoring directory: /home/jarvis/NetGuard/captures/processed_json
+2025-10-12 16:22:01,862 - INFO - Database: /home/jarvis/NetGuard/network.db
+2025-10-12 16:22:01,862 - INFO - Check interval: 10 seconds
+2025-10-12 16:22:01,862 - INFO - ============================================================
+2025-10-13 18:19:27,977 - INFO - ============================================================
+2025-10-13 18:19:27,978 - INFO - NetGuard Pro - JSON to SQLite Converter
+2025-10-13 18:19:27,978 - INFO - ============================================================
+2025-10-13 18:19:27,978 - INFO - Monitoring directory: /home/jarvis/NetGuard/captures/processed_json
+2025-10-13 18:19:27,978 - INFO - Database: /home/jarvis/NetGuard/network.db
+2025-10-13 18:19:27,978 - INFO - Check interval: 10 seconds
+2025-10-13 18:19:27,978 - INFO - ============================================================
+2025-10-13 22:55:54,545 - INFO - ============================================================
+2025-10-13 22:55:54,545 - INFO - NetGuard Pro - JSON to SQLite Converter
+2025-10-13 22:55:54,545 - INFO - ============================================================
+2025-10-13 22:55:54,545 - INFO - Monitoring directory: /home/jarvis/NetGuard/captures/processed_json
+2025-10-13 22:55:54,545 - INFO - Database: /home/jarvis/NetGuard/network.db
+2025-10-13 22:55:54,545 - INFO - Check interval: 10 seconds
+2025-10-13 22:55:54,545 - INFO - ============================================================
+2025-10-14 16:00:41,782 - INFO - ============================================================
+2025-10-14 16:00:41,785 - INFO - NetGuard Pro - JSON to SQLite Converter
+2025-10-14 16:00:41,785 - INFO - ============================================================
+2025-10-14 16:00:41,785 - INFO - Monitoring directory: /home/jarvis/NetGuard/captures/processed_json
+2025-10-14 16:00:41,785 - INFO - Database: /home/jarvis/NetGuard/network.db
+2025-10-14 16:00:41,785 - INFO - Check interval: 10 seconds
+2025-10-14 16:00:41,785 - INFO - ============================================================
