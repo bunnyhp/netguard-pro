@@ -1,0 +1,172 @@
+════════════════════════════════════════════════════════════════════
+  NetGuard Pro - Reboot & Crash Protection Setup
+════════════════════════════════════════════════════════════════════
+
+🎯 GOAL: Make all services auto-start on boot and auto-restart on crash
+
+══════════════════════════════════════════════════════════════════════
+  STEP 1: Make Scripts Executable
+══════════════════════════════════════════════════════════════════════
+
+Run these commands:
+
+cd /home/jarvis/NetGuard/scripts
+chmod +x install_all_services.sh
+chmod +x check_services.sh
+chmod +x reboot_test_setup.sh
+
+══════════════════════════════════════════════════════════════════════
+  STEP 2: Run Complete Setup (ONE COMMAND DOES EVERYTHING)
+══════════════════════════════════════════════════════════════════════
+
+sudo bash /home/jarvis/NetGuard/scripts/reboot_test_setup.sh
+
+This will:
+✅ Install Flask dashboard service
+✅ Install all 10 collector services
+✅ Enable AI aggregator service
+✅ Enable auto-start on boot for ALL services
+✅ Verify crash protection (Restart=always)
+✅ Start all services
+✅ Test auto-restart by killing a service
+✅ Show comprehensive health report
+
+══════════════════════════════════════════════════════════════════════
+  STEP 3: Verify Everything Works
+══════════════════════════════════════════════════════════════════════
+
+bash /home/jarvis/NetGuard/scripts/check_services.sh
+
+This shows:
+- Which services are running
+- Which are enabled for boot
+- PIDs
+- Recent failures
+- Database status
+- Web dashboard status
+- Overall health score
+
+══════════════════════════════════════════════════════════════════════
+  STEP 4: Test Reboot (OPTIONAL BUT RECOMMENDED)
+══════════════════════════════════════════════════════════════════════
+
+# Before reboot
+bash /home/jarvis/NetGuard/scripts/check_services.sh > /tmp/before-reboot.txt
+
+# Reboot
+sudo reboot
+
+# After reboot (SSH back in)
+bash /home/jarvis/NetGuard/scripts/check_services.sh > /tmp/after-reboot.txt
+
+# Compare
+diff /tmp/before-reboot.txt /tmp/after-reboot.txt
+
+Expected: All services should be running again
+
+══════════════════════════════════════════════════════════════════════
+  WHAT'S PROTECTED NOW
+══════════════════════════════════════════════════════════════════════
+
+ALL 12 Services:
+  1. tshark-collector      → Packet analysis
+  2. p0f-collector         → OS fingerprinting
+  3. argus-collector       → Flow analysis
+  4. ngrep-collector       → Pattern matching
+  5. netsniff-collector    → Packet inspection
+  6. httpry-collector      → HTTP logging
+  7. iftop-collector       → Bandwidth monitoring
+  8. nethogs-collector     → Process monitoring
+  9. suricata-collector    → IDS/IPS
+ 10. tcpdump-collector     → Raw packet capture
+ 11. ai-aggregator         → AI analysis
+ 12. flask-dashboard       → Web interface
+
+Each service has:
+  ✅ Restart=always           (auto-restart on crash)
+  ✅ RestartSec=10           (10 sec delay between restarts)
+  ✅ WantedBy=multi-user     (auto-start on boot)
+  ✅ Resource limits         (MemoryMax, CPUQuota)
+  ✅ Comprehensive logging   (stdout + stderr)
+
+══════════════════════════════════════════════════════════════════════
+  QUICK MANAGEMENT COMMANDS
+══════════════════════════════════════════════════════════════════════
+
+# Health check
+bash /home/jarvis/NetGuard/scripts/check_services.sh
+
+# Start all services
+sudo systemctl start '*-collector.service' ai-aggregator.service flask-dashboard.service
+
+# Stop all services
+sudo systemctl stop '*-collector.service' ai-aggregator.service flask-dashboard.service
+
+# Restart all services
+sudo systemctl restart '*-collector.service' ai-aggregator.service flask-dashboard.service
+
+# Check specific service
+sudo systemctl status tshark-collector.service
+
+# View live logs
+journalctl -u tshark-collector.service -f
+
+# View last 50 log entries
+journalctl -u tshark-collector.service -n 50
+
+══════════════════════════════════════════════════════════════════════
+  FILES CREATED
+══════════════════════════════════════════════════════════════════════
+
+📄 /home/jarvis/NetGuard/scripts/install_all_services.sh
+   → Installs and enables all services
+
+📄 /home/jarvis/NetGuard/scripts/check_services.sh
+   → Comprehensive health check script
+
+📄 /home/jarvis/NetGuard/scripts/reboot_test_setup.sh
+   → Complete setup + crash test + health check
+
+📄 /home/jarvis/NetGuard/services/flask-dashboard.service
+   → Flask web dashboard systemd service
+
+📄 /home/jarvis/NetGuard/REBOOT_CRASH_PROTECTION.md
+   → Complete documentation (100+ commands)
+
+📄 /home/jarvis/NetGuard/SETUP_INSTRUCTIONS.txt
+   → This file
+
+══════════════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+══════════════════════════════════════════════════════════════════════
+
+Service won't start:
+  sudo systemctl status <service-name>.service
+  journalctl -u <service-name>.service -n 100
+
+Permission errors:
+  sudo chown -R jarvis:jarvis /home/jarvis/NetGuard/captures/
+  sudo chmod -R 755 /home/jarvis/NetGuard/captures/
+
+Service not enabled:
+  sudo systemctl enable <service-name>.service
+
+Reset failed service:
+  sudo systemctl reset-failed <service-name>.service
+
+══════════════════════════════════════════════════════════════════════
+  SUMMARY
+══════════════════════════════════════════════════════════════════════
+
+✅ All services configured with crash protection
+✅ All services will auto-start on boot
+✅ All services will auto-restart on failure
+✅ Resource limits prevent system overload
+✅ Comprehensive logging for debugging
+✅ Easy management scripts provided
+✅ Full documentation available
+
+Your system is now REBOOT-PROOF and CRASH-PROOF!
+
+══════════════════════════════════════════════════════════════════════
+

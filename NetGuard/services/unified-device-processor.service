@@ -1,0 +1,28 @@
+[Unit]
+Description=NetGuard Pro - Unified Device Processor
+After=network.target network-online.target device-tracker.service
+Wants=network-online.target
+Requires=device-tracker.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=jarvis
+Group=jarvis
+WorkingDirectory=/home/jarvis/NetGuard/scripts
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/unified_device_processor.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Resource limits
+MemoryMax=512M
+CPUQuota=20%
+
+# Auto-restart on failure
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
+

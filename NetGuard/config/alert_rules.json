@@ -1,0 +1,53 @@
+{
+  "rules": [
+    {
+      "name": "Port_Scan_Detection",
+      "type": "behavioral",
+      "condition": "connection_attempts > threshold in timeframe",
+      "threshold": 20,
+      "timeframe_seconds": 60,
+      "severity": "HIGH",
+      "auto_remediation": true
+    },
+    {
+      "name": "Brute_Force_Attack",
+      "type": "authentication",
+      "condition": "failed_login_attempts > threshold",
+      "threshold": 5,
+      "timeframe_seconds": 300,
+      "severity": "CRITICAL",
+      "auto_remediation": true
+    },
+    {
+      "name": "Unusual_Outbound_Traffic",
+      "type": "traffic",
+      "condition": "outbound_bytes > threshold",
+      "threshold": 1000000000,
+      "timeframe_seconds": 3600,
+      "severity": "MEDIUM",
+      "auto_remediation": false
+    },
+    {
+      "name": "IoT_Device_Compromise",
+      "type": "iot",
+      "condition": "iot_unexpected_connection",
+      "severity": "CRITICAL",
+      "auto_remediation": true
+    },
+    {
+      "name": "Malware_C2_Communication",
+      "type": "malware",
+      "condition": "known_c2_ip_contacted",
+      "severity": "CRITICAL",
+      "auto_remediation": true
+    },
+    {
+      "name": "DNS_Tunneling",
+      "type": "exfiltration",
+      "condition": "dns_query_length > threshold or dns_query_rate > threshold",
+      "threshold": 63,
+      "severity": "HIGH",
+      "auto_remediation": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=NetGuard Pro - Device Scorer Timer
+Requires=device-scorer.service
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target
+

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Suricata IDS/IPS - NetGuard Pro{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">🔒 Suricata IDS/IPS Categories</h4>
+            </div>
+            <div class="card-body">
+                <p>Intrusion Detection & Protocol Analysis on <strong>eno1</strong> interface</p>
+                <p class="text-muted">15-minute rotation | 45,633+ rules | 11 event categories</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    {% for category in categories %}
+    <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    {% if category.name == 'alerts' %}🚨{% endif %}
+                    {% if category.name == 'http' %}🌐{% endif %}
+                    {% if category.name == 'dns' %}📡{% endif %}
+                    {% if category.name == 'tls' %}🔐{% endif %}
+                    {% if category.name == 'files' %}📁{% endif %}
+                    {% if category.name == 'flow' %}🌊{% endif %}
+                    {% if category.name == 'ssh' %}💻{% endif %}
+                    {% if category.name == 'smtp' %}📧{% endif %}
+                    {% if category.name == 'ftp' %}📂{% endif %}
+                    {% if category.name == 'anomaly' %}⚠️{% endif %}
+                    {% if category.name == 'stats' %}📊{% endif %}
+                    {{ category.display_name }}
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="mb-2">
+                    <strong>Tables:</strong> <span class="badge bg-info">{{ category.table_count }}</span>
+                </p>
+                <p class="mb-2">
+                    <strong>Total Events:</strong> <span class="badge bg-success">{{ category.total_events }}</span>
+                </p>
+                <p class="text-muted small">
+                    {% if category.name == 'alerts' %}Threat detection and security alerts{% endif %}
+                    {% if category.name == 'http' %}Web traffic metadata and requests{% endif %}
+                    {% if category.name == 'dns' %}DNS queries and responses{% endif %}
+                    {% if category.name == 'tls' %}TLS/SSL certificate information{% endif %}
+                    {% if category.name == 'files' %}File transfer metadata{% endif %}
+                    {% if category.name == 'flow' %}Network connection flows{% endif %}
+                    {% if category.name == 'ssh' %}SSH connection attempts{% endif %}
+                    {% if category.name == 'smtp' %}Email traffic logs{% endif %}
+                    {% if category.name == 'ftp' %}FTP file transfers{% endif %}
+                    {% if category.name == 'anomaly' %}Protocol violations and anomalies{% endif %}
+                    {% if category.name == 'stats' %}Performance metrics{% endif %}
+                </p>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/suricata/{{ category.name }}" class="btn btn-primary btn-sm w-100">
+                    View {{ category.display_name }}
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+

@@ -1,0 +1,27 @@
+[Unit]
+Description=NetGuard Pro - Enhanced Alert System
+After=network.target network-online.target device-tracker.service
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=jarvis
+Group=jarvis
+WorkingDirectory=/home/jarvis/NetGuard/scripts
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/enhanced_alert_system.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Resource limits
+MemoryMax=512M
+CPUQuota=20%
+
+# Auto-restart on failure
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
+

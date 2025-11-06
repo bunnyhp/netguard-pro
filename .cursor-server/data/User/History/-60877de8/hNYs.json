@@ -1,0 +1,29 @@
+{
+  "ai_enabled": true,
+  "analysis_interval_minutes": 5,
+  "api_keys": {
+    "gemini_api_key": "AIzaSyChHJRtQ47e7gxUEOK2pAEpLK95jIfviZg",
+    "groq_api_key": "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",
+    "openrouter_api_key": "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"
+  },
+  "data_collection": {
+    "time_window_minutes": 5,
+    "max_packets_to_analyze": 1000,
+    "tools": [
+      "suricata",
+      "tcpdump",
+      "tshark",
+      "argus",
+      "ngrep",
+      "netsniff",
+      "httpry",
+      "iftop",
+      "nethogs"
+    ]
+  },
+  "ai_models": {
+    "primary": "gemini",
+    "fallbacks": ["groq", "openrouter"]
+  }
+}
+

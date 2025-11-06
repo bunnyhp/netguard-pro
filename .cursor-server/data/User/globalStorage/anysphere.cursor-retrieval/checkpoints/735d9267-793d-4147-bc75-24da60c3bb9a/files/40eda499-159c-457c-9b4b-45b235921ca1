@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}NetGuard Pro{% endblock %}</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #00d4ff;
+            --bg-dark: #0f0f0f;
+            --bg-card: #1a1a1a;
+            --bg-card-hover: #232323;
+            --border-color: #2a2a2a;
+            --text-primary: #e0e0e0;
+            --text-secondary: #888;
+            --success: #66bb6a;
+            --warning: #ffa726;
+            --danger: #f44336;
+        }
+        
+        body {
+            background: var(--bg-dark);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-primary);
+        }
+        
+        .navbar {
+            background: var(--bg-card) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .navbar-brand {
+            font-weight: 600;
+            font-size: 1.4rem;
+            color: #fff !important;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .nav-link {
+            color: var(--text-secondary) !important;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-color) !important;
+        }
+        
+        .main-container {
+            padding: 2rem 0;
+        }
+        
+        .card {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+            background: var(--bg-card);
+        }
+        
+        /* Cards containing tables should have black background */
+        .card:has(table) {
+            background: #000;
+        }
+        
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,212,255,0.1);
+            border-color: var(--primary-color);
+        }
+        
+        .card-header {
+            background: transparent;
+            color: #fff;
+            border-bottom: 1px solid var(--border-color);
+            border-radius: 12px 12px 0 0 !important;
+            font-weight: 600;
+            padding: 1.2rem 1.5rem;
+        }
+        
+        .card-body {
+            color: var(--text-secondary);
+        }
+        
+        .card-footer {
+            background: transparent;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .ip-address {
+            background-color: rgba(0, 212, 255, 0.1);
+            color: var(--primary-color);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+        
+        .port-number {
+            background-color: rgba(255, 167, 38, 0.1);
+            color: var(--warning);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            border: 1px solid rgba(255, 167, 38, 0.3);
+        }
+        
+        .protocol-badge {
+            background-color: var(--bg-card-hover);
+            color: var(--primary-color);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+        }
+        
+        .table {
+            background-color: #000 !important;
+            color: var(--text-primary) !important;
+            border: 1px solid var(--border-color);
+        }
+        
+        .table thead {
+            background: #000 !important;
+            color: var(--primary-color) !important;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        
+        .table thead th {
+            border: none !important;
+            font-weight: 600;
+            padding: 1rem;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            color: var(--primary-color) !important;
+            background: #000 !important;
+        }
+        
+        .table tbody tr {
+            border-bottom: 1px solid var(--border-color);
+            background: #000 !important;
+        }
+        
+        .table tbody tr:hover {
+            background-color: #1a1a1a !important;
+        }
+        
+        .table tbody td {
+            padding: 1rem;
+            color: var(--text-secondary) !important;
+            border-color: var(--border-color) !important;
+        }
+        
+        /* Force black background for all table variations */
+        table.dataTable,
+        table.dataTable thead,
+        table.dataTable tbody,
+        table.dataTable tbody tr,
+        table.dataTable tbody tr td,
+        .table-striped tbody tr,
+        .table-striped tbody tr:nth-of-type(odd),
+        .table-striped tbody tr:nth-of-type(even) {
+            background-color: #000 !important;
+        }
+        
+        table.dataTable tbody tr:hover,
+        table.dataTable tbody tr:hover td {
+            background-color: #1a1a1a !important;
+        }
+        
+        /* Override Bootstrap striped table */
+        .table-striped > tbody > tr:nth-of-type(odd) > *,
+        .table-striped > tbody > tr:nth-of-type(even) > * {
+            --bs-table-bg-type: #000 !important;
+            --bs-table-striped-bg: #000 !important;
+            background-color: #000 !important;
+        }
+        
+        /* Override any Bootstrap table variants */
+        .table > :not(caption) > * > * {
+            background-color: #000 !important;
+        }
+        
+        /* DataTables Dark Theme Override */
+        .dataTables_wrapper {
+            color: var(--text-primary) !important;
+            background-color: #000 !important;
+        }
+        
+        /* Force all DataTables rows to be black */
+        table.dataTable.stripe tbody tr.odd,
+        table.dataTable.stripe tbody tr.even,
+        table.dataTable.display tbody tr.odd,
+        table.dataTable.display tbody tr.even,
+        table.dataTable tbody tr.odd > .sorting_1,
+        table.dataTable tbody tr.even > .sorting_1 {
+            background-color: #000 !important;
+        }
+        
+        table.dataTable.stripe tbody tr.odd:hover,
+        table.dataTable.stripe tbody tr.even:hover,
+        table.dataTable.display tbody tr.odd:hover,
+        table.dataTable.display tbody tr.even:hover {
+            background-color: #1a1a1a !important;
+        }
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            background: var(--bg-card) !important;
+            color: var(--text-primary) !important;
+            border: 1px solid var(--border-color) !important;
+        }
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background: var(--bg-card-hover) !important;
+            color: var(--primary-color) !important;
+            border: 1px solid var(--primary-color) !important;
+        }
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background: var(--primary-color) !important;
+            color: #000 !important;
+            border: 1px solid var(--primary-color) !important;
+        }
+        
+        .dataTables_wrapper .dataTables_filter input,
+        .dataTables_wrapper .dataTables_length select {
+            background: var(--bg-card) !important;
+            color: var(--text-primary) !important;
+            border: 1px solid var(--border-color) !important;
+            padding: 0.5rem !important;
+            border-radius: 6px !important;
+        }
+        
+        .dataTables_wrapper .dataTables_info,
+        .dataTables_wrapper .dataTables_filter label,
+        .dataTables_wrapper .dataTables_length label {
+            color: var(--text-secondary) !important;
+        }
+        
+        div.dataTables_wrapper div.dataTables_processing {
+            background: var(--bg-card) !important;
+            color: var(--primary-color) !important;
+            border: 2px solid var(--primary-color) !important;
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            border: none;
+            border-radius: 8px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: #000;
+        }
+        
+        .btn-primary:hover {
+            background: #00b8e6;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+        }
+        
+        .btn-ai {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 8px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: #fff !important;
+        }
+        
+        .btn-ai:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--primary-color) 0%, #0080ff 100%);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem 0;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">🛡️ NetGuard Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/network-topology">
+                            <i class="fas fa-project-diagram"></i> Network Map
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/suricata">
+                            <i class="fas fa-shield-alt"></i> Suricata
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analysis">
+                            <i class="fas fa-chart-bar"></i> Analysis Tools
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ai-dashboard" style="color: var(--primary-color) !important;">
+                            <i class="fas fa-brain"></i> AI Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/alerts">
+                            <i class="fas fa-bell"></i> Alerts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/iot-devices">
+                            <i class="fas fa-microchip"></i> IoT Devices
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/help">
+                            <i class="fas fa-question-circle"></i> Help
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <div class="container-fluid">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 NetGuard Pro - Network Security Monitoring System</p>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    
+    <!-- Optimized DataTables Configuration -->
+    <script>
+        // Set DataTables defaults for better performance
+        $.extend(true, $.fn.dataTable.defaults, {
+            "pageLength": 25,
+            "lengthMenu": [[10, 25, 50, 100], [10, 25, 50, 100]],
+            "processing": true,
+            "deferRender": true,
+            "dom": '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>rt<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
+            "language": {
+                "processing": '<div style="color: var(--primary-color); font-size: 1.2rem;"><i class="fas fa-circle-notch fa-spin"></i> Loading...</div>',
+                "search": "Search:",
+                "lengthMenu": "Show _MENU_ entries",
+                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty": "No entries available",
+                "infoFiltered": "(filtered from _MAX_ total entries)",
+                "paginate": {
+                    "first": "First",
+                    "last": "Last",
+                    "next": "Next",
+                    "previous": "Previous"
+                }
+            }
+        });
+    </script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
+

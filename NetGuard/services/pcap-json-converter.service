@@ -1,0 +1,22 @@
+[Unit]
+Description=NetGuard Pro - PCAP to JSON Converter Service
+Documentation=https://github.com/netguard-pro
+After=network-capture.service
+
+[Service]
+Type=simple
+User=jarvis
+WorkingDirectory=/home/jarvis/NetGuard
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/pcap_to_json.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/jarvis/NetGuard/logs/system/pcap-json-service.log
+StandardError=append:/home/jarvis/NetGuard/logs/system/pcap-json-service-error.log
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+

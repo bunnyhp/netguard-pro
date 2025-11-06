@@ -1,0 +1,502 @@
+{% extends "base.html" %}
+
+{% block title %}NetGuard Pro - Help & Documentation{% endblock %}
+
+{% block content %}
+<style>
+    .help-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px 20px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .help-section {
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 12px;
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .help-section h2 {
+        color: #00d4ff;
+        border-bottom: 2px solid #00d4ff;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .help-section h3 {
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    
+    .metric-explanation {
+        background: #232323;
+        border-left: 4px solid #00d4ff;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 6px;
+    }
+    
+    .metric-title {
+        color: #00d4ff;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    
+    .metric-description {
+        color: #ddd;
+        line-height: 1.6;
+    }
+    
+    .alert-example {
+        background: #2a1a1a;
+        border-left: 4px solid #ff4444;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 6px;
+    }
+    
+    .success-example {
+        background: #1a2a1a;
+        border-left: 4px solid #44ff44;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 6px;
+    }
+    
+    .code-block {
+        background: #0a0a0a;
+        border: 1px solid #333;
+        border-radius: 8px;
+        padding: 15px;
+        font-family: 'Courier New', monospace;
+        color: #00ff00;
+        margin: 10px 0;
+        overflow-x: auto;
+    }
+    
+    .faq-item {
+        background: #232323;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .faq-item:hover {
+        background: #2a2a2a;
+        transform: translateX(5px);
+    }
+    
+    .faq-question {
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .faq-answer {
+        color: #ddd;
+        line-height: 1.6;
+        display: none;
+    }
+    
+    .faq-item.active .faq-answer {
+        display: block;
+    }
+    
+    .security-tip {
+        background: #1a2a3a;
+        border-left: 4px solid #4a9eff;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 6px;
+    }
+    
+    .grade-badge {
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 6px;
+        font-weight: 600;
+        margin: 5px;
+    }
+    
+    .grade-a { background: #44ff44; color: #000; }
+    .grade-b { background: #88ff44; color: #000; }
+    .grade-c { background: #ffcc44; color: #000; }
+    .grade-d { background: #ff8844; color: #000; }
+    .grade-f { background: #ff4444; color: #fff; }
+</style>
+
+<div class="help-header">
+    <h1><i class="fas fa-question-circle"></i> NetGuard Pro Help Center</h1>
+    <p style="font-size: 1.1rem; margin-top: 15px;">Comprehensive guide to understanding your network security dashboard</p>
+</div>
+
+<!-- Quick Navigation -->
+<div class="help-section">
+    <h2><i class="fas fa-compass"></i> Quick Navigation</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+        <a href="#metrics" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-chart-line"></i> Understanding Metrics
+        </a>
+        <a href="#devices" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-laptop"></i> Device Management
+        </a>
+        <a href="#threats" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-shield-alt"></i> Threat Analysis
+        </a>
+        <a href="#iot" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-microchip"></i> IoT Security
+        </a>
+        <a href="#faq" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-question"></i> FAQ
+        </a>
+        <a href="#troubleshooting" class="btn btn-primary" style="text-decoration: none;">
+            <i class="fas fa-tools"></i> Troubleshooting
+        </a>
+    </div>
+</div>
+
+<!-- Dashboard Metrics Explanation -->
+<div class="help-section" id="metrics">
+    <h2><i class="fas fa-chart-line"></i> Understanding Dashboard Metrics</h2>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-heartbeat"></i> Network Health Score (0-100)</div>
+        <div class="metric-description">
+            <strong>What it means:</strong> Overall health assessment of your network based on security posture, threat detection, and system performance.<br>
+            <strong>Score Interpretation:</strong>
+            <ul>
+                <li><strong>90-100:</strong> Excellent - Network is secure and well-monitored</li>
+                <li><strong>80-89:</strong> Good - Minor issues that should be addressed</li>
+                <li><strong>70-79:</strong> Fair - Some security concerns present</li>
+                <li><strong>Below 70:</strong> Poor - Immediate attention required</li>
+            </ul>
+            <strong>How to improve:</strong> Address identified threats, update device firmware, enable encryption, isolate IoT devices.
+        </div>
+    </div>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-exclamation-triangle"></i> Threats Detected</div>
+        <div class="metric-description">
+            <strong>What it means:</strong> Number of active security threats or vulnerabilities identified by the AI analysis system.<br>
+            <strong>Threat Levels:</strong>
+            <ul>
+                <li><span style="color: #ff4444;"><strong>CRITICAL:</strong></span> Immediate action required - Active exploitation or severe vulnerability</li>
+                <li><span style="color: #ff8844;"><strong>HIGH:</strong></span> Urgent attention needed - Significant security risk</li>
+                <li><span style="color: #ffcc44;"><strong>MEDIUM:</strong></span> Should be addressed soon - Moderate security concern</li>
+                <li><span style="color: #88ff44;"><strong>LOW:</strong></span> Informational - Best practice improvements</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-laptop"></i> Devices Monitored</div>
+        <div class="metric-description">
+            <strong>What it means:</strong> Total number of devices actively tracked on your network, categorized by type (IoT, Mobile, Computer, Network Equipment).<br>
+            <strong>Important:</strong> Unidentified devices may indicate unauthorized access to your network. Investigate unknown devices immediately.
+        </div>
+    </div>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-network-wired"></i> Packets Analyzed</div>
+        <div class="metric-description">
+            <strong>What it means:</strong> Total network packets captured and analyzed by all monitoring tools (tshark, tcpdump, suricata, etc.).<br>
+            <strong>Typical values:</strong> 10k-100k packets per 5-minute interval for a home network with 5-15 devices.
+        </div>
+    </div>
+</div>
+
+<!-- Device Management -->
+<div class="help-section" id="devices">
+    <h2><i class="fas fa-laptop"></i> Device Management & Security Scores</h2>
+    
+    <h3>Device Security Scoring System</h3>
+    <p>Each device receives a security score from 0-100 based on multiple factors:</p>
+    
+    <div style="margin: 20px 0;">
+        <strong>Score Grades:</strong><br>
+        <span class="grade-badge grade-a">A (90-100)</span> Excellent Security
+        <span class="grade-badge grade-b">B (80-89)</span> Good Security
+        <span class="grade-badge grade-c">C (70-79)</span> Fair Security
+        <span class="grade-badge grade-d">D (60-69)</span> Poor Security
+        <span class="grade-badge grade-f">F (0-59)</span> Critical Issues
+    </div>
+    
+    <h3>Scoring Factors:</h3>
+    <div class="metric-explanation">
+        <ul>
+            <li><strong>Device Identification:</strong> -10 pts for no hostname, -15 pts for no MAC address, -10 pts for unknown type</li>
+            <li><strong>Vulnerabilities:</strong> -40 pts for CRITICAL, -25 pts for HIGH, -15 pts for MEDIUM, -5 pts for LOW</li>
+            <li><strong>Encryption Usage:</strong> -15 pts for >70% HTTP traffic, -8 pts for 40-70% HTTP traffic</li>
+            <li><strong>Device Activity:</strong> -5 pts for inactive >24 hours</li>
+            <li><strong>IoT Risk:</strong> -5 pts for IoT devices (inherent risk), +3 pts if properly categorized</li>
+            <li><strong>Network Infrastructure:</strong> +10 pts for routers/switches (critical devices)</li>
+        </ul>
+    </div>
+    
+    <h3>Device Types Explained:</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
+        <div class="metric-explanation">
+            <div class="metric-title" style="color: #ff6b6b;"><i class="fas fa-microchip"></i> IoT Devices</div>
+            <div class="metric-description">Smart home devices: cameras, thermostats, speakers, lights, appliances, Raspberry Pi projects</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title" style="color: #4ecdc4;"><i class="fas fa-mobile-alt"></i> Mobile Devices</div>
+            <div class="metric-description">Smartphones, tablets, iPads, iPhones, Android devices</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title" style="color: #45b7d1;"><i class="fas fa-desktop"></i> Computers</div>
+            <div class="metric-description">Desktops, laptops, workstations, servers, NAS devices</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title" style="color: #ffa500;"><i class="fas fa-network-wired"></i> Network Equipment</div>
+            <div class="metric-description">Routers, switches, access points, modems, gateways</div>
+        </div>
+    </div>
+</div>
+
+<!-- Threat Analysis -->
+<div class="help-section" id="threats">
+    <h2><i class="fas fa-shield-alt"></i> Understanding Threats & Alerts</h2>
+    
+    <h3>Common Threat Types:</h3>
+    
+    <div class="alert-example">
+        <strong style="color: #ff4444;"><i class="fas fa-virus"></i> Botnet Activity (Mirai, Mozi)</strong>
+        <p>IoT devices attempting Telnet brute force or connecting to command & control servers.</p>
+        <strong>Action:</strong> Isolate affected device, change default credentials, update firmware, disable unused ports.
+    </div>
+    
+    <div class="alert-example">
+        <strong style="color: #ff8844;"><i class="fas fa-coins"></i> Cryptomining</strong>
+        <p>Device exhibiting sustained high outbound traffic to known cryptomining pools.</p>
+        <strong>Action:</strong> Check for malware, scan device, monitor CPU usage, block mining pool IPs.
+    </div>
+    
+    <div class="alert-example">
+        <strong style="color: #ffcc44;"><i class="fas fa-user-secret"></i> Data Exfiltration</strong>
+        <p>Device sending large amounts of data outbound to unusual destinations.</p>
+        <strong>Action:</strong> Investigate connections, check for unauthorized access, enable firewall rules.
+    </div>
+    
+    <div class="alert-example">
+        <strong style="color: #ff8844;"><i class="fas fa-door-open"></i> Open Vulnerable Ports</strong>
+        <p>Services exposed on commonly exploited ports (Telnet 23, FTP 21, RDP 3389, etc.).</p>
+        <strong>Action:</strong> Disable unnecessary services, use firewall to block external access, enable VPN.
+    </div>
+    
+    <h3>What AI Analysis Provides:</h3>
+    <ul>
+        <li><strong>Network Insights:</strong> Protocol distribution, connection patterns, bandwidth anomalies</li>
+        <li><strong>Device Analysis:</strong> Per-device behavior, suspicious activities, device-specific threats</li>
+        <li><strong>HTTP Analysis:</strong> Web traffic patterns, suspicious URLs, unusual user agents</li>
+        <li><strong>IoT Analysis:</strong> IoT-specific vulnerabilities, security posture, recommendations</li>
+        <li><strong>Recommendations:</strong> Prioritized actionable steps to improve security</li>
+    </ul>
+</div>
+
+<!-- IoT Security -->
+<div class="help-section" id="iot">
+    <h2><i class="fas fa-microchip"></i> IoT Device Security Best Practices</h2>
+    
+    <div class="security-tip">
+        <strong><i class="fas fa-lock"></i> Essential IoT Security Steps:</strong>
+        <ol style="margin-top: 10px;">
+            <li><strong>Change Default Credentials:</strong> Never use default usernames/passwords</li>
+            <li><strong>Enable Encryption:</strong> Use HTTPS/TLS for all communications</li>
+            <li><strong>Regular Updates:</strong> Keep firmware up to date</li>
+            <li><strong>Network Segmentation:</strong> Put IoT devices on separate VLAN</li>
+            <li><strong>Disable Unused Features:</strong> Turn off UPnP, remote access if not needed</li>
+            <li><strong>Monitor Traffic:</strong> Review IoT device connections regularly</li>
+        </ol>
+    </div>
+    
+    <h3>Common IoT Vulnerabilities Detected:</h3>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-unlock"></i> Poor Security Posture</div>
+        <div class="metric-description">
+            <strong>Indicators:</strong> No MAC address, low security score, unknown device type<br>
+            <strong>Fix:</strong> Identify the device, assign proper MAC, categorize device type, improve network visibility
+        </div>
+    </div>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-broadcast-tower"></i> Unencrypted Traffic</div>
+        <div class="metric-description">
+            <strong>Indicators:</strong> High percentage of HTTP vs HTTPS traffic<br>
+            <strong>Fix:</strong> Configure device to use HTTPS, enable SSL/TLS in device settings, use VPN
+        </div>
+    </div>
+    
+    <div class="metric-explanation">
+        <div class="metric-title"><i class="fas fa-door-open"></i> Open Telnet Ports</div>
+        <div class="metric-description">
+            <strong>Indicators:</strong> Ports 23 or 2323 open and accessible<br>
+            <strong>Fix:</strong> Disable telnet immediately, use SSH with key authentication if remote access needed
+        </div>
+    </div>
+    
+    <h3>Recommended IoT Security Tools:</h3>
+    <ul>
+        <li><strong>VLAN Segmentation:</strong> Configure router to separate IoT devices from main network</li>
+        <li><strong>Firewall Rules:</strong> Block IoT devices from accessing internet unless necessary</li>
+        <li><strong>VPN:</strong> Use VPN for remote access instead of port forwarding</li>
+        <li><strong>Regular Audits:</strong> Check IoT Devices page weekly for new vulnerabilities</li>
+    </ul>
+</div>
+
+<!-- FAQ -->
+<div class="help-section" id="faq">
+    <h2><i class="fas fa-question"></i> Frequently Asked Questions</h2>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> Why does my network health score fluctuate?</div>
+        <div class="faq-answer">
+            The score changes based on real-time threat detection, device behavior, and network activity. A sudden drop might indicate new threats or vulnerabilities. Check the AI Dashboard for details and recommendations.
+        </div>
+    </div>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> What should I do if I see "Unknown" devices?</div>
+        <div class="faq-answer">
+            Unknown devices could be legitimate devices with poor identification or potential security risks. Cross-reference the IP/MAC address with your known devices. If unrecognized, investigate immediately and consider blocking the device.
+        </div>
+    </div>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> How often is the data updated?</div>
+        <div class="faq-answer">
+            Network collectors run every 5 minutes. AI analysis processes data every 5 minutes. Dashboards auto-refresh every 60 seconds. Real-time threat detection is continuous through Suricata IDS.
+        </div>
+    </div>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> Why is my IoT device showing vulnerabilities?</div>
+        <div class="faq-answer">
+            IoT devices often have inherent security weaknesses: default credentials, unencrypted traffic, open ports, outdated firmware. Follow the recommendations on the IoT Devices page to improve security scores.
+        </div>
+    </div>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> Can NetGuard Pro block threats automatically?</div>
+        <div class="faq-answer">
+            Currently, NetGuard Pro detects and alerts on threats. For automated blocking, you can implement firewall rules based on the recommendations. Future versions will include one-click remediation actions.
+        </div>
+    </div>
+    
+    <div class="faq-item" onclick="this.classList.toggle('active')">
+        <div class="faq-question"><i class="fas fa-chevron-right"></i> How accurate is the device categorization?</div>
+        <div class="faq-answer">
+            Device categorization uses hostname, MAC vendor, and network behavior patterns. Accuracy is ~85-90% for common devices. You can manually improve categorization by ensuring devices have proper hostnames and MAC addresses are visible.
+        </div>
+    </div>
+</div>
+
+<!-- Troubleshooting -->
+<div class="help-section" id="troubleshooting">
+    <h2><i class="fas fa-tools"></i> Troubleshooting Common Issues</h2>
+    
+    <h3>Dashboard Not Loading / Blank Pages</h3>
+    <div class="code-block">
+# Check if Flask is running
+ps aux | grep "python3 app.py"
+
+# Restart Flask dashboard
+cd /home/jarvis/NetGuard/web
+python3 app.py
+
+# Check logs
+tail -f /tmp/flask.log
+    </div>
+    
+    <h3>No Data Showing / Zero Packets</h3>
+    <div class="code-block">
+# Check if collectors are running
+ps aux | grep -E "(tshark|tcpdump|suricata)"
+
+# Check collector logs
+ls -lh /home/jarvis/NetGuard/logs/system/
+
+# Verify database has data
+sqlite3 /home/jarvis/NetGuard/network.db "SELECT COUNT(*) FROM devices;"
+    </div>
+    
+    <h3>High CPU/Memory Usage</h3>
+    <div class="code-block">
+# Check system resources
+top -b -n 1 | head -20
+
+# Reduce collector intervals (edit each script)
+# Change COLLECT_INTERVAL from 300 to 600 (10 minutes)
+
+# Optimize database
+python3 /home/jarvis/NetGuard/scripts/optimize_database.py
+    </div>
+    
+    <h3>Device Not Being Tracked</h3>
+    <div class="code-block">
+# Force device discovery
+python3 /home/jarvis/NetGuard/scripts/device_tracker.py
+
+# Check ARP table
+arp -a
+
+# Verify device is active
+ping [device_ip]
+    </div>
+    
+    <h3>AI Analysis Failing</h3>
+    <div class="code-block">
+# Check AI aggregator logs
+tail -f /home/jarvis/NetGuard/logs/system/ai-5min-aggregator.log
+
+# Verify API key
+cat /home/jarvis/NetGuard/config/ai_config.json
+
+# Test API manually
+python3 /home/jarvis/NetGuard/scripts/ai_5min_aggregator.py
+    </div>
+</div>
+
+<!-- System Information -->
+<div class="help-section">
+    <h2><i class="fas fa-info-circle"></i> System Information</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div class="metric-explanation">
+            <div class="metric-title">Version</div>
+            <div class="metric-description">NetGuard Pro v2.0</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title">Data Collection</div>
+            <div class="metric-description">10 monitoring tools + Suricata IDS</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title">AI Analysis</div>
+            <div class="metric-description">Google Gemini 2.0 Flash Exp</div>
+        </div>
+        <div class="metric-explanation">
+            <div class="metric-title">Update Interval</div>
+            <div class="metric-description">5 minutes (customizable)</div>
+        </div>
+    </div>
+</div>
+
+<div style="text-align: center; margin: 40px 0; padding: 30px; background: #1a1a1a; border-radius: 12px;">
+    <h3 style="color: #00d4ff; margin-bottom: 15px;">Need More Help?</h3>
+    <p style="color: #ddd; font-size: 1.1rem;">
+        For additional support or to report issues, check the project documentation or logs in <code>/home/jarvis/NetGuard/logs/</code>
+    </p>
+</div>
+
+{% endblock %}
+

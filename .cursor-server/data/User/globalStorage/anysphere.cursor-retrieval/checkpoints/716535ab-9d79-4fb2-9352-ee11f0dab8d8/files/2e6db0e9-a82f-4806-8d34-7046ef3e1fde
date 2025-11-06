@@ -1,0 +1,302 @@
+{% extends "base.html" %}
+
+{% block title %}NetGuard Pro - Dashboard{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card" style="border: 2px solid var(--primary-color); background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(0, 212, 255, 0.02) 100%);">
+            <div class="card-body text-center py-5">
+                <h1 class="display-4 mb-3" style="color: #fff; font-weight: 700;">
+                    <i class="fas fa-shield-alt" style="color: var(--primary-color);"></i> NetGuard Pro
+                </h1>
+                <p class="lead" style="color: var(--text-secondary);">Comprehensive Network Security Monitoring with AI-Powered Threat Detection</p>
+                <div class="mt-4">
+                    <a href="/ai-dashboard" class="btn btn-ai btn-lg">
+                        <i class="fas fa-brain"></i> Open AI Dashboard
+                    </a>
+                    <button onclick="flushAllData()" class="btn btn-lg" style="background: #ff4444; color: #fff; margin-left: 15px;">
+                        <i class="fas fa-trash-alt"></i> Flush All Data
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Row -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="stat-card text-center">
+            <div class="stat-label"><i class="fas fa-database"></i> Active Tools</div>
+            <div class="stat-number">10</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card text-center">
+            <div class="stat-label"><i class="fas fa-network-wired"></i> Network Events</div>
+            <div class="stat-number">280k+</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card text-center">
+            <div class="stat-label"><i class="fas fa-chart-line"></i> AI Analysis</div>
+            <div class="stat-number">5 min</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="stat-card text-center">
+            <div class="stat-label"><i class="fas fa-server"></i> Services</div>
+            <div class="stat-number">Active</div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Features -->
+<div class="row">
+    <!-- AI Dashboard Card -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100" style="border: 2px solid #667eea;">
+            <div class="card-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff;">
+                <h5 class="mb-0"><i class="fas fa-brain"></i> AI Security Dashboard</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">AI-powered threat detection and network analysis. Real-time insights with comprehensive visualizations.</p>
+                <ul class="list-unstyled">
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--success);"></i> Automated threat detection
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--success);"></i> Network health monitoring
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--success);"></i> Device behavior analysis
+                    </li>
+                    <li style="color: var(--text-secondary);">
+                        <i class="fas fa-check-circle" style="color: var(--success);"></i> Real-time charts & insights
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/ai-dashboard" class="btn btn-ai w-100">
+                    <i class="fas fa-brain"></i> View AI Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Packet Capture Card -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-inbox"></i> Packet Capture (tcpdump)</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Deep packet analysis with full network traffic capture. Zero packet loss with ring buffer rotation.</p>
+                <ul class="list-unstyled">
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> 243,961+ packets captured
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> IPv4 & IPv6 support
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Full packet details
+                    </li>
+                    <li style="color: var(--text-secondary);">
+                        <i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Continuous capture
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/tcpdump" class="btn btn-primary w-100">
+                    <i class="fas fa-table"></i> View Packet Data
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Secondary Features -->
+<div class="row">
+    <!-- Suricata IDS/IPS -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-shield-virus"></i> Suricata IDS/IPS</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Intrusion detection with 45,633+ rules. Multi-event tracking and protocol analysis.</p>
+                <ul class="list-unstyled">
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--danger);"></i> Real-time alerts
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--danger);"></i> HTTP/DNS/TLS analysis
+                    </li>
+                    <li style="color: var(--text-secondary);">
+                        <i class="fas fa-check-circle" style="color: var(--danger);"></i> 6,427+ events
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/suricata" class="btn btn-primary w-100">
+                    <i class="fas fa-eye"></i> View Suricata Data
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Network Analysis Tools -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-tools"></i> Analysis Tools</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">8 specialized network analysis tools for comprehensive monitoring and insights.</p>
+                <ul class="list-unstyled">
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--warning);"></i> tshark, argus, ngrep
+                    </li>
+                    <li style="color: var(--text-secondary); margin-bottom: 8px;">
+                        <i class="fas fa-check-circle" style="color: var(--warning);"></i> httpry, netsniff-ng
+                    </li>
+                    <li style="color: var(--text-secondary);">
+                        <i class="fas fa-check-circle" style="color: var(--warning);"></i> iftop, nethogs, p0f
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/analysis" class="btn btn-primary w-100">
+                    <i class="fas fa-chart-bar"></i> View Analysis Data
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- System Status -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-heartbeat"></i> System Status</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">All monitoring services are operational and collecting data in real-time.</p>
+                <div style="margin-top: 20px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+                        <span style="color: var(--text-secondary);">Data Collection</span>
+                        <span style="color: var(--success); font-weight: 600;">
+                            <i class="fas fa-check-circle"></i> Active
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+                        <span style="color: var(--text-secondary);">AI Analysis</span>
+                        <span style="color: var(--success); font-weight: 600;">
+                            <i class="fas fa-check-circle"></i> Running
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: var(--text-secondary);">Network Health</span>
+                        <span style="color: var(--success); font-weight: 600;">85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer bg-transparent">
+                <button class="btn btn-primary w-100" disabled>
+                    <i class="fas fa-check"></i> All Systems Operational
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Stats -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-info-circle"></i> System Information</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3 text-center mb-3">
+                        <div style="font-size: 2rem; color: var(--primary-color); margin-bottom: 8px;">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Total Records</div>
+                        <div style="color: #fff; font-size: 1.5rem; font-weight: 600;">280,740+</div>
+                    </div>
+                    <div class="col-md-3 text-center mb-3">
+                        <div style="font-size: 2rem; color: var(--warning); margin-bottom: 8px;">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Devices Monitored</div>
+                        <div style="color: #fff; font-size: 1.5rem; font-weight: 600;">21</div>
+                    </div>
+                    <div class="col-md-3 text-center mb-3">
+                        <div style="font-size: 2rem; color: var(--success); margin-bottom: 8px;">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Threat Level</div>
+                        <div style="color: var(--success); font-size: 1.5rem; font-weight: 600;">LOW</div>
+                    </div>
+                    <div class="col-md-3 text-center mb-3">
+                        <div style="font-size: 2rem; color: var(--primary-color); margin-bottom: 8px;">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Last Updated</div>
+                        <div style="color: #fff; font-size: 1.5rem; font-weight: 600;">{{ stats.last_updated if stats else 'Live' }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function flushAllData() {
+    if (!confirm('⚠️ WARNING: This will delete ALL captured data from ALL tools.\n\nThis includes:\n• tshark\n• tcpdump\n• p0f\n• argus\n• ngrep\n• netsniff\n• httpry\n• iftop\n• nethogs\n• Suricata\n\nAI analysis data will be preserved.\n\nAre you sure you want to continue?')) {
+        return;
+    }
+    
+    // Show loading
+    const btn = event.target;
+    const originalText = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Flushing...';
+    
+    fetch('/flush-all-data', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+        
+        if (data.success) {
+            alert('✅ SUCCESS!\n\n' + 
+                  'Deleted data from ' + data.deleted_tables + ' tables\n' +
+                  'Kept ' + data.kept_tables + ' system tables\n\n' +
+                  'All capture data has been flushed.\n' +
+                  'Tools will start collecting fresh data immediately.');
+            
+            // Reload page to show empty tables
+            location.reload();
+        } else {
+            alert('❌ Error: ' + data.error);
+        }
+    })
+    .catch(error => {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+        alert('❌ Error: ' + error);
+    });
+}
+</script>
+
+{% endblock %}

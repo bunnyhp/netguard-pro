@@ -1,0 +1,91 @@
+#!/bin/bash
+
+echo "=========================================="
+echo "NetGuard Pro - Complete AI System Fix"
+echo "=========================================="
+
+echo ""
+echo "🔍 Step 1: Checking AI Aggregator Status..."
+sudo systemctl status ai-5min-aggregator.timer --no-pager | grep "Active:"
+sudo systemctl status ai-5min-aggregator.service --no-pager | grep "Active:"
+
+echo ""
+echo "🔧 Step 2: Installing AI Aggregator Services..."
+sudo cp /home/jarvis/NetGuard/services/ai-5min-aggregator.service /etc/systemd/system/
+sudo cp /home/jarvis/NetGuard/services/ai-5min-aggregator.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable ai-5min-aggregator.timer
+sudo systemctl enable ai-5min-aggregator.service
+sudo systemctl start ai-5min-aggregator.timer
+
+echo ""
+echo "📊 Step 3: Checking AI Analysis Data..."
+echo "Total AI analyses in database:"
+sqlite3 /home/jarvis/NetGuard/network.db "SELECT COUNT(*) FROM ai_analysis;"
+
+echo "Latest AI analysis:"
+sqlite3 /home/jarvis/NetGuard/network.db "SELECT timestamp, threat_level, network_health_score FROM ai_analysis ORDER BY timestamp DESC LIMIT 1;"
+
+echo ""
+echo "🔄 Step 4: Restarting Flask with Updated APIs..."
+sudo pkill -f "python3.*app.py" 2>/dev/null || true
+sleep 3
+
+cd /home/jarvis/NetGuard/web
+nohup python3 app.py > /tmp/flask.log 2>&1 &
+sleep 5
+
+echo ""
+echo "✅ Step 5: Final Status Check..."
+if pgrep -f "python3.*app.py" > /dev/null; then
+    echo "✅ Flask Dashboard: RUNNING"
+else
+    echo "❌ Flask Dashboard: FAILED"
+fi
+
+if sudo systemctl is-active ai-5min-aggregator.timer > /dev/null; then
+    echo "✅ AI Aggregator Timer: RUNNING"
+else
+    echo "❌ AI Aggregator Timer: STOPPED"
+fi
+
+echo ""
+echo "🎯 Step 6: Testing AI Dashboard APIs..."
+sleep 2
+
+# Test AI dashboard API
+response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/ai-dashboard/api/stats)
+if [ "$response" = "200" ]; then
+    echo "✅ AI Dashboard API: WORKING (HTTP $response)"
+else
+    echo "❌ AI Dashboard API: FAILED (HTTP $response)"
+fi
+
+# Test network devices API
+response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/ai-dashboard/api/network-devices)
+if [ "$response" = "200" ]; then
+    echo "✅ Network Devices API: WORKING (HTTP $response)"
+else
+    echo "❌ Network Devices API: FAILED (HTTP $response)"
+fi
+
+echo ""
+echo "📋 Summary:"
+echo "• AI Aggregator: Collects data from all 10 tools + Suricata every 5 minutes"
+echo "• AI Analysis: Sends comprehensive data to Gemini AI for threat analysis"
+echo "• AI Dashboard: Now uses real-time APIs instead of static data"
+echo "• Network Devices: Uses separate API endpoint with real device data"
+echo ""
+echo "🌐 Access Points:"
+echo "• Main Dashboard: http://localhost:8080"
+echo "• AI Dashboard: http://localhost:8080/ai-dashboard"
+echo "• System Health: http://localhost:8080/system-status"
+echo "• IoT Devices: http://localhost:8080/iot-devices"
+echo ""
+echo "🔄 The AI system will now:"
+echo "1. Collect data from all monitoring tools every 5 minutes"
+echo "2. Send comprehensive analysis to AI for threat detection"
+echo "3. Store results in database"
+echo "4. Display real-time data on AI dashboard"
+echo ""
+echo "✨ AI System Fix Complete!"

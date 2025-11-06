@@ -1,0 +1,22 @@
+[Unit]
+Description=NetGuard Pro - JSON to SQLite Converter Service
+Documentation=https://github.com/netguard-pro
+After=pcap-json-converter.service
+
+[Service]
+Type=simple
+User=jarvis
+WorkingDirectory=/home/jarvis/NetGuard
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/json_to_sqlite.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/jarvis/NetGuard/logs/system/json-sqlite-service.log
+StandardError=append:/home/jarvis/NetGuard/logs/system/json-sqlite-service-error.log
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+

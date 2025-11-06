@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block title %}Network Analysis Tools - NetGuard Pro{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">🔍 Network Analysis Tools</h4>
+            </div>
+            <div class="card-body">
+                <p>Advanced network analysis using 8 specialized tools across 3 interfaces</p>
+                <p class="text-muted">Real-time collection | 30-second intervals | Multi-layer analysis</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    {% for tool in tools %}
+    <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0">{{ tool.icon }} {{ tool.display_name }}</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>{{ tool.description }}</strong></p>
+                <p class="text-muted small mb-2">Interface: <code>{{ tool.interface }}</code></p>
+                <hr>
+                <p class="mb-1">
+                    <strong>Tables:</strong> <span class="badge bg-info">{{ tool.table_count }}</span>
+                </p>
+                <p class="mb-2">
+                    <strong>Records:</strong> <span class="badge bg-success">{{ tool.total_records }}</span>
+                </p>
+            </div>
+            <div class="card-footer bg-transparent">
+                <a href="/analysis/{{ tool.name }}" class="btn btn-primary btn-sm w-100">
+                    View {{ tool.display_name }} Data
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Tool Descriptions -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">📖 Tool Descriptions</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h6>📊 tshark</h6>
+                        <p class="small">Protocol dissection and packet analysis. Provides detailed breakdown of network protocols and packet metadata.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>🔍 p0f</h6>
+                        <p class="small">Passive OS fingerprinting. Identifies operating systems and devices on the network without active scanning.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>🌊 argus</h6>
+                        <p class="small">Network flow analysis. Tracks connection flows with detailed statistics on packets and bytes transferred.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>🔎 ngrep</h6>
+                        <p class="small">Pattern matching in network traffic. Searches for specific patterns like passwords, credentials, and HTTP requests.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>⚡ netsniff-ng</h6>
+                        <p class="small">High-performance packet capture. Zero-copy capture for maximum throughput with minimal CPU overhead.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>🌐 httpry</h6>
+                        <p class="small">HTTP traffic logger. Captures HTTP requests and responses with URLs, methods, and status codes.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>📈 iftop</h6>
+                        <p class="small">Bandwidth monitoring per connection. Real-time display of bandwidth usage for each network connection.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>💻 nethogs</h6>
+                        <p class="small">Per-process network usage. Tracks bandwidth consumption by individual programs and processes.</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h6>📦 tcpdump</h6>
+                        <p class="small">Professional packet capture with zero data loss. Comprehensive packet analysis with full protocol support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Link to tcpdump -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card" style="border: 2px solid var(--primary-color); background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);">
+            <div class="card-body text-center">
+                <h5 class="mb-3">
+                    <i class="fas fa-database"></i> Professional Packet Capture
+                </h5>
+                <p class="mb-3" style="color: var(--text-secondary);">
+                    Access comprehensive tcpdump data with full packet analysis and PCAP file management
+                </p>
+                <a href="/tcpdump" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-right"></i> Open tcpdump Analysis
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

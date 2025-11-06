@@ -1,0 +1,54 @@
+NetGuard Pro - Quick Service Commands
+=====================================
+
+STOPPED SERVICES TO FIX:
+- IoT Security Scanner
+- Device Scorer  
+- Enhanced Alert System
+
+QUICK FIX COMMANDS:
+===================
+
+1. IoT Security Scanner:
+   systemctl status iot-security-scanner
+   sudo systemctl start iot-security-scanner
+   OR
+   pgrep -f iot_security_scanner.py
+   cd /home/jarvis/NetGuard/scripts && nohup python3 iot_security_scanner.py &
+
+2. Device Scorer:
+   systemctl status device-scorer
+   sudo systemctl start device-scorer
+   OR
+   pgrep -f device_scorer.py
+   cd /home/jarvis/NetGuard/scripts && nohup python3 device_scorer.py &
+
+3. Enhanced Alert System:
+   systemctl status enhanced-alert-system
+   sudo systemctl start enhanced-alert-system
+   OR
+   pgrep -f enhanced_alert_system.py
+   cd /home/jarvis/NetGuard/scripts && nohup python3 enhanced_alert_system.py &
+
+RUN THESE SCRIPTS:
+==================
+chmod +x /home/jarvis/NetGuard/MANAGE_ALL_SERVICES.sh
+/home/jarvis/NetGuard/MANAGE_ALL_SERVICES.sh
+
+OR RUN INDIVIDUAL SCRIPTS:
+==========================
+chmod +x /home/jarvis/NetGuard/START_IOT_SECURITY_SCANNER.sh
+chmod +x /home/jarvis/NetGuard/START_DEVICE_SCORER.sh
+chmod +x /home/jarvis/NetGuard/START_ENHANCED_ALERT_SYSTEM.sh
+
+./START_IOT_SECURITY_SCANNER.sh
+./START_DEVICE_SCORER.sh
+./START_ENHANCED_ALERT_SYSTEM.sh
+
+CHECK ALL SERVICES:
+===================
+systemctl list-units --type=service | grep -E "(iot|device|enhanced|ai)"
+
+OR USE THE WEB INTERFACE:
+=========================
+Go to System Status page and click the Start buttons for stopped services.

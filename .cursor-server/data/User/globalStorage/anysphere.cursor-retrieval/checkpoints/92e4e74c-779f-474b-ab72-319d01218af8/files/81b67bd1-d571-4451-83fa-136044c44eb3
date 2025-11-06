@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block title %}{{ table_name }} - NetGuard Pro{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">🔒 {{ table_name }}</h4>
+            </div>
+            <div class="card-body">
+                <a href="/suricata/{{ category }}" class="btn btn-secondary mb-3">← Back to {{ category|capitalize }}</a>
+                <p><strong>Events:</strong> {{ data|length }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                {% if data %}
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm" id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Timestamp</th>
+                                <th>Event Type</th>
+                                <th>Source IP</th>
+                                <th>Dest IP</th>
+                                <th>Proto</th>
+                                {% if category == 'alerts' %}
+                                <th>Signature</th>
+                                <th>Severity</th>
+                                {% elif category == 'http' %}
+                                <th>Method</th>
+                                <th>Host</th>
+                                <th>URL</th>
+                                {% elif category == 'dns' %}
+                                <th>Type</th>
+                                <th>Query</th>
+                                {% endif %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in data %}
+                            <tr>
+                                <td>{{ row.id }}</td>
+                                <td>{{ row.timestamp }}</td>
+                                <td><span class="badge bg-info">{{ row.event_type }}</span></td>
+                                <td><span class="ip-address">{{ row.src_ip }}</span></td>
+                                <td><span class="ip-address">{{ row.dest_ip }}</span></td>
+                                <td><span class="protocol-badge">{{ row.proto }}</span></td>
+                                {% if category == 'alerts' %}
+                                <td>{{ row.alert_signature }}</td>
+                                <td>
+                                    {% if row.alert_severity == 1 %}
+                                    <span class="badge bg-danger">High</span>
+                                    {% elif row.alert_severity == 2 %}
+                                    <span class="badge bg-warning">Medium</span>
+                                    {% else %}
+                                    <span class="badge bg-info">Low</span>
+                                    {% endif %}
+                                </td>
+                                {% elif category == 'http' %}
+                                <td>{{ row.http_method }}</td>
+                                <td>{{ row.http_hostname }}</td>
+                                <td>{{ row.http_url }}</td>
+                                {% elif category == 'dns' %}
+                                <td>{{ row.dns_type }}</td>
+                                <td>{{ row.dns_rrname }}</td>
+                                {% endif %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-info">
+                    No events available in this table.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    $('#dataTable').DataTable({
+        "order": [[0, "desc"]],
+        "pageLength": 50,
+        "lengthMenu": [[25, 50, 100, 500, -1], [25, 50, 100, 500, "All"]],
+        "scrollX": true
+    });
+});
+</script>
+{% endblock %}
+

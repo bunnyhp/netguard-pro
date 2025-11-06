@@ -1,0 +1,22 @@
+[Unit]
+Description=NetGuard Pro - iftop Bandwidth Monitoring Collector Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/jarvis/NetGuard
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/iftop_collector.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/jarvis/NetGuard/logs/system/iftop-service.log
+StandardError=append:/home/jarvis/NetGuard/logs/system/iftop-service-error.log
+LimitNOFILE=65535
+MemoryMax=300M
+CPUAccounting=true
+CPUShares=256
+
+[Install]
+WantedBy=multi-user.target
+

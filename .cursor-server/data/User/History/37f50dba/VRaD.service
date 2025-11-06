@@ -1,0 +1,22 @@
+[Unit]
+Description=AI 5-Minute Data Aggregator Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=jarvis
+Group=jarvis
+WorkingDirectory=/home/jarvis/NetGuard/scripts
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/ai_5min_aggregator.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables
+Environment=PYTHONPATH=/home/jarvis/NetGuard/scripts
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

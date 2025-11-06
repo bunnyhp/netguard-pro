@@ -1,0 +1,32 @@
+[Unit]
+Description=NetGuard Pro - p0f OS Fingerprinting Collector Service
+Documentation=https://github.com/netguard-pro
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/jarvis/NetGuard
+ExecStart=/usr/bin/python3 /home/jarvis/NetGuard/scripts/p0f_collector.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/jarvis/NetGuard/logs/system/p0f-service.log
+StandardError=append:/home/jarvis/NetGuard/logs/system/p0f-service-error.log
+
+# Security settings
+NoNewPrivileges=false
+PrivateTmp=false
+
+# Resource limits
+LimitNOFILE=65535
+CPUQuota=30%
+MemoryMax=300M
+
+# Environment
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target
+

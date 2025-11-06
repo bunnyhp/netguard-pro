@@ -1,0 +1,497 @@
+{% extends "base.html" %}
+
+{% block title %}System Status - NetGuard Pro{% endblock %}
+
+{% block content %}
+<style>
+    .status-card {
+        background: #1a1a1a;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #2a2a2a;
+    }
+    
+    .service-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        background: #0a0a0a;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border-left: 4px solid;
+        transition: all 0.2s ease;
+    }
+    
+    .service-row:hover {
+        background: #1a1a1a;
+        transform: translateX(5px);
+    }
+    
+    .service-running {
+        border-left-color: #4caf50;
+    }
+    
+    .service-stopped {
+        border-left-color: #f44336;
+    }
+    
+    .service-unknown {
+        border-left-color: #ff9800;
+    }
+    
+    .status-badge {
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .status-running {
+        background: #4caf50;
+        color: #000;
+    }
+    
+    .status-stopped {
+        background: #f44336;
+        color: #fff;
+    }
+    
+    .status-unknown {
+        background: #ff9800;
+        color: #000;
+    }
+    
+    .category-header {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .service-info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .service-icon {
+        font-size: 1.5rem;
+        width: 40px;
+        text-align: center;
+    }
+    
+    .service-details h5 {
+        color: #fff;
+        margin: 0 0 5px 0;
+        font-size: 1rem;
+    }
+    
+    .service-details p {
+        color: #888;
+        margin: 0;
+        font-size: 0.85rem;
+    }
+    
+    .stats-summary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .stat-box {
+        background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+        border: 1px solid #2a2a2a;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .stat-value {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    
+    .stat-label {
+        color: #888;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+
+<!-- Header -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card" style="border: 2px solid var(--primary-color); background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(0, 212, 255, 0.02) 100%);">
+            <div class="card-body">
+                <h2 style="color: #fff; font-weight: 700; margin-bottom: 5px;">
+                    <i class="fas fa-heartbeat" style="color: var(--primary-color);"></i> System Status
+                </h2>
+                <p style="color: #888; margin-bottom: 0;">Real-time monitoring of all NetGuard Pro services and collectors</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Summary -->
+<div class="stats-summary">
+    <div class="stat-box">
+        <div class="stat-value" style="color: #4caf50;">{{ status.summary.running }}</div>
+        <div class="stat-label">Running</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value" style="color: #f44336;">{{ status.summary.stopped }}</div>
+        <div class="stat-label">Stopped</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value" style="color: var(--primary-color);">{{ status.summary.total }}</div>
+        <div class="stat-label">Total Services</div>
+    </div>
+    <div class="stat-box">
+        <div class="stat-value" style="color: {% if status.summary.health >= 80 %}#4caf50{% elif status.summary.health >= 60 %}#ff9800{% else %}#f44336{% endif %}">
+            {{ status.summary.health }}%
+        </div>
+        <div class="stat-label">System Health</div>
+    </div>
+</div>
+
+<!-- Systemd Services -->
+<div class="status-card">
+    <div class="category-header">
+        <i class="fas fa-cogs"></i> Systemd Services Status
+    </div>
+    
+    {% for service in status.systemd_services %}
+    <div class="service-row service-{{ service.status }}">
+        <div class="service-info">
+            <div class="service-icon">{{ service.icon }}</div>
+            <div class="service-details">
+                <h5>{{ service.name }}</h5>
+                <p>{{ service.description }}</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <span class="status-badge status-{{ service.status }}">{{ service.status }}</span>
+            <button class="btn btn-sm btn-{% if service.status == 'running' %}danger{% else %}success{% endif %}" 
+                    onclick="toggleSystemdService('{{ service.service }}', '{{ service.name }}', this)"
+                    style="font-size: 0.75rem; padding: 4px 8px;">
+                {% if service.status == 'running' %}Stop{% else %}Start{% endif %}
+            </button>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Capture Tools -->
+<div class="status-card">
+    <div class="category-header">
+        <i class="fas fa-network-wired"></i> Network Capture Tools (10 Tools)
+    </div>
+    
+    {% for tool in status.capture_tools %}
+    <div class="service-row service-{{ tool.status }}">
+        <div class="service-info">
+            <div class="service-icon">{{ tool.icon }}</div>
+            <div class="service-details">
+                <h5>{{ tool.name }}</h5>
+                <p>{{ tool.description }}</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 15px; align-items: center;">
+            {% if tool.table_count > 0 %}
+            <span style="color: var(--primary-color); font-size: 0.85rem;">{{ tool.table_count }} tables</span>
+            {% endif %}
+            <span class="status-badge status-{{ tool.status }}">{{ tool.status }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Processing Scripts -->
+<div class="status-card">
+    <div class="category-header">
+        <i class="fas fa-cogs"></i> Processing Scripts
+    </div>
+    
+    {% for script in status.processing_scripts %}
+    <div class="service-row service-{{ script.status }}">
+        <div class="service-info">
+            <div class="service-icon">{{ script.icon }}</div>
+            <div class="service-details">
+                <h5>{{ script.name }}</h5>
+                <p>{{ script.description }}</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <span class="status-badge status-{{ script.status }}">{{ script.status }}</span>
+            <button class="btn btn-sm btn-{% if script.status == 'running' %}danger{% else %}success{% endif %}" 
+                    onclick="toggleScript('{{ script.script }}', '{{ script.name }}', this)"
+                    style="font-size: 0.75rem; padding: 4px 8px;">
+                {% if script.status == 'running' %}Stop{% else %}Start{% endif %}
+            </button>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Web Services -->
+<div class="status-card">
+    <div class="category-header">
+        <i class="fas fa-globe"></i> Web Services
+    </div>
+    
+    {% for service in status.web_services %}
+    <div class="service-row service-{{ service.status }}">
+        <div class="service-info">
+            <div class="service-icon">{{ service.icon }}</div>
+            <div class="service-details">
+                <h5>{{ service.name }}</h5>
+                <p>{{ service.description }}</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <span class="status-badge status-{{ service.status }}">{{ service.status }}</span>
+            {% if service.name == 'Flask Dashboard' %}
+            <button class="btn btn-sm btn-{% if service.status == 'running' %}danger{% else %}success{% endif %}" 
+                    onclick="toggleFlaskDashboard('{{ service.name }}', this)"
+                    style="font-size: 0.75rem; padding: 4px 8px;">
+                {% if service.status == 'running' %}Restart{% else %}Start{% endif %}
+            </button>
+            {% else %}
+            <button class="btn btn-sm btn-{% if service.status == 'running' %}danger{% else %}success{% endif %}" 
+                    onclick="toggleWebService('{{ service.service }}', '{{ service.name }}', this)"
+                    style="font-size: 0.75rem; padding: 4px 8px;">
+                {% if service.status == 'running' %}Stop{% else %}Start{% endif %}
+            </button>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Database Tables -->
+<div class="status-card">
+    <div class="category-header">
+        <i class="fas fa-database"></i> Database Status
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <h6 style="color: #888; margin-bottom: 15px;">Collector Tables</h6>
+            {% for table, info in status.database.collector_tables.items() %}
+            <div style="display: flex; justify-content: space-between; padding: 10px; background: #0a0a0a; margin-bottom: 8px; border-radius: 4px;">
+                <span style="color: #fff; font-family: monospace;">{{ table }}</span>
+                <div style="display: flex; gap: 15px;">
+                    <span style="color: var(--primary-color); font-weight: 600;">{{ info.table_count }} tables</span>
+                    <span style="color: #4caf50; font-weight: 600;">{{ "{:,}".format(info.total_records) }} records</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-6">
+            <h6 style="color: #888; margin-bottom: 15px;">Data Tables</h6>
+            {% if status.database.data_tables %}
+                {% for table, count in status.database.data_tables.items() %}
+                <div style="display: flex; justify-content: space-between; padding: 10px; background: #0a0a0a; margin-bottom: 8px; border-radius: 4px;">
+                    <span style="color: #fff; font-family: monospace;">{{ table }}</span>
+                    <span style="color: {% if count > 0 %}var(--primary-color){% else %}#666{% endif %}; font-weight: 600;">{{ "{:,}".format(count) }} records</span>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div style="text-align: center; padding: 20px; color: #666;">
+                    No data tables found
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- All Tables Summary -->
+    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #2a2a2a;">
+        <h6 style="color: #888; margin-bottom: 15px;">Complete Table List ({{ status.database.all_tables|length }} tables)</h6>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+            {% for table in status.database.all_tables %}
+            <div style="padding: 8px 12px; background: #0a0a0a; border-radius: 4px; font-family: monospace; font-size: 0.85rem; color: #888; border-left: 2px solid {% if table.startswith('suricata') %}#f44336{% elif table.startswith('tcpdump') or table.startswith('tshark') %}#00d4ff{% elif table in ['devices', 'ai_analysis'] %}#4caf50{% else %}#ff9800{% endif %};">
+                {{ table }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+// Service control functions
+function toggleSystemdService(serviceName, displayName, button) {
+    const isRunning = button.textContent.trim() === 'Stop';
+    const action = isRunning ? 'stop' : 'start';
+    
+    // Show loading state
+    const originalText = button.textContent;
+    button.textContent = 'Processing...';
+    button.disabled = true;
+    
+    fetch('/api/service-control', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            service_name: serviceName,
+            action: action,
+            service_type: 'systemd'
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Refresh page after 2 seconds to show updated status
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
+        } else {
+            alert(`Failed to ${action} ${displayName}: ${data.error}`);
+            button.textContent = originalText;
+            button.disabled = false;
+        }
+    })
+    .catch(error => {
+        alert(`Error ${action}ing ${displayName}: ${error.message}`);
+        button.textContent = originalText;
+        button.disabled = false;
+    });
+}
+
+function toggleScript(scriptName, displayName, button) {
+    const isRunning = button.textContent.trim() === 'Stop';
+    const action = isRunning ? 'stop' : 'start';
+    
+    // Show loading state
+    const originalText = button.textContent;
+    button.textContent = 'Processing...';
+    button.disabled = true;
+    
+    fetch('/api/service-control', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            service_name: scriptName,
+            action: action,
+            service_type: 'script'
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Refresh page after 2 seconds to show updated status
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
+        } else {
+            alert(`Failed to ${action} ${displayName}: ${data.error}`);
+            button.textContent = originalText;
+            button.disabled = false;
+        }
+    })
+    .catch(error => {
+        alert(`Error ${action}ing ${displayName}: ${error.message}`);
+        button.textContent = originalText;
+        button.disabled = false;
+    });
+}
+
+function toggleWebService(serviceName, displayName, button) {
+    const isRunning = button.textContent.trim() === 'Stop';
+    const action = isRunning ? 'stop' : 'start';
+    
+    // Show loading state
+    const originalText = button.textContent;
+    button.textContent = 'Processing...';
+    button.disabled = true;
+    
+    fetch('/api/service-control', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            service_name: serviceName,
+            action: action,
+            service_type: 'web'
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Refresh page after 2 seconds to show updated status
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
+        } else {
+            alert(`Failed to ${action} ${displayName}: ${data.error}`);
+            button.textContent = originalText;
+            button.disabled = false;
+        }
+    })
+    .catch(error => {
+        alert(`Error ${action}ing ${displayName}: ${error.message}`);
+        button.textContent = originalText;
+        button.disabled = false;
+    });
+}
+
+function toggleFlaskDashboard(displayName, button) {
+    const isRunning = button.textContent.trim() === 'Restart';
+    const action = isRunning ? 'restart' : 'start';
+    
+    // Show loading state
+    const originalText = button.textContent;
+    button.textContent = 'Processing...';
+    button.disabled = true;
+    
+    fetch('/api/service-control', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            service_name: 'flask-dashboard',
+            action: action,
+            service_type: 'flask'
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Refresh page after 3 seconds to show updated status
+            setTimeout(() => {
+                location.reload();
+            }, 3000);
+        } else {
+            alert(`Failed to ${action} ${displayName}: ${data.error}`);
+            button.textContent = originalText;
+            button.disabled = false;
+        }
+    })
+    .catch(error => {
+        alert(`Error ${action}ing ${displayName}: ${error.message}`);
+        button.textContent = originalText;
+        button.disabled = false;
+    });
+}
+
+// Auto-refresh every 10 seconds
+setTimeout(() => location.reload(), 10000);
+</script>
+
+{% endblock %}
+

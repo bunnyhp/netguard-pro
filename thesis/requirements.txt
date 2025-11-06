@@ -1,0 +1,30 @@
+# Python Requirements for Thesis Experiments and Analysis
+# Install with: pip3 install -r requirements.txt
+
+# Data Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# System Monitoring
+psutil>=5.9.0
+
+# Network Tools
+scapy>=2.5.0
+requests>=2.31.0
+
+# Statistical Analysis
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Report Generation (optional)
+jinja2>=3.1.0
+markdown>=3.4.0
+

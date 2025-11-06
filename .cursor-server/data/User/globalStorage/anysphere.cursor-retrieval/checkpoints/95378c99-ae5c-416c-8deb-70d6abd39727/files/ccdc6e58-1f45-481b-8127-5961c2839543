@@ -1,0 +1,551 @@
+#!/usr/bin/env python3
+"""
+NetGuard Pro - Flask Web Dashboard
+Professional web interface for network monitoring data
+"""
+
+from flask import Flask, render_template, jsonify, request
+import sqlite3
+import os
+import json
+from datetime import datetime
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'netguard-pro-secure-key-change-in-production'
+
+# Configuration
+DB_PATH = "/home/jarvis/NetGuard/network.db"
+
+def get_db_connection():
+    """Create database connection"""
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def get_all_tables():
+    """Get all tables in database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
+    tables = [row['name'] for row in cursor.fetchall()]
+    conn.close()
+    return tables
+
+def get_tables_by_prefix(prefix):
+    """Get tables with specific prefix"""
+    all_tables = get_all_tables()
+    return [t for t in all_tables if t.startswith(prefix) and not t.endswith('_template')]
+
+def get_table_count(table_name):
+    """Get record count for a table"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute(f"SELECT COUNT(*) as count FROM {table_name}")
+        count = cursor.fetchone()['count']
+        conn.close()
+        return count
+    except:
+        return 0
+
+def get_table_data(table_name, limit=1000):
+    """Get data from a table"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute(f"SELECT * FROM {table_name} ORDER BY id DESC LIMIT {limit}")
+        rows = cursor.fetchall()
+        
+        # Convert to list of dicts
+        data = []
+        for row in rows:
+            data.append(dict(row))
+        
+        conn.close()
+        return data
+    except Exception as e:
+        print(f"Error fetching data from {table_name}: {e}")
+        return []
+
+def get_tshark_statistics(tables):
+    """Get comprehensive statistics for tshark data"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Combine all tshark tables for analysis
+        stats = {
+            'total_packets': 0,
+            'protocols': {},
+            'top_sources': {},
+            'top_destinations': {},
+            'port_activity': {},
+            'packet_sizes': {'small': 0, 'medium': 0, 'large': 0},
+            'suspicious_activity': [],
+            'http_hosts': {},
+            'dns_queries': {},
+            'tls_servers': {},
+            'countries': {},
+            'tcp_flags_distribution': {'SYN': 0, 'ACK': 0, 'FIN': 0, 'RST': 0}
+        }
+        
+        for table in tables:
+            try:
+                # Get protocol distribution
+                cursor.execute(f"SELECT protocol, COUNT(*) as cnt FROM {table} WHERE protocol IS NOT NULL AND protocol != '' GROUP BY protocol")
+                for row in cursor.fetchall():
+                    proto = row[0]
+                    count = row[1]
+                    stats['protocols'][proto] = stats['protocols'].get(proto, 0) + count
+                    stats['total_packets'] += count
+                
+                # Get top source IPs
+                cursor.execute(f"SELECT src_ip, COUNT(*) as cnt FROM {table} WHERE src_ip IS NOT NULL AND src_ip != '' GROUP BY src_ip ORDER BY cnt DESC LIMIT 10")
+                for row in cursor.fetchall():
+                    ip = row[0]
+                    count = row[1]
+                    stats['top_sources'][ip] = stats['top_sources'].get(ip, 0) + count
+                
+                # Get top destination IPs
+                cursor.execute(f"SELECT dest_ip, COUNT(*) as cnt FROM {table} WHERE dest_ip IS NOT NULL AND dest_ip != '' GROUP BY dest_ip ORDER BY cnt DESC LIMIT 10")
+                for row in cursor.fetchall():
+                    ip = row[0]
+                    count = row[1]
+                    stats['top_destinations'][ip] = stats['top_destinations'].get(ip, 0) + count
+                
+                # Get port activity
+                cursor.execute(f"SELECT dest_port, COUNT(*) as cnt FROM {table} WHERE dest_port IS NOT NULL GROUP BY dest_port ORDER BY cnt DESC LIMIT 15")
+                for row in cursor.fetchall():
+                    port = row[0]
+                    count = row[1]
+                    stats['port_activity'][port] = stats['port_activity'].get(port, 0) + count
+                
+                # Analyze packet sizes
+                cursor.execute(f"SELECT length FROM {table} WHERE length IS NOT NULL")
+                for row in cursor.fetchall():
+                    size = row[0]
+                    if size <= 100:
+                        stats['packet_sizes']['small'] += 1
+                    elif size <= 500:
+                        stats['packet_sizes']['medium'] += 1
+                    else:
+                        stats['packet_sizes']['large'] += 1
+                
+                # Collect HTTP hosts
+                cursor.execute(f"SELECT http_host, COUNT(*) as cnt FROM {table} WHERE http_host IS NOT NULL AND http_host != '' GROUP BY http_host ORDER BY cnt DESC LIMIT 10")
+                for row in cursor.fetchall():
+                    host = row[0]
+                    count = row[1]
+                    stats['http_hosts'][host] = stats['http_hosts'].get(host, 0) + count
+                
+                # Collect DNS queries
+                cursor.execute(f"SELECT dns_query, COUNT(*) as cnt FROM {table} WHERE dns_query IS NOT NULL AND dns_query != '' GROUP BY dns_query ORDER BY cnt DESC LIMIT 10")
+                for row in cursor.fetchall():
+                    query = row[0]
+                    count = row[1]
+                    stats['dns_queries'][query] = stats['dns_queries'].get(query, 0) + count
+                
+                # Collect TLS server names
+                cursor.execute(f"SELECT tls_server_name, COUNT(*) as cnt FROM {table} WHERE tls_server_name IS NOT NULL AND tls_server_name != '' GROUP BY tls_server_name ORDER BY cnt DESC LIMIT 10")
+                for row in cursor.fetchall():
+                    server = row[0]
+                    count = row[1]
+                    stats['tls_servers'][server] = stats['tls_servers'].get(server, 0) + count
+                
+                # Collect country distribution
+                cursor.execute(f"SELECT dest_country, COUNT(*) as cnt FROM {table} WHERE dest_country IS NOT NULL GROUP BY dest_country ORDER BY cnt DESC")
+                for row in cursor.fetchall():
+                    country = row[0]
+                    count = row[1]
+                    stats['countries'][country] = stats['countries'].get(country, 0) + count
+                
+                # TCP flags distribution
+                cursor.execute(f"SELECT SUM(tcp_syn), SUM(tcp_ack), SUM(tcp_fin), SUM(tcp_rst) FROM {table}")
+                flags = cursor.fetchone()
+                if flags:
+                    stats['tcp_flags_distribution']['SYN'] += flags[0] or 0
+                    stats['tcp_flags_distribution']['ACK'] += flags[1] or 0
+                    stats['tcp_flags_distribution']['FIN'] += flags[2] or 0
+                    stats['tcp_flags_distribution']['RST'] += flags[3] or 0
+                
+                # Step 6: Enhanced anomaly detection patterns
+                
+                # 1. High port numbers (potential backdoors)
+                cursor.execute(f"SELECT DISTINCT dest_port, COUNT(*) as cnt FROM {table} WHERE dest_port > 50000 GROUP BY dest_port HAVING cnt > 5")
+                for row in cursor.fetchall():
+                    stats['suspicious_activity'].append({
+                        'type': 'Backdoor Port Activity',
+                        'detail': f'Unusual high port {row[0]}: {row[1]} connections',
+                        'severity': 'high'
+                    })
+                
+                # 2. Port scan detection (SYN without ACK)
+                cursor.execute(f"SELECT COUNT(*) as syn_no_ack FROM {table} WHERE tcp_syn = 1 AND tcp_ack = 0")
+                syn_no_ack = cursor.fetchone()[0]
+                if syn_no_ack > 50:
+                    stats['suspicious_activity'].append({
+                        'type': 'Port Scan Detected',
+                        'detail': f'{syn_no_ack} SYN packets without ACK (scanning activity)',
+                        'severity': 'high'
+                    })
+                
+                # 3. DNS tunneling detection (very long queries)
+                cursor.execute(f"SELECT dns_query, LENGTH(dns_query) as len FROM {table} WHERE dns_query IS NOT NULL AND LENGTH(dns_query) > 100 LIMIT 5")
+                for row in cursor.fetchall():
+                    if row[0]:
+                        stats['suspicious_activity'].append({
+                            'type': 'DNS Tunneling Suspected',
+                            'detail': f'Abnormally long DNS query ({row[1]} chars): {row[0][:50]}...',
+                            'severity': 'high'
+                        })
+                
+                # 4. Connection resets (potential attacks or blocked connections)
+                cursor.execute(f"SELECT COUNT(*) as rst_count FROM {table} WHERE tcp_rst = 1")
+                rst_count = cursor.fetchone()[0]
+                if rst_count > 100:
+                    stats['suspicious_activity'].append({
+                        'type': 'High RST Packet Count',
+                        'detail': f'{rst_count} connection resets detected',
+                        'severity': 'medium'
+                    })
+                
+                # 5. Suspicious countries (customize based on your threat model)
+                cursor.execute(f"SELECT dest_country, COUNT(*) as cnt FROM {table} WHERE dest_country IS NOT NULL AND dest_country NOT IN ('US', 'Local') GROUP BY dest_country HAVING cnt > 20")
+                for row in cursor.fetchall():
+                    stats['suspicious_activity'].append({
+                        'type': 'Foreign Traffic Pattern',
+                        'detail': f'High volume to {row[0]}: {row[1]} connections',
+                        'severity': 'medium'
+                    })
+                
+                # 6. Low TTL values (potential IP spoofing)
+                cursor.execute(f"SELECT COUNT(*) as low_ttl FROM {table} WHERE ip_ttl < 32 AND ip_ttl > 0")
+                low_ttl = cursor.fetchone()[0]
+                if low_ttl > 10:
+                    stats['suspicious_activity'].append({
+                        'type': 'IP Spoofing Suspected',
+                        'detail': f'{low_ttl} packets with abnormally low TTL (<32)',
+                        'severity': 'high'
+                    })
+                
+            except Exception as e:
+                print(f"Error processing table {table}: {e}")
+                continue
+        
+        # Sort and limit
+        stats['protocols'] = dict(sorted(stats['protocols'].items(), key=lambda x: x[1], reverse=True)[:10])
+        stats['top_sources'] = dict(sorted(stats['top_sources'].items(), key=lambda x: x[1], reverse=True)[:10])
+        stats['top_destinations'] = dict(sorted(stats['top_destinations'].items(), key=lambda x: x[1], reverse=True)[:10])
+        
+        conn.close()
+        return stats
+    except Exception as e:
+        print(f"Error getting tshark statistics: {e}")
+        return None
+
+@app.route('/')
+def index():
+    """Main dashboard"""
+    # Get statistics
+    all_tables = get_all_tables()
+    
+    # Count tables by category
+    tcpdump_tables = get_tables_by_prefix('network_')
+    suricata_tables = [t for t in all_tables if t.startswith('suricata_') and not t.endswith('_template')]
+    analysis_tables = [t for t in all_tables if any(t.startswith(p) for p in 
+                       ['tshark_', 'p0f_', 'argus_', 'ngrep_', 'netsniff_', 'httpry_', 'iftop_', 'nethogs_'])]
+    
+    stats = {
+        'total_tables': len(all_tables),
+        'tcpdump_tables': len(tcpdump_tables),
+        'suricata_tables': len(suricata_tables),
+        'analysis_tables': len(analysis_tables),
+        'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
+    
+    return render_template('index.html', stats=stats)
+
+@app.route('/tcpdump')
+def tcpdump():
+    """tcpdump tables listing"""
+    tables = get_tables_by_prefix('network_')
+    
+    # Get table info
+    table_info = []
+    for table in tables:
+        count = get_table_count(table)
+        # Extract timestamp from table name (network_YYYYMMDD_HHMMSS)
+        timestamp_str = table.replace('network_', '')
+        try:
+            timestamp = datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
+            formatted_time = timestamp.strftime('%Y-%m-%d %H:%M:%S')
+        except:
+            formatted_time = timestamp_str
+        
+        table_info.append({
+            'name': table,
+            'timestamp': formatted_time,
+            'count': count
+        })
+    
+    # Sort by timestamp (descending)
+    table_info.sort(key=lambda x: x['timestamp'], reverse=True)
+    
+    return render_template('tcpdump.html', tables=table_info)
+
+@app.route('/tcpdump/<table_name>')
+def tcpdump_table(table_name):
+    """View specific tcpdump table"""
+    data = get_table_data(table_name)
+    return render_template('tcpdump_table.html', table_name=table_name, data=data)
+
+@app.route('/suricata')
+def suricata():
+    """Suricata categories overview"""
+    categories = ['alerts', 'http', 'dns', 'tls', 'files', 'flow', 'ssh', 'smtp', 'ftp', 'anomaly', 'stats']
+    
+    # Optimize: Use single connection and batch queries
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    category_info = []
+    for category in categories:
+        tables = get_tables_by_prefix(f'suricata_{category}_')
+        
+        # Optimize: Sample tables if too many, use UNION ALL
+        total_events = 0
+        if tables:
+            try:
+                # Sample first 10 tables for speed
+                sample_tables = tables[:10] if len(tables) > 10 else tables
+                if sample_tables:
+                    union_query = " UNION ALL ".join([f"SELECT COUNT(*) as cnt FROM {t}" for t in sample_tables])
+                    cursor.execute(union_query)
+                    total_events = sum(row[0] for row in cursor.fetchall())
+                    # Estimate if sampled
+                    if len(tables) > 10:
+                        total_events = int(total_events * (len(tables) / 10))
+            except:
+                total_events = 0
+        
+        category_info.append({
+            'name': category,
+            'display_name': category.capitalize(),
+            'table_count': len(tables),
+            'total_events': total_events
+        })
+    
+    conn.close()
+    return render_template('suricata.html', categories=category_info)
+
+@app.route('/suricata/<category>')
+def suricata_category(category):
+    """View tables for specific Suricata category"""
+    tables = get_tables_by_prefix(f'suricata_{category}_')
+    
+    # Optimize: Batch count queries
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    table_info = []
+    
+    # Get counts in batches of 50 for better performance
+    batch_size = 50
+    for i in range(0, len(tables), batch_size):
+        batch_tables = tables[i:i+batch_size]
+        
+        try:
+            if batch_tables:
+                union_query = " UNION ALL ".join([f"SELECT '{t}' as tbl, COUNT(*) as cnt FROM {t}" for t in batch_tables])
+                cursor.execute(union_query)
+                counts = {row[0]: row[1] for row in cursor.fetchall()}
+            else:
+                counts = {}
+        except:
+            counts = {t: 0 for t in batch_tables}
+        
+        for table in batch_tables:
+            count = counts.get(table, 0)
+            # Extract timestamp
+            timestamp_str = table.replace(f'suricata_{category}_', '')
+            try:
+                timestamp = datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
+                formatted_time = timestamp.strftime('%Y-%m-%d %H:%M:%S')
+            except:
+                formatted_time = timestamp_str
+            
+            table_info.append({
+                'name': table,
+                'timestamp': formatted_time,
+                'count': count
+            })
+    
+    conn.close()
+    
+    table_info.sort(key=lambda x: x['timestamp'], reverse=True)
+    
+    return render_template('suricata_category.html', category=category, tables=table_info)
+
+@app.route('/suricata/<category>/<table_name>')
+def suricata_table(category, table_name):
+    """View specific Suricata table"""
+    data = get_table_data(table_name)
+    return render_template('suricata_table.html', category=category, table_name=table_name, data=data)
+
+@app.route('/analysis')
+def analysis():
+    """Analysis tools overview"""
+    tools = [
+        {
+            'name': 'tshark',
+            'display_name': 'tshark',
+            'description': 'Protocol Analysis',
+            'interface': 'wlo1',
+            'icon': '📊'
+        },
+        {
+            'name': 'p0f',
+            'display_name': 'p0f',
+            'description': 'OS Fingerprinting',
+            'interface': 'wlo1',
+            'icon': '🔍'
+        },
+        {
+            'name': 'argus',
+            'display_name': 'argus',
+            'description': 'Flow Analysis',
+            'interface': 'wlo1',
+            'icon': '🌊'
+        },
+        {
+            'name': 'ngrep',
+            'display_name': 'ngrep',
+            'description': 'Pattern Matching',
+            'interface': 'wlo1',
+            'icon': '🔎'
+        },
+        {
+            'name': 'netsniff',
+            'display_name': 'netsniff-ng',
+            'description': 'High-Performance Capture',
+            'interface': 'wlx1cbfce6265ad',
+            'icon': '⚡'
+        },
+        {
+            'name': 'httpry',
+            'display_name': 'httpry',
+            'description': 'HTTP Logging',
+            'interface': 'eno1',
+            'icon': '🌐'
+        },
+        {
+            'name': 'iftop',
+            'display_name': 'iftop',
+            'description': 'Bandwidth Monitoring',
+            'interface': 'eno1',
+            'icon': '📈'
+        },
+        {
+            'name': 'nethogs',
+            'display_name': 'nethogs',
+            'description': 'Process Bandwidth',
+            'interface': 'eno1',
+            'icon': '💻'
+        }
+    ]
+    
+    # Add table counts
+    # Optimize: Get counts in a single query per tool instead of per table
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    for tool in tools:
+        tables = get_tables_by_prefix(f"{tool['name']}_")
+        tool['table_count'] = len(tables)
+        
+        # Get total records efficiently by querying all tables in one go
+        total_records = 0
+        if tables:
+            # Use UNION ALL to count all tables in single query (much faster)
+            try:
+                # For tables with many entries, just sample first few tables
+                sample_tables = tables[:10] if len(tables) > 10 else tables
+                if sample_tables:
+                    union_query = " UNION ALL ".join([f"SELECT COUNT(*) as cnt FROM {t}" for t in sample_tables])
+                    cursor.execute(union_query)
+                    total_records = sum(row[0] for row in cursor.fetchall())
+                    # If we sampled, estimate total
+                    if len(tables) > 10:
+                        total_records = int(total_records * (len(tables) / 10))
+            except:
+                total_records = 0
+        
+        tool['total_records'] = total_records
+    
+    conn.close()
+    return render_template('analysis.html', tools=tools)
+
+@app.route('/analysis/<tool_name>')
+def analysis_tool(tool_name):
+    """View tables for specific analysis tool"""
+    tables = get_tables_by_prefix(f'{tool_name}_')
+    
+    table_info = []
+    for table in tables:
+        count = get_table_count(table)
+        # Extract timestamp
+        timestamp_str = table.replace(f'{tool_name}_', '')
+        try:
+            timestamp = datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
+            formatted_time = timestamp.strftime('%Y-%m-%d %H:%M:%S')
+        except:
+            formatted_time = timestamp_str
+        
+        table_info.append({
+            'name': table,
+            'timestamp': formatted_time,
+            'count': count
+        })
+    
+    table_info.sort(key=lambda x: x['timestamp'], reverse=True)
+    
+    # Get latest data preview
+    latest_data = []
+    if table_info:
+        latest_data = get_table_data(table_info[0]['name'], limit=100)
+    
+    # Enhanced statistics for tshark
+    stats = None
+    if tool_name == 'tshark' and tables:
+        stats = get_tshark_statistics(tables)
+    
+    return render_template('analysis_tool.html', tool_name=tool_name, 
+                         tables=table_info, latest_data=latest_data, stats=stats)
+
+@app.route('/api/table/<table_name>')
+def api_table_data(table_name):
+    """API endpoint to get table data as JSON"""
+    limit = request.args.get('limit', 1000, type=int)
+    data = get_table_data(table_name, limit=limit)
+    return jsonify(data)
+
+@app.route('/api/stats')
+def api_stats():
+    """API endpoint for dashboard statistics"""
+    all_tables = get_all_tables()
+    
+    stats = {
+        'total_tables': len(all_tables),
+        'tcpdump_tables': len(get_tables_by_prefix('network_')),
+        'suricata_tables': len([t for t in all_tables if t.startswith('suricata_') and not t.endswith('_template')]),
+        'analysis_tables': len([t for t in all_tables if any(t.startswith(p) for p in 
+                           ['tshark_', 'p0f_', 'argus_', 'ngrep_', 'netsniff_', 'httpry_', 'iftop_', 'nethogs_'])]),
+        'timestamp': datetime.now().isoformat()
+    }
+    
+    return jsonify(stats)
+
+if __name__ == '__main__':
+    # Run on all interfaces, port 8080
+    app.run(host='0.0.0.0', port=8080, debug=False)
+

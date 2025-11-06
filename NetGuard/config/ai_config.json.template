@@ -1,0 +1,49 @@
+{
+  "ai_enabled": true,
+  "analysis_interval_minutes": 5,
+  "api_keys": {
+    "gemini_api_key": "YOUR_GEMINI_API_KEY_HERE",
+    "groq_api_key": "YOUR_GROQ_API_KEY_HERE",
+    "openrouter_api_key": "YOUR_OPENROUTER_API_KEY_HERE"
+  },
+  "data_collection": {
+    "time_window_minutes": 5,
+    "max_packets_to_analyze": 1000,
+    "tools": [
+      "suricata",
+      "tcpdump",
+      "tshark",
+      "argus",
+      "ngrep",
+      "netsniff",
+      "httpry",
+      "iftop",
+      "nethogs"
+    ]
+  },
+  "ai_models": {
+    "primary": "gemini",
+    "fallbacks": ["groq", "openrouter"],
+    "gemini_models": [
+      "gemini-2.5-pro",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite",
+      "gemini-2.0-flash",
+      "gemini-2.0-flash-lite",
+      "learnlm-2.0-flash-experimental",
+      "gemini-2.0-flash-exp"
+    ],
+    "groq_models": [
+      "llama-3.3-70b-versatile",
+      "llama-3.1-70b-versatile",
+      "mixtral-8x7b-32768"
+    ],
+    "openrouter_models": [
+      "deepseek/deepseek-r1-distill-qwen-1.5b",
+      "qwen/qwen-coder-480b",
+      "deepseek/deepseek-v3.1",
+      "meta-llama/llama-3.1-405b-instruct"
+    ]
+  }
+}
+

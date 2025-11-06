@@ -1,0 +1,22 @@
+[Unit]
+Description=NetGuard Pro - Service Monitor and Health Check
+Documentation=https://github.com/netguard-pro
+After=network-online.target tshark-collector.service p0f-collector.service network-dashboard.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/jarvis/NetGuard
+ExecStart=/bin/bash /home/jarvis/NetGuard/scripts/service_monitor.sh
+Restart=always
+RestartSec=30
+
+# If monitor crashes, restart it
+StandardOutput=append:/home/jarvis/NetGuard/logs/system/monitor-service.log
+StandardError=append:/home/jarvis/NetGuard/logs/system/monitor-service-error.log
+
+[Install]
+WantedBy=multi-user.target
+
