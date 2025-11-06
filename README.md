@@ -77,25 +77,29 @@
 
 ### Main Dashboard
 ![Main Dashboard](docs/screenshots/dashboard-main.png)
-*Comprehensive overview with network health, device monitoring, threats, and performance metrics*
+*Comprehensive overview showing network health (90%), tracked devices (14), threats detected (0), and packets analyzed (1.1k). Features device cards, network health history chart, protocol distribution, and data collection metrics.*
 
 ### AI Dashboard
 ![AI Dashboard](docs/screenshots/dashboard-ai.png)
-*AI-powered threat analysis and network insights*
+*AI-powered threat analysis dashboard displaying tracked devices (14), total packets (1,736), active services (10/10), and network health (95%). Includes device type distribution, top talkers, protocol distribution, bandwidth over time, and network activity charts.*
 
 ### Network Topology Map
 ![Network Topology](docs/screenshots/network-topology.png)
-*Interactive network topology visualization with device relationships*
+*Interactive D3.js network visualization showing 14 devices connected to central router (SBETVIK.lan). Displays device types (IoT, Mobile, Computer, Network Equipment), active connections, vulnerable devices (red outline), and includes filter options (Show All, IoT Only, Vulnerable).*
 
 ### IoT Devices View
 ![IoT Devices](docs/screenshots/iot-devices.png)
-*IoT device monitoring with security scores and vulnerability assessment*
+*IoT device monitoring interface showing device cards with security status, device types, IP addresses, last seen timestamps, and security assessments. Features threat detection, anomaly analysis, and network security assessment panels.*
 
-### Security Alerts
-![Security Alerts](docs/screenshots/security-alerts.png)
-*Real-time security alerts with severity levels and auto-remediation*
+### Suricata IDS/IPS Categories
+![Suricata Dashboard](docs/screenshots/suricata-dashboard.png)
+*Suricata intrusion detection dashboard displaying 11 event categories: Alerts (25 events), HTTP (118 events), DNS (5,889 events), TLS (24 events), Files (119 events), Flow (5,061 events), SSH (4 events), SMTP (0), FTP (0), Anomaly (0), and Stats (2,010 events).*
 
-> **Note**: Add your screenshots to `docs/screenshots/` directory. The images above are placeholders.
+### Tshark Data Analysis
+![Tshark Dashboard](docs/screenshots/tshark-data-dashboard.png)
+*Tshark protocol dissection dashboard showing packet analysis, protocol breakdown, and deep packet inspection results.*
+
+> **Note**: To add screenshots, save your PNG images to `docs/screenshots/` directory with the filenames shown above. Recommended size: 1920x1080 or 1280x720 for optimal display.
 
 ---
 
